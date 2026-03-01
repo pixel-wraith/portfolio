@@ -1,54 +1,56 @@
 <script lang="ts">
     import '$lib/assets/css/styles.css';
-	import favicon from '$lib/assets/favicon.svg';
-    import { page } from '$app/stores';  
-	import { onMount, type Snippet } from 'svelte';
-	import CareerExp from '$lib/components/CareerExp.svelte';
-	import Logo from '$lib/components/Logo.svelte';
-	import SocialLinks from '$lib/components/SocialLinks.svelte';
+    import type { Snippet } from 'svelte';
 
-	interface ILayoutProps {
-		children: Snippet;
-	}
+    import { page } from '$app/stores';
+    import favicon from '$lib/assets/favicon.svg';
+    import CareerExp from '$lib/components/CareerExp.svelte';
+    import Logo from '$lib/components/Logo.svelte';
+    import SocialLinks from '$lib/components/SocialLinks.svelte';
+    import { onMount } from 'svelte';
 
-	let { children }: ILayoutProps = $props();
+    interface ILayoutProps {
+        children: Snippet;
+    }
+
+    const { children }: ILayoutProps = $props();
 
     const navItems = [
         {
             text: 'Experience',
             subText: 'Work and projects',
             route: '/experience',
-            icon: 'fa-regular fa-code', 
-            iconStyles: 'transform: rotate(2deg);'
+            icon: 'fa-regular fa-code',
+            iconStyles: 'transform: rotate(2deg);',
         },
         {
             text: 'About',
             subText: 'Beyond the code',
             route: '/about',
             icon: 'fa-regular fa-circle-info',
-            iconStyles: 'transform: rotate(0deg);'
+            iconStyles: 'transform: rotate(0deg);',
         },
         {
             text: 'Blog',
             subText: 'Learn then share',
             route: 'https://dev.to/wraith',
             icon: 'fa-regular fa-blog',
-            iconStyles: 'transform: rotate(2deg);'
+            iconStyles: 'transform: rotate(2deg);',
         },
         {
             text: 'Uses',
             subText: 'Tools and gear',
             route: '/uses',
             icon: 'fa-regular fa-gear-complex-code',
-            iconStyles: 'transform: rotate(-4deg);'
+            iconStyles: 'transform: rotate(-4deg);',
         },
         {
             text: 'Contact',
             subText: 'Get in touch',
             route: '/contact',
             icon: 'fa-regular fa-mailbox-flag-up',
-            iconStyles: 'transform: rotate(5deg);'
-        }
+            iconStyles: 'transform: rotate(5deg);',
+        },
     ];
 
     let navRef: HTMLElement;
@@ -64,19 +66,19 @@
         }
     })
 
-    const resizeNav = () => {
+    function resizeNav() {
         const navItems = navRef.querySelectorAll('.nav-item');
         const navWidth = navRef.getBoundingClientRect().width;
 
         if (navWidth <= 590) {
-            for(let i = 0; i < navItems.length; i++) {
+            for (let i = 0; i < navItems.length; i++) {
                 bottomRowNavRef.appendChild(navItems[i]);
             }
 
             return;
         }
 
-        for(let i = 0; i < navItems.length; i++) {
+        for (let i = 0; i < navItems.length; i++) {
             navRef.insertBefore(navItems[i], bottomRowNavRef);
         }
 
@@ -102,7 +104,7 @@
 </script>
 
 <svelte:head>
-	<link rel="icon" href={favicon} />
+    <link rel="icon" href={favicon} />
 </svelte:head>
 
 <div class="app">
@@ -112,14 +114,14 @@
         <div class="nav-container">
             <div class="top">
                 <div class="side left"></div>
-    
+
                 <Logo />
-    
+
                 <div class="side right">
                     <SocialLinks />
                 </div>
             </div>
-    
+
             <nav bind:this={navRef}>
                 {#each navItems as { text, subText, route, icon, iconStyles }}
                     <a
@@ -128,9 +130,9 @@
                         target={route.startsWith('http') ? '_blank' : ''}
                     >
                         <div class="nav-item-icon">
-                            <i class={icon} style={ iconStyles ?? '' }></i>
+                            <i class={icon} style={iconStyles ?? ''}></i>
                         </div>
-    
+
                         <div class="nav-item-text-container">
                             <span class="nav-item-text h4">{text}</span>
                             {#if subText}
@@ -139,7 +141,7 @@
                         </div>
                     </a>
                 {/each}
-    
+
                 <div class="bottom-row" bind:this={bottomRowNavRef}></div>
             </nav>
         </div>
@@ -218,16 +220,12 @@
 
         & .side {
             display: flex;
-            gap: 1rem;                
+            gap: 1rem;
             width: calc(50% - 3rem);
 
             &.right {
                 justify-content: flex-end;
                 align-items: flex-start;
-                
-                & a {
-                    line-height: 1.1rem;
-                }
             }
 
             &.left {
@@ -282,28 +280,6 @@
             min-width: 100%;
             max-width: 100%;
 
-            & .nav-item {
-                margin: 1rem 0.5rem 0;
-                padding: 0 0.5rem;
-
-                & .nav-item-icon {
-                    margin-right: 0.25rem;
-
-                    & i {
-                        font-size: 1.1rem;
-                    }
-                }
-
-                & .nav-item-text {
-                    font-size: 1.2rem;
-                    line-height: 1.5rem;
-                }
-
-                & .nav-item-subtext {
-                    display: none;
-                }
-            }
-
             @media(min-width: 590px) {
                 display: flex;
                 justify-content: center;
@@ -315,7 +291,7 @@
             align-items: center;
             justify-content: center;
             margin-right: 0.5rem;
-            
+
             & i {
                 font-size: 2rem;
             }

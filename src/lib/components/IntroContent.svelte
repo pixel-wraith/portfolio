@@ -1,11 +1,11 @@
 <script lang="ts">
-  import type { Snippet } from "svelte";
+    import type { Snippet } from "svelte";
 
     interface IntroContentProps {
         children: Snippet;
     }
 
-    let { children }: IntroContentProps = $props();
+    const { children }: IntroContentProps = $props();
 </script>
 
 <div class="intro-content">

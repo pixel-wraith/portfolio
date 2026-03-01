@@ -1,4 +1,4 @@
-import { z } from "zod";
+import { z } from 'zod';
 
 export const blogPostUserSchema = z.object({
     github_username: z.string().nullable(),

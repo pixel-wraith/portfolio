@@ -1,0 +1,58 @@
+{
+    "prettier.enable": false,
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit",
+        "source.organizeImports": "never"
+    },
+    "eslint.validate": [
+        "javascript",
+        "typescript",
+        "svelte",
+        "json",
+        "jsonc"
+    ],
+    "eslint.useFlatConfig": true,
+    "eslint.format.enable": true,
+    "[javascript]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": "always"
+        }
+    },
+    "[typescript]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": "always"
+        }
+    },
+    "[json]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": "always"
+        }
+    },
+    "[jsonc]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": "always"
+        }
+    },
+    "[svelte]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+        "editor.formatOnSave": true,
+        "editor.tabSize": 4,
+        "editor.detectIndentation": false,
+        "editor.insertSpaces": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": "always"
+        }
+    },
+    "svelte.plugin.svelte.format.config.singleQuote": true,
+    "svelte.plugin.svelte.format.config.semi": true,
+    "svelte.plugin.svelte.format.config.tabWidth": 4,
+    "svelte.plugin.svelte.format.config.useTabs": false,
+    "svelte.plugin.svelte.format.config.svelteIndentScriptAndStyle": true,
+    "svelte.plugin.css.format.enable": true,
+    "files.associations": {
+        "*.svelte": "svelte"
+    }
+}

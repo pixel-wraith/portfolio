@@ -1,12 +1,12 @@
 <script lang="ts">
-  import type { Snippet } from "svelte";
+    import type { Snippet } from "svelte";
 
-    interface SectionProps {
+    interface ISectionProps {
         style?: string;
         children: Snippet;
     }
 
-    let { style, children }: SectionProps = $props();
+    const { style, children }: ISectionProps = $props();
 </script>
 
 <section {style}>

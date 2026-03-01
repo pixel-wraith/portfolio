@@ -1,14 +1,14 @@
 <script lang="ts">
-    import { z } from "zod";
     import { blogPostSchema } from "$lib/schemas/blog.schema";
-	import dayjs from "dayjs";
-	
+    import dayjs from "dayjs";
+    import { z } from "zod";
+
     interface IBlogPostProps {
         post: z.infer<typeof blogPostSchema>;
         condensed?: boolean;
     }
 
-    let { post, condensed = false }: IBlogPostProps = $props();
+    const { post, condensed = false }: IBlogPostProps = $props();
 </script>
 
 <article
@@ -25,7 +25,7 @@
                 alt={post.title}
             />
         </div>
-        
+
         <div class="blog-post-metadata">
             <p class="metadata">
                 posted {dayjs(post.published_timestamp).format('MMM DD, YYYY')}
@@ -37,7 +37,7 @@
                 </p>
             {/if}
         </div>
-    
+
         <div class="blog-post-content">
             {#if condensed}
                 <h3 class="h6">{post.title}</h3>
@@ -81,7 +81,7 @@
 
         &.condensed {
             max-width: 30rem;
-            
+
             & img {
                 height: 10rem;
             }
@@ -124,7 +124,6 @@
             color: var(--neutral-600);
             line-height: 0.9rem;
         }
-    
 
         & .blog-post-content {
             display: flex;

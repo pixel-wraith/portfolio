@@ -1,22 +1,22 @@
 <script lang="ts">
-  import { z } from "zod";
-  import { blogPostSchema } from "$lib/schemas/blog.schema";
-  import Intro from "$lib/components/Intro.svelte";
-  import Section from "$lib/components/Section.svelte";
-  import BlogPost from "$lib/components/BlogPost.svelte";
-  import IntroContent from "$lib/components/IntroContent.svelte";
-  import { bookSchema } from "$lib/schemas/book.schema";
+    import BlogPost from "$lib/components/BlogPost.svelte";
+    import Intro from "$lib/components/Intro.svelte";
+    import IntroContent from "$lib/components/IntroContent.svelte";
+    import Section from "$lib/components/Section.svelte";
+    import { blogPostSchema } from "$lib/schemas/blog.schema";
+    import { bookSchema } from "$lib/schemas/book.schema";
+    import { z } from "zod";
 
-  interface PageProps {
-    data: {
-      blog: {
-        posts: z.infer<typeof blogPostSchema>[];
-      };
-      currentlyReading: z.infer<typeof bookSchema>[];
-    };
-  }
+    interface IPageProps {
+        data: {
+            blog: {
+                posts: z.infer<typeof blogPostSchema>[];
+            };
+            currentlyReading: z.infer<typeof bookSchema>[];
+        };
+    }
 
-  let { data }: PageProps = $props();
+    const { data }: IPageProps = $props();
 </script>
 
 <div class="container">
@@ -70,7 +70,7 @@
         <Section style="--section-max-width: 80rem">
             <div class="blog-posts-container">
                 <h2>Latest Blog Posts</h2>
-    
+
                 <div class="blog-posts">
                     {#each data.blog.posts as post}
                         <BlogPost {post} />
@@ -104,7 +104,7 @@
                 width: 10rem;
                 border: 5px solid var(--neutral-300);
                 transition: all 0.2s ease-in-out;
-                
+
                 &:hover,
                 &:focus-visible {
                     border-color: var(--primary-500);

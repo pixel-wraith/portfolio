@@ -1,36 +1,91 @@
-import path from 'node:path';
-import { includeIgnoreFile } from '@eslint/compat';
-import js from '@eslint/js';
-import svelte from 'eslint-plugin-svelte';
-import { defineConfig } from 'eslint/config';
-import globals from 'globals';
-import ts from 'typescript-eslint';
-import svelteConfig from './svelte.config.js';
+import antfu from '@antfu/eslint-config';
 
-const gitignorePath = path.resolve(import.meta.dirname, '.gitignore');
-
-export default defineConfig(
-	includeIgnoreFile(gitignorePath),
-	js.configs.recommended,
-	...ts.configs.recommended,
-	...svelte.configs.recommended,
-	{
-		languageOptions: { globals: { ...globals.browser, ...globals.node } },
-		rules: {
-			// typescript-eslint strongly recommend that you do not use the no-undef lint rule on TypeScript projects.
-			// see: https://typescript-eslint.io/troubleshooting/faqs/eslint/#i-get-errors-from-the-no-undef-rule-about-global-variables-not-being-defined-even-though-there-are-no-typescript-errors
-			"no-undef": 'off'
-		}
-	},
-	{
-		files: ['**/*.svelte', '**/*.svelte.ts', '**/*.svelte.js'],
-		languageOptions: {
-			parserOptions: {
-				projectService: true,
-				extraFileExtensions: ['.svelte'],
-				parser: ts.parser,
-				svelteConfig
-			}
-		}
-	}
-);
+export default antfu({
+    type: 'app',
+    formatters: true,
+    typescript: true,
+    svelte: true,
+    jsonc: true,
+    yaml: false,
+    ignores: [
+        '**/*.md',
+        '**/*.yml',
+        '**/*.yaml',
+        '**/migrations/*',
+        '**/fixtures/*',
+        'README.md',
+    ],
+    stylistic: {
+        'indent': 4,
+        'semi': true,
+        'quotes': 'single',
+        'multiline-ternary': 'always-multiline',
+    },
+}, {
+    rules: {
+        'ts/no-redeclare': 'off',
+        'ts/consistent-type-definitions': 'off',
+        'antfu/consistent-chaining': 'off',
+        'no-console': ['error', { allow: [''] }],
+        'no-restricted-syntax': [
+            'error',
+            {
+                selector: 'MemberExpression[object.name="console"]',
+                message: 'Use the logger instead of console methods.',
+            },
+        ],
+        'no-restricted-imports': [
+            'error',
+            {
+                paths: [
+                    {
+                        name: '@/db',
+                        importNames: ['db'],
+                        message: 'Direct use of \'db\' is forbidden. Use DB.tenantTransaction() instead.',
+                    },
+                ],
+            },
+        ],
+        'antfu/no-top-level-await': ['off'],
+        'antfu/top-level-function': ['off'],
+        'node/prefer-global/process': ['off'],
+        'node/no-process-env': ['error'],
+        '@stylistic/multiline-ternary': ['error', 'always-multiline'],
+        'style/brace-style': ['off'],
+        'style/eol-last': ['off'],
+        'style/multiline-ternary': ['error', 'always-multiline'],
+        'style/no-tabs': ['off'],
+        'style/operator-linebreak': ['error', 'before', { overrides: { '=': 'none' } }],
+        'perfectionist/sort-imports': ['error', {
+            internalPattern: ['^@/'],
+        }],
+        'unicorn/filename-case': ['error', {
+            case: 'kebabCase',
+            ignore: ['README.md'],
+        }],
+        'unused-imports/no-unused-imports': 'error',
+        'unused-imports/no-unused-vars': [
+            'error',
+            {
+                vars: 'all',
+                varsIgnorePattern: '^_',
+                args: 'after-used',
+                argsIgnorePattern: '^_',
+            },
+        ],
+    },
+}, {
+    files: ['**/*.svelte'],
+    rules: {
+        'quotes': 'off',
+        '@stylistic/quotes': 'off',
+        '@stylistic/multiline-ternary': ['error', 'always-multiline'],
+        'style/multiline-ternary': ['error', 'always-multiline'],
+        'style/operator-linebreak': ['error', 'before', { overrides: { '=': 'none' } }],
+        'style/quotes': 'off',
+        'style/semi': 'off',
+        'svelte/html-quotes': 'off',
+        // Route filenames like +page.svelte should not be enforced
+        'unicorn/filename-case': 'off',
+    },
+});

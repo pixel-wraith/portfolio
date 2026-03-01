@@ -19,7 +19,7 @@
             text: 'Bluesky',
             route: 'https://bsky.app/profile/wraithcode.io',
             icon: 'fa-brands fa-square-bluesky',
-        }
+        },
     ];
 </script>
 

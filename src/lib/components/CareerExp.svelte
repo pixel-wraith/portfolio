@@ -1,7 +1,7 @@
 <script lang="ts">
-	import { STARTED_WORKING_IN_SOFTWARE } from "$lib/constants/me";
-	import dayjs from "dayjs";
-	import { onMount } from "svelte";
+    import { STARTED_WORKING_IN_SOFTWARE } from "$lib/constants/me";
+    import dayjs from "dayjs";
+    import { onMount } from "svelte";
 
     let yearsExp: number;
     let daysLeft: number;
@@ -16,14 +16,15 @@
         }
     });
 
-    const calcTimes = () => {
+    function calcTimes() {
         window.clearTimeout(timer);
 
         const now = dayjs();
         const startDate = new Date(STARTED_WORKING_IN_SOFTWARE);
 
         let nextAnniversary = dayjs(startDate).set('year', now.year());
-        if (nextAnniversary.isBefore(now)) nextAnniversary = nextAnniversary.add(1, 'year');
+        if (nextAnniversary.isBefore(now))
+            nextAnniversary = nextAnniversary.add(1, 'year');
 
         yearsExp = now.diff(startDate, 'year');
         daysLeft = nextAnniversary.diff(now, 'day');
@@ -48,7 +49,7 @@
             <div>
                 <span>{yearsExp}</span> years exp
             </div>
-            
+
             <div>
                 {numDaysBetweenAnniversaries - daysLeft - 1} / {numDaysBetweenAnniversaries} days
             </div>
