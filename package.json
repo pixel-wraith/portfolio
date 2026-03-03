@@ -20,6 +20,7 @@
         "@antfu/eslint-config": "^7.6.1",
         "@sentry/node": "^10.40.0",
         "dayjs": "^1.11.19",
+        "marked": "^17.0.3",
         "zod": "^4.3.6"
     },
     "devDependencies": {

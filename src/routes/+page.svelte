@@ -23,29 +23,7 @@
     <Intro header="Hey, I'm Jake.">
         <IntroContent>
             <p>
-                I'm a software engineer with over 10 years of experience in building strange and wonderful
-                things for the web. I'm genuinely passionate about what I do!
-            </p>
-
-            <p>
-                When I'm not wrestling with code, you can find me lost in the magical realms of fantasy games
-                and puzzles (both playing in them and creating them myself), or watching delightfully terrible horror
-                movies with my family that make us question our life choices. I also enjoy snuggling with my
-                puppies—because who doesn't love a furry snuggle buddy?! And let's not forget my secret talent:
-                grilling the perfect steak. I'm no wizard in the kitchen, but give me a grill and I'll make you
-                a steak that will make your taste buds do backflips! (<em> no gas allowed! 🔥</em>).
-            </p>
-
-            <p>
-                But it's not all about the code and the grill. I'm also passionate about building people up in their
-                careers and creating teams that actually enjoy working together. And for some odd reason, I also really
-                enjoy finding that perfect balance between process and autonomy that makes teams and companies
-                thrive.
-            </p>
-
-            <p>
-                So, welcome to my little corner of the internet! I'm excited to share my work, my quirks, and maybe even
-                a few dad jokes along the way. Let's connect and see where this adventure takes us!
+                I'm an Engineering Manager and Technical Architect who ships at slightly-illegal speeds by pairing sharp architecture with AI-powered workflows. I lead engineers across the stack, run crisp sprints, and keep code quality high with friendly-but-firm guardrails (review SLAs, PR size limits, and real tests). I modernize platforms from monolith to TypeScript microservices, design scalable Postgres with RLS, build sane RBAC for multi-tenant apps, and wire the hard bits—auth/MFA, data sync, job queues, CDC—so legacy and modern systems play nice. Releases flow through AWS with feature flags, while Sentry and CloudWatch keep us humble. I partner with Product and Design to turn ambitious ideas into shippable reality, balancing speed with reliability and leading with technical excellence, empathy, and just enough sarcasm to keep retros interesting.
             </p>
         </IntroContent>
     </Intro>
