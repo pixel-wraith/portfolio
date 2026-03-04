@@ -332,6 +332,28 @@ h6 *,
     border-width: 0;
 }
 
+nav .bottom-row .nav-item {
+    margin: 1rem 0.5rem 0;
+    padding: 0 0.5rem;
+
+    & .nav-item-icon {
+        margin-right: 0.25rem;
+
+        & i {
+            font-size: 1.1rem;
+        }
+    }
+
+    & .nav-item-text {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+
+    & .nav-item-subtext {
+        display: none;
+    }
+}
+
 .gallery img {
     &:nth-child(n+1) {
         transform: rotate(6deg);

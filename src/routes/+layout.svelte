@@ -13,9 +13,17 @@
         children: Snippet;
     }
 
+    interface INavItem {
+        text: string;
+        subText?: string;
+        route: string;
+        icon: string;
+        iconStyles?: string;
+    }
+
     const { children }: ILayoutProps = $props();
 
-    const navItems = [
+    const navItems: INavItem[] = [
         {
             text: 'Experience',
             subText: 'Work and projects',
@@ -226,6 +234,10 @@
             &.right {
                 justify-content: flex-end;
                 align-items: flex-start;
+
+                & a {
+                    line-height: 1.1rem;
+                }
             }
 
             &.left {

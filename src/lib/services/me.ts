@@ -4,7 +4,7 @@ import { favoriteSchema, FavoriteType, goalSchema, hobbySchema } from '$lib/sche
 
 const favorites: z.infer<typeof favoriteSchema>[] = [
     /**********************************************************
-     ******                    shows                    ******
+     ******                     shows                    ******
      **********************************************************/
     favoriteSchema.parse({
         id: 'big-bang-theory',
