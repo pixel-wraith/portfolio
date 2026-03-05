@@ -1,5 +1,5 @@
 import { fail } from '@sveltejs/kit';
-import { TURNSTILE_SECRET_KEY, VALTOWN_AUTH_TOKEN } from '$env/static/private';
+import { env } from '$env/dynamic/private';
 import { HttpStatus } from '$lib/constants/error';
 import { ApiError } from '$lib/utils/api-error';
 import { ApiResponse } from '$lib/utils/api-response';
@@ -17,7 +17,7 @@ async function verifyTurnstileToken(token: string): Promise<boolean> {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: new URLSearchParams({
-            secret: TURNSTILE_SECRET_KEY,
+            secret: env.TURNSTILE_SECRET_KEY,
             response: token,
         }),
     });
@@ -77,7 +77,7 @@ export const actions: Actions = {
             const res = await fetch('https://wraith-contact.web.val.run', {
                 method: 'POST',
                 body: JSON.stringify({ name, email, message }),
-                headers: { Authorization: `Bearer ${VALTOWN_AUTH_TOKEN}` },
+                headers: { Authorization: `Bearer ${env.VALTOWN_AUTH_TOKEN}` },
             });
 
             const data = await res.json();

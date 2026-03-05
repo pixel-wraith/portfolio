@@ -1,6 +1,6 @@
 import type { z } from 'zod';
 
-import { DEV_TO_API_KEY } from '$env/static/private';
+import { env } from '$env/dynamic/private';
 import { logger } from '$lib/logger';
 
 import { blogPostSchema } from '../schemas/blog.schema';
@@ -13,7 +13,7 @@ export class BlogService {
         try {
             const res = await fetch(`https://dev.to/api/articles/me?page=${page}&per_page=${perPage}`, {
                 headers: {
-                    'api-key': DEV_TO_API_KEY,
+                    'api-key': env.DEV_TO_API_KEY,
                     'Content-Type': 'application/json',
                 },
             });
@@ -31,7 +31,7 @@ export class BlogService {
         try {
             const res = await fetch(`https://dev.to/api/articles/${id}`, {
                 headers: {
-                    'api-key': DEV_TO_API_KEY,
+                    'api-key': env.DEV_TO_API_KEY,
                     'Content-Type': 'application/json',
                 },
             });
