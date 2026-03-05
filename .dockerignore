@@ -1,0 +1,46 @@
+# Dependencies
+node_modules
+
+# Build output
+.output
+.svelte-kit
+build
+
+# Git
+.git
+.gitignore
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment files (loaded via docker-compose)
+.env
+.env.*
+!.env.example
+
+# Testing
+test-results
+e2e
+*.test.ts
+*.spec.ts
+*.svelte.test.ts
+*.svelte.spec.ts
+playwright.config.ts
+vitest.config.ts
+vitest-browser.config.ts
+
+# Documentation
+*.md
+!README.md
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
