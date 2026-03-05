@@ -1,9 +1,10 @@
 {
     "permissions": {
         "deny": [
+            "Bash(**/.env)",
+            "Read(**/.env)",
             "Bash(**/.env*)",
-            "Read(**/.env*)",
-            "Write(**/.env*)"
+            "Read(**/.env*)"
         ]
     }
 }
