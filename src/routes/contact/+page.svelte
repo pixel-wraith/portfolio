@@ -4,7 +4,7 @@
 
     import { browser } from "$app/environment";
     import { enhance } from "$app/forms";
-    import { env } from "$env/dynamic/public";
+    import { PUBLIC_TURNSTILE_SITE_KEY } from "$env/static/public";
     import Button from "$lib/components/Button.svelte";
     import Textarea from "$lib/components/Textarea.svelte";
     import TextInput from "$lib/components/TextInput.svelte";
@@ -71,7 +71,7 @@
             node.innerHTML = '';
 
             widgetId = window.turnstile.render(node, {
-                "sitekey": env.PUBLIC_TURNSTILE_SITE_KEY,
+                "sitekey": PUBLIC_TURNSTILE_SITE_KEY,
                 "callback": (token: string) => {
                     turnstileToken = token;
                 },
