@@ -12,7 +12,7 @@
         required: boolean;
     }
 
-    const {
+    let {
         id,
         name,
         value = $bindable(''),
@@ -39,9 +39,9 @@
         {id}
         {required}
         {name}
-        {value}
         {...restProps}
         class="{error ? 'error' : ''} {restProps.class ?? ''}"
+        bind:value={value}
     ></textarea>
 
     <div class="metadata-container">

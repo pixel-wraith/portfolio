@@ -8,6 +8,25 @@ declare global {
         // interface PageState {}
         // interface Platform {}
     }
+
+    interface TurnstileOptions {
+        'sitekey': string;
+        'callback'?: (token: string) => void;
+        'expired-callback'?: () => void;
+        'error-callback'?: () => void;
+        'theme'?: 'light' | 'dark' | 'auto';
+        'size'?: 'normal' | 'compact';
+    }
+
+    interface Turnstile {
+        render: (element: HTMLElement, options: TurnstileOptions) => string;
+        reset: (element: HTMLElement | string) => void;
+        remove: (element: HTMLElement | string) => void;
+    }
+
+    interface Window {
+        turnstile: Turnstile;
+    }
 }
 
 export {};

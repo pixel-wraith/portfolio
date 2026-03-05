@@ -4,6 +4,7 @@
 
     import { browser } from "$app/environment";
     import { enhance } from "$app/forms";
+    import { PUBLIC_TURNSTILE_SITE_KEY } from "$env/static/public";
     import Button from "$lib/components/Button.svelte";
     import Textarea from "$lib/components/Textarea.svelte";
     import TextInput from "$lib/components/TextInput.svelte";
@@ -25,8 +26,87 @@
     let disabled = true;
 
     let timer: number;
+    let turnstileToken = '';
+    let currentWidgetId: string | undefined;
 
-    $: disabled = !name || !email || !message || !!nameError || !!emailError || !!messageError;
+    $: disabled = !name || !email || !message || !turnstileToken || !!nameError || !!emailError || !!messageError;
+
+    function loadTurnstileScript(): Promise<void> {
+        return new Promise((resolve) => {
+            if (window.turnstile) {
+                resolve();
+                return;
+            }
+
+            const existingScript = document.querySelector('script[src*="challenges.cloudflare.com/turnstile"]');
+            if (existingScript) {
+                // Script exists but not loaded yet, poll for it
+                const check = setInterval(() => {
+                    if (window.turnstile) {
+                        clearInterval(check);
+                        resolve();
+                    }
+                }, 50);
+                return;
+            }
+
+            const script = document.createElement('script');
+            script.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit';
+            script.async = true;
+            script.onload = () => {
+                // Small delay to ensure turnstile is fully initialized
+                setTimeout(resolve, 100);
+            };
+            document.head.appendChild(script);
+        });
+    }
+
+    function turnstileAction(node: HTMLElement) {
+        let widgetId: string | undefined;
+
+        async function init() {
+            await loadTurnstileScript();
+
+            // Ensure node is empty before rendering
+            node.innerHTML = '';
+
+            widgetId = window.turnstile.render(node, {
+                "sitekey": PUBLIC_TURNSTILE_SITE_KEY,
+                "callback": (token: string) => {
+                    turnstileToken = token;
+                },
+                'expired-callback': () => {
+                    turnstileToken = '';
+                },
+                'error-callback': () => {
+                    turnstileToken = '';
+                },
+            });
+            currentWidgetId = widgetId;
+        }
+
+        init();
+
+        return {
+            destroy() {
+                if (widgetId && window.turnstile) {
+                    try {
+                        window.turnstile.remove(widgetId);
+                    } catch {
+                    // Ignore
+                    }
+                }
+                currentWidgetId = undefined;
+            },
+        };
+    }
+
+    function resetTurnstile() {
+        turnstileToken = '';
+        if (currentWidgetId && window.turnstile) {
+            window.turnstile.reset(currentWidgetId);
+        }
+    }
 
     $: {
         if (browser) {
@@ -111,7 +191,7 @@
 
             if (result.type === 'success') {
                 reset();
-                toast.add({ message: 'Thanks for reaching out! I\'ll be in touch soon!' });
+                toast.add({ message: 'Thanks for reaching out! I\'ll be in touch soon!', duration: 1000 * 60 * 5 });
             }
 
             processing = false;
@@ -126,15 +206,17 @@
         nameError = '';
         emailError = '';
         messageError = '';
+
+        // Reset Turnstile widget
+        resetTurnstile();
     }
 </script>
 
 <div class="container">
     <h1>Get in Touch</h1>
 
-    <p>
-        You can contact me at <a href="mailto:jlundberg@pm.me">jlundberg@pm.me</a>, or just fill out the
-        form below and I'll get back to you as soon as possible.
+    <p class="center">
+        Send me a message by filling out the form below and I'll get back to you as soon as possible.
     </p>
 
     <p class="center">
@@ -194,6 +276,11 @@
             </div>
         {/if}
 
+        <div class="turnstile-wrapper">
+            <div use:turnstileAction></div>
+            <input type="hidden" name="cf-turnstile-response" value={turnstileToken} />
+        </div>
+
         <div class="buttons-container">
             <Button
                 type="submit"
@@ -250,6 +337,12 @@
 
 	.error {
 		margin: 0;
+	}
+
+	.turnstile-wrapper {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 1rem;
 	}
 
 	.buttons-container {

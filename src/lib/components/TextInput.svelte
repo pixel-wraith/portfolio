@@ -13,7 +13,7 @@
         theme?: 'neutral' | 'light';
     }
 
-    const {
+    let {
         id,
         name,
         value = $bindable(''),
@@ -44,10 +44,10 @@
         {id}
         {required}
         {name}
-        {value}
         {type}
         class="{theme} {error ? 'error' : ''}"
         {...restProps}
+        bind:value={value}
         bind:this={ref}
     />
 

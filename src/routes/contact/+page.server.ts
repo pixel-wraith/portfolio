@@ -1,11 +1,30 @@
 import { fail } from '@sveltejs/kit';
-import { VALTOWN_AUTH_TOKEN } from '$env/static/private';
+import { TURNSTILE_SECRET_KEY, VALTOWN_AUTH_TOKEN } from '$env/static/private';
 import { HttpStatus } from '$lib/constants/error';
 import { ApiError } from '$lib/utils/api-error';
 import { ApiResponse } from '$lib/utils/api-response';
 import { contactMessageSchema, contactNameSchema, emailSchema } from '$lib/utils/validators';
 
 import type { Actions } from './$types';
+
+interface TurnstileResponse {
+    'success': boolean;
+    'error-codes'?: string[];
+}
+
+async function verifyTurnstileToken(token: string): Promise<boolean> {
+    const response = await fetch('https://challenges.cloudflare.com/turnstile/v0/siteverify', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams({
+            secret: TURNSTILE_SECRET_KEY,
+            response: token,
+        }),
+    });
+
+    const data: TurnstileResponse = await response.json();
+    return data.success;
+}
 
 export const actions: Actions = {
     default: async ({ request }) => {
@@ -15,8 +34,19 @@ export const actions: Actions = {
         const name = data.get('name')! as string;
         const email = data.get('email')! as string;
         const message = data.get('message')! as string;
+        const turnstileToken = data.get('cf-turnstile-response') as string;
 
         try {
+            // Verify Turnstile token first
+            if (!turnstileToken) {
+                errors.push(new ApiError('Please complete the captcha', HttpStatus.UNPROCESSABLE, 'captcha'));
+            } else {
+                const isValidToken = await verifyTurnstileToken(turnstileToken);
+                if (!isValidToken) {
+                    errors.push(new ApiError('Captcha verification failed. Please try again.', HttpStatus.UNPROCESSABLE, 'captcha'));
+                }
+            }
+
             const nameValidation = contactNameSchema.safeParse(name);
 
             if (!nameValidation.success) {

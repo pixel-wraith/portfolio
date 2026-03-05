@@ -6,6 +6,7 @@
     import favicon from '$lib/assets/favicon.svg';
     import CareerExp from '$lib/components/CareerExp.svelte';
     import Logo from '$lib/components/Logo.svelte';
+    import Toast from '$lib/components/modals/Toast.svelte';
     import SocialLinks from '$lib/components/SocialLinks.svelte';
     import { onMount } from 'svelte';
 
@@ -170,6 +171,8 @@
             <SocialLinks />
         </div>
     </footer>
+
+    <Toast />
 </div>
 
 <style>

@@ -44,11 +44,11 @@ class Toast {
         let default_icon: string;
 
         if (request.type === 'success') {
-            default_icon = 'fa-duotone fa-solid fa-party-horn';
+            default_icon = 'fa-regular fa-solid fa-party-horn';
         } else if (request.type === 'danger') {
-            default_icon = 'fa-duotone fa-solid fa-skull-crossbones';
+            default_icon = 'fa-regular fa-solid fa-skull-crossbones';
         } else {
-            default_icon = 'fa-duotone fa-solid fa-party-horn';
+            default_icon = 'fa-regular fa-solid fa-party-horn';
         }
 
         const icon = request.icon ?? default_icon;
