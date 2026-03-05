@@ -53,13 +53,6 @@
             icon: 'fa-regular fa-gear-complex-code',
             iconStyles: 'transform: rotate(-4deg);',
         },
-        {
-            text: 'Contact',
-            subText: 'Get in touch',
-            route: '/contact',
-            icon: 'fa-regular fa-mailbox-flag-up',
-            iconStyles: 'transform: rotate(5deg);',
-        },
     ];
 
     let navRef: HTMLElement;
