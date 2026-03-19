@@ -40,6 +40,13 @@
             iconStyles: 'transform: rotate(0deg);',
         },
         {
+            text: 'The Lab',
+            subText: 'Where I experiment',
+            route: 'https://wraithcode.io',
+            icon: 'fa-regular fa-flask',
+            iconStyles: 'transform: rotate(-3deg);',
+        },
+        {
             text: 'Blog',
             subText: 'Learn then share',
             route: 'https://dev.to/wraith',
