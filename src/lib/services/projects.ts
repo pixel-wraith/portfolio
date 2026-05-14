@@ -8,7 +8,7 @@ const projects: z.infer<typeof projectSchema>[] = [
         id: '1',
         name: 'BuzyBee',
         url: 'https://buzybee.buzz',
-        image: 'https://res.cloudinary.com/dxpwpno1e/image/upload/v1725414288/chester_without_shadow_adagil.svg',
+        image: 'https://images.wraithcode.io/2026-05/chester-without-shadow-800.png',
         published: true,
         links: [],
         summary: `A personal productivity app built around David Allen's Getting Things Done system.
@@ -74,7 +74,7 @@ From managing all the tasks and projects going on (and throwing in a little AI t
         id: '2',
         name: 'Kraken',
         url: 'https://github.com/iamthe-Wraith/kraken',
-        image: 'https://res.cloudinary.com/dxpwpno1e/image/upload/v1732245206/kraken_nid9tr.png',
+        image: 'https://images.wraithcode.io/2026-05/kraken-800.png',
         published: true,
         links: [
             projectLinkSchema.parse({
