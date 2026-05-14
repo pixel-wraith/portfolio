@@ -25,7 +25,7 @@
         <div class="intro-row">
             <div>
                 <img
-                    src="https://res.cloudinary.com/dxpwpno1e/image/upload/c_scale,h_400/v1731074168/me-and-hulk_itxait.jpg"
+                    src="https://images.wraithcode.io/2026-05/me-and-hulk-800.png"
                     alt="me and a life-size statue of Marvel's Hulk"
                 />
             </div>
@@ -58,19 +58,19 @@
     <Section>
         <ImgGallery>
             <img
-                src="https://res.cloudinary.com/dxpwpno1e/image/upload/c_scale,w_400/v1731074168/korban-and-me-at-falloutboy-concert_gl6tqs.jpg"
+                src="https://images.wraithcode.io/2026-05/korban-and-me-at-falloutboy-concert-800.png"
                 alt="My son and I at a Fall Out Boy concert"
                 class="gallery-img"
             />
 
             <img
-                src="https://res.cloudinary.com/dxpwpno1e/image/upload/c_scale,w_400/v1731074168/the-fam_egsgvl.jpg"
+                src="https://images.wraithcode.io/2026-05/the-fam-800.png"
                 alt="The fam in the spot where we all met"
                 class="gallery-img"
             />
 
             <img
-                src="https://res.cloudinary.com/dxpwpno1e/image/upload/c_scale,h_400/v1731075472/emily-and-me-at-dave-and-busters_busqn6.jpg"
+                src="https://images.wraithcode.io/2026-05/emily-and-me-at-dave-and-busters-800.png"
                 alt="My wife and I"
                 class="gallery-img"
             />
@@ -87,7 +87,7 @@
                 <div class="item venomized-iron-man">
                     <Item
                         id="venomized-iron-man"
-                        src="https://res.cloudinary.com/dxpwpno1e/image/upload/v1721223720/venom-ironman-funko-200x200_fdrfyw.png"
+                        src="https://images.wraithcode.io/2026-05/venom-ironman-funko-200x200-800.png"
                         alt="Venomized Iron Man Funko Pop"
                     />
                 </div>
@@ -97,7 +97,7 @@
                 <div class="item headless-jack-skellington">
                     <Item
                         id="headless-jack-skellington"
-                        src="https://res.cloudinary.com/dxpwpno1e/image/upload/v1721223718/headless-jack-skelington-funko-200x200_ulie31.png"
+                        src="https://images.wraithcode.io/2026-05/headless-jack-skelington-funko-200x200-800.png"
                         alt="Headless Jack Skellington from The Nightmare Before Christmas Funko Pop"
                     />
                 </div>
@@ -107,7 +107,7 @@
                 <div class="item hulk">
                     <Item
                         id="hulk"
-                        src="https://res.cloudinary.com/dxpwpno1e/image/upload/v1721223718/hulk-funko-200x200_k9ktsf.png"
+                        src="https://images.wraithcode.io/2026-05/hulk-funko-200x200-800.png"
                         alt="Hulk Funko Pop"
                     />
                 </div>
@@ -117,7 +117,7 @@
                 <div class="item iron-man">
                     <Item
                         id="iron-man"
-                        src="https://res.cloudinary.com/dxpwpno1e/image/upload/v1721223718/ironman-funko-200x200_brjy8y.png"
+                        src="https://images.wraithcode.io/2026-05/ironman-funko-200x200-800.png"
                         alt="Iron Man Funko Pop"
                     />
                 </div>
@@ -127,7 +127,7 @@
                 <div class="item kevin">
                     <Item
                         id="kevin"
-                        src="https://res.cloudinary.com/dxpwpno1e/image/upload/v1721223718/kevin-funko-200x200_srfttr.png"
+                        src="https://images.wraithcode.io/2026-05/kevin-funko-200x200-800.png"
                         alt="Kevin from The Office dressed up like Captain Dundee Funko Pop"
                     />
                 </div>
@@ -137,7 +137,7 @@
                 <div class="item doc-brown">
                     <Item
                         id="doc-brown"
-                        src="https://res.cloudinary.com/dxpwpno1e/image/upload/v1721223718/back-to-the-future-doc-funko-200x200_bcym9p.png"
+                        src="https://images.wraithcode.io/2026-05/back-to-the-future-doc-funko-200x200-800.png"
                         alt="Dr. Emmet Brown from Back to the Future Funko Pop"
                     />
                 </div>
@@ -147,7 +147,7 @@
                 <div class="item pumpkin-king">
                     <Item
                         id="pumpkin-king"
-                        src="https://res.cloudinary.com/dxpwpno1e/image/upload/v1721223721/pumpkin-king-funko-200x200_tik8yw.png"
+                        src="https://images.wraithcode.io/2026-05/pumpkin-king-funko-200x200-800.png"
                         alt="Jack Skellington dressed as the Pumpkin King from Tim Burton's The Nightmare Before Christmas Funko Pop"
                     />
                 </div>
@@ -173,19 +173,19 @@
     <Section>
         <ImgGallery>
             <img
-                src="https://res.cloudinary.com/dxpwpno1e/image/upload/c_scale,h_400/v1731035539/hammy-with-his-golfball-768x1024_yqa87g.jpg"
+                src="https://images.wraithcode.io/2026-05/hammy-with-his-golfball-768x1024-800.png"
                 alt="Our adorable chihuahua, Hammy, posing with his golfball"
                 class="gallery-img"
             />
 
             <img
-                src="https://res.cloudinary.com/dxpwpno1e/image/upload/c_scale,h_400/v1731035538/olive-and-her-pickle-730x1024_b32gf1.jpg"
+                src="https://images.wraithcode.io/2026-05/olive-and-her-pickle-730x1024-800.png"
                 alt="Our other super cute chihuahua, Olive, posing with her favorite toy...her pickle"
                 class="gallery-img"
             />
 
             <img
-                src="https://res.cloudinary.com/dxpwpno1e/image/upload/c_scale,h_400/v1731075472/molly-being-silly_t8tmqq.jpg"
+                src="https://images.wraithcode.io/2026-05/molly-being-silly-800.png"
                 alt="Our carolina dog, Molly, playing in the bed sheets"
                 class="gallery-img"
             />

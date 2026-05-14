@@ -12,7 +12,7 @@ const jobs: z.infer<typeof jobSchema>[] = [
         id: '1',
         companyName: 'Brooks Bell (now Blazer)',
         url: 'https://www.linkedin.com/company/blazerconsulting/',
-        logo: 'https://res.cloudinary.com/dxpwpno1e/image/upload/v1725412627/brooksbell_yndorr.jpg',
+        logo: 'https://images.wraithcode.io/2026-05/brooksbell-800.png',
         location: 'Raleigh, NC',
         positions: [
             jobPositionSchema.parse({
@@ -64,7 +64,7 @@ const jobs: z.infer<typeof jobSchema>[] = [
         id: '2',
         companyName: 'Levitate',
         url: 'https://levitate.ai/',
-        logo: 'https://res.cloudinary.com/dxpwpno1e/image/upload/v1725413376/levitate_nxe2xg.svg',
+        logo: 'https://images.wraithcode.io/2026-05/levitate-800.png',
         location: 'Raleigh, NC (Hybrid)',
         positions: [
             jobPositionSchema.parse({
@@ -106,7 +106,7 @@ const jobs: z.infer<typeof jobSchema>[] = [
         id: '3',
         companyName: 'Karma Wallet',
         url: 'https://karmawallet.io/',
-        logo: 'https://res.cloudinary.com/dxpwpno1e/image/upload/v1725412627/karmawallet_m0fkqh.svg',
+        logo: 'https://images.wraithcode.io/2026-05/karmawallet-800.png',
         location: 'Raleigh, NC (Remote)',
         positions: [
             jobPositionSchema.parse({
@@ -153,7 +153,7 @@ const jobs: z.infer<typeof jobSchema>[] = [
         id: '4',
         companyName: 'Kickfin',
         url: 'https://kickfin.com/',
-        logo: 'https://res.cloudinary.com/dxpwpno1e/image/upload/v1725412627/kickfin_vyww9u.svg',
+        logo: 'https://images.wraithcode.io/2026-05/kickfin-800.png',
         location: 'Austin, TX (Remote)',
         positions: [
             jobPositionSchema.parse({
@@ -205,7 +205,7 @@ const jobs: z.infer<typeof jobSchema>[] = [
         id: '5',
         companyName: 'Greenplaces',
         url: 'https://greenplaces.com/',
-        logo: 'https://res.cloudinary.com/dxpwpno1e/image/upload/v1725412627/greenplaces_n7xpmt.png',
+        logo: 'https://images.wraithcode.io/2026-05/greenplaces-800.png',
         location: 'Raleigh, NC (Remote)',
         positions: [
             jobPositionSchema.parse({

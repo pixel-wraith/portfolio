@@ -11,7 +11,7 @@ const favorites: z.infer<typeof favoriteSchema>[] = [
         rank: 1,
         title: 'Big Bang Theory',
         url: 'https://www.imdb.com/title/tt0898266/',
-        image: 'https://res.cloudinary.com/dxpwpno1e/image/upload/c_scale,w_400/v1720130950/big-bang-theory_kme1qn.jpg',
+        image: 'https://images.wraithcode.io/2026-05/big-bang-theory-400.png',
         favoriteType: FavoriteType.Show,
     }),
     favoriteSchema.parse({
@@ -19,7 +19,7 @@ const favorites: z.infer<typeof favoriteSchema>[] = [
         rank: 2,
         title: 'Psych',
         url: 'https://www.imdb.com/title/tt0491738/',
-        image: 'https://res.cloudinary.com/dxpwpno1e/image/upload/c_scale,w_400/v1720130950/psych_m0ft4w.jpg',
+        image: 'https://images.wraithcode.io/2026-05/psych-400.png',
         favoriteType: FavoriteType.Show,
     }),
     favoriteSchema.parse({
@@ -27,7 +27,7 @@ const favorites: z.infer<typeof favoriteSchema>[] = [
         rank: 3,
         title: 'What We Do in the Shadows',
         url: 'https://www.imdb.com/title/tt7908628/',
-        image: 'https://res.cloudinary.com/dxpwpno1e/image/upload/c_scale,w_400/v1720130952/what-we-do-in-the-shadows_mxsjr6.jpg',
+        image: 'https://images.wraithcode.io/2026-05/what-we-do-in-the-shadows-400.png',
         favoriteType: FavoriteType.Show,
     }),
     favoriteSchema.parse({
@@ -35,7 +35,7 @@ const favorites: z.infer<typeof favoriteSchema>[] = [
         rank: 4,
         title: 'Mr. Robot',
         url: 'https://www.imdb.com/title/tt4158110/',
-        image: 'https://res.cloudinary.com/dxpwpno1e/image/upload/c_scale,w_400/v1722735794/mr-robot_admdbf.jpg',
+        image: 'https://images.wraithcode.io/2026-05/mr-robot-400.png',
         favoriteType: FavoriteType.Show,
     }),
     favoriteSchema.parse({
@@ -43,7 +43,7 @@ const favorites: z.infer<typeof favoriteSchema>[] = [
         rank: 5,
         title: 'The Witcher',
         url: 'https://www.imdb.com/title/tt5180504/',
-        image: 'https://res.cloudinary.com/dxpwpno1e/image/upload/c_scale,w_400/v1722735902/the-witcher_lxgwnt.jpg',
+        image: 'https://images.wraithcode.io/2026-05/the-witcher-400.png',
         favoriteType: FavoriteType.Show,
     }),
     favoriteSchema.parse({
@@ -51,7 +51,7 @@ const favorites: z.infer<typeof favoriteSchema>[] = [
         rank: 6,
         title: 'White Collar',
         url: 'https://www.imdb.com/title/tt1358522/',
-        image: 'https://res.cloudinary.com/dxpwpno1e/image/upload/c_scale,w_400/v1720130952/white-collar_jhof4c.jpg',
+        image: 'https://images.wraithcode.io/2026-05/white-collar-400.png',
         favoriteType: FavoriteType.Show,
     }),
     favoriteSchema.parse({
@@ -59,7 +59,7 @@ const favorites: z.infer<typeof favoriteSchema>[] = [
         rank: 7,
         title: 'The Office',
         url: 'https://www.imdb.com/title/tt0386676/',
-        image: 'https://res.cloudinary.com/dxpwpno1e/image/upload/c_scale,w_400/v1720130951/the-office_excyyu.jpg',
+        image: 'https://images.wraithcode.io/2026-05/the-office-400.png',
         favoriteType: FavoriteType.Show,
     }),
     favoriteSchema.parse({
@@ -67,7 +67,7 @@ const favorites: z.infer<typeof favoriteSchema>[] = [
         rank: 8,
         title: 'Parks and Rec',
         url: 'https://www.imdb.com/title/tt1266020/',
-        image: 'https://res.cloudinary.com/dxpwpno1e/image/upload/c_scale,w_400/v1720130950/parks-and-rec_chvl31.jpg',
+        image: 'https://images.wraithcode.io/2026-05/parks-and-rec-400.png',
         favoriteType: FavoriteType.Show,
     }),
     favoriteSchema.parse({
@@ -75,7 +75,7 @@ const favorites: z.infer<typeof favoriteSchema>[] = [
         rank: 9,
         title: 'Fringe',
         url: 'https://www.imdb.com/title/tt1119644/',
-        image: 'https://res.cloudinary.com/dxpwpno1e/image/upload/c_scale,w_400/v1720130950/fringe_nmy9uq.jpg',
+        image: 'https://images.wraithcode.io/2026-05/fringe-400.png',
         favoriteType: FavoriteType.Show,
     }),
     favoriteSchema.parse({
@@ -83,7 +83,7 @@ const favorites: z.infer<typeof favoriteSchema>[] = [
         rank: 10,
         title: 'How I Met Your Mother',
         url: 'https://www.imdb.com/title/tt0460649/',
-        image: 'https://res.cloudinary.com/dxpwpno1e/image/upload/c_scale,w_400/v1721440848/how-i-met-your-mother_beeslu.jpg',
+        image: 'https://images.wraithcode.io/2026-05/how-i-met-your-mother-400.png',
         favoriteType: FavoriteType.Show,
     }),
     // favoriteSchema.parse({
@@ -91,7 +91,7 @@ const favorites: z.infer<typeof favoriteSchema>[] = [
     //     rank: 11,
     //     title: 'Supernatural',
     //     url: 'https://www.imdb.com/title/tt0460681/',
-    //     image: 'https://res.cloudinary.com/dxpwpno1e/image/upload/c_scale,w_400/v1720130951/supernatural_ytroli.jpg',
+    //     image: 'https://images.wraithcode.io/2026-05/supernatural-400.png',
     //     favoriteType: FavoriteType.Show,
     // }),
     /**********************************************************
@@ -102,7 +102,7 @@ const favorites: z.infer<typeof favoriteSchema>[] = [
         rank: 1,
         title: 'Ironman',
         url: 'https://www.imdb.com/title/tt0371746/',
-        image: 'https://res.cloudinary.com/dxpwpno1e/image/upload/c_scale,w_400/v1720130939/ironman_dycsip.jpg',
+        image: 'https://images.wraithcode.io/2026-05/ironman-400.png',
         favoriteType: FavoriteType.Movie,
     }),
     favoriteSchema.parse({
@@ -110,7 +110,7 @@ const favorites: z.infer<typeof favoriteSchema>[] = [
         rank: 2,
         title: 'Free Guy',
         url: 'https://www.imdb.com/title/tt6264654/',
-        image: 'https://res.cloudinary.com/dxpwpno1e/image/upload/c_scale,w_400/v1720130939/free-guy_ndhhaa.jpg',
+        image: 'https://images.wraithcode.io/2026-05/free-guy-400.png',
         favoriteType: FavoriteType.Movie,
     }),
     // favoriteSchema.parse({
@@ -118,7 +118,7 @@ const favorites: z.infer<typeof favoriteSchema>[] = [
     //     rank: 2,
     //     title: 'Big Hero 6',
     //     url: 'https://www.imdb.com/title/tt2245084/',
-    //     image: 'https://res.cloudinary.com/dxpwpno1e/image/upload/c_scale,w_400/v1720130939/big-hero-6_nmb0ou.jpg',
+    //     image: 'https://images.wraithcode.io/2026-05/big-hero-6-400.png',
     //     favoriteType: FavoriteType.Movie,
     // }),
     favoriteSchema.parse({
@@ -126,7 +126,7 @@ const favorites: z.infer<typeof favoriteSchema>[] = [
         rank: 3,
         title: 'Jurassic Park',
         url: 'https://www.imdb.com/title/tt0107290/',
-        image: 'https://res.cloudinary.com/dxpwpno1e/image/upload/c_scale,w_400/v1721440862/jurassic-park_nzcelq.jpg',
+        image: 'https://images.wraithcode.io/2026-05/jurassic-park-400.png',
         favoriteType: FavoriteType.Movie,
     }),
     favoriteSchema.parse({
@@ -134,7 +134,7 @@ const favorites: z.infer<typeof favoriteSchema>[] = [
         rank: 4,
         title: 'The Nun',
         url: 'https://www.imdb.com/title/tt5814060/',
-        image: 'https://res.cloudinary.com/dxpwpno1e/image/upload/c_scale,w_400/v1720130939/the-nun_ngpecr.jpg',
+        image: 'https://images.wraithcode.io/2026-05/the-nun-400.png',
         favoriteType: FavoriteType.Movie,
     }),
     favoriteSchema.parse({
@@ -142,7 +142,7 @@ const favorites: z.infer<typeof favoriteSchema>[] = [
         rank: 5,
         title: 'Ready Player One',
         url: 'https://www.imdb.com/title/tt1677720/',
-        image: 'https://res.cloudinary.com/dxpwpno1e/image/upload/c_scale,w_400/v1720130939/ready-player-one_zjkon4.jpg',
+        image: 'https://images.wraithcode.io/2026-05/ready-player-one-2-400.png',
         favoriteType: FavoriteType.Movie,
     }),
     favoriteSchema.parse({
@@ -150,7 +150,7 @@ const favorites: z.infer<typeof favoriteSchema>[] = [
         rank: 6,
         title: 'Nightmare Before Christmas',
         url: 'https://www.imdb.com/title/tt0107688/',
-        image: 'https://res.cloudinary.com/dxpwpno1e/image/upload/c_scale,w_400/v1720130939/nightmare-before-christmas_dhpapj.jpg',
+        image: 'https://images.wraithcode.io/2026-05/nightmare-before-christmas-400.png',
         favoriteType: FavoriteType.Movie,
     }),
     favoriteSchema.parse({
@@ -158,7 +158,7 @@ const favorites: z.infer<typeof favoriteSchema>[] = [
         rank: 7,
         title: 'V for Vendetta',
         url: 'https://www.imdb.com/title/tt0434409/',
-        image: 'https://res.cloudinary.com/dxpwpno1e/image/upload/c_scale,w_400/v1722702210/v-for-vendetta_ufvoow.jpg',
+        image: 'https://images.wraithcode.io/2026-05/v-for-vendetta-400.png',
         favoriteType: FavoriteType.Movie,
     }),
     favoriteSchema.parse({
@@ -166,7 +166,7 @@ const favorites: z.infer<typeof favoriteSchema>[] = [
         rank: 8,
         title: 'John Wick',
         url: 'https://www.imdb.com/title/tt2911666/',
-        image: 'https://res.cloudinary.com/dxpwpno1e/image/upload/c_scale,w_400/v1720130939/john-wick_jtdeqc.jpg',
+        image: 'https://images.wraithcode.io/2026-05/john-wick-400.png',
         favoriteType: FavoriteType.Movie,
     }),
     favoriteSchema.parse({
@@ -174,7 +174,7 @@ const favorites: z.infer<typeof favoriteSchema>[] = [
         rank: 9,
         title: 'Real Steel',
         url: 'https://www.imdb.com/title/tt0433035/',
-        image: 'https://res.cloudinary.com/dxpwpno1e/image/upload/c_scale,w_400/v1721441884/real-steel_k1lrwt.jpg',
+        image: 'https://images.wraithcode.io/2026-05/real-steel-400.png',
         favoriteType: FavoriteType.Movie,
     }),
     favoriteSchema.parse({
@@ -182,7 +182,7 @@ const favorites: z.infer<typeof favoriteSchema>[] = [
         rank: 10,
         title: 'Live Free or Die Hard',
         url: 'https://www.imdb.com/title/tt0337978/',
-        image: 'https://res.cloudinary.com/dxpwpno1e/image/upload/c_scale,w_400/v1721441798/live-free-or-die-hard_fajbak.jpg',
+        image: 'https://images.wraithcode.io/2026-05/live-free-or-die-hard-400.png',
         favoriteType: FavoriteType.Movie,
     }),
     // favoriteSchema.parse({
@@ -190,7 +190,7 @@ const favorites: z.infer<typeof favoriteSchema>[] = [
     //     rank: 11,
     //     title: 'The Emoji Movie',
     //     url: 'https://www.imdb.com/title/tt4877122/',
-    //     image: 'https://res.cloudinary.com/dxpwpno1e/image/upload/c_scale,w_400/v1720130939/the-emoji-movie_h3oyed.jpg',
+    //     image: 'https://images.wraithcode.io/2026-05/the-emoji-movie-400.png',
     //     favoriteType: FavoriteType.Movie,
     // }),
     /**********************************************************
@@ -201,7 +201,7 @@ const favorites: z.infer<typeof favoriteSchema>[] = [
         rank: 1,
         title: 'Skyrim',
         url: 'https://elderscrolls.bethesda.net/en/skyrim10',
-        image: 'https://res.cloudinary.com/dxpwpno1e/image/upload/c_scale,w_400/v1720131015/skyrim_wbqbkx.jpg',
+        image: 'https://images.wraithcode.io/2026-05/skyrim-400.png',
         favoriteType: FavoriteType.Game,
     }),
     favoriteSchema.parse({
@@ -209,7 +209,7 @@ const favorites: z.infer<typeof favoriteSchema>[] = [
         rank: 2,
         title: 'Magic the Gathering',
         url: 'https://magic.wizards.com/en',
-        image: 'https://res.cloudinary.com/dxpwpno1e/image/upload/c_scale,w_400/v1721444355/magic-the-gathering_qp3ymf.png',
+        image: 'https://images.wraithcode.io/2026-05/magic-the-gathering-400.png',
         favoriteType: FavoriteType.Game,
     }),
     favoriteSchema.parse({
@@ -217,7 +217,7 @@ const favorites: z.infer<typeof favoriteSchema>[] = [
         rank: 3,
         title: 'Chess',
         url: 'https://en.wikipedia.org/wiki/Chess',
-        image: 'https://res.cloudinary.com/dxpwpno1e/image/upload/c_scale,w_400/v1720131011/chess_jrzb0j.jpg',
+        image: 'https://images.wraithcode.io/2026-05/chess-400.png',
         favoriteType: FavoriteType.Game,
     }),
     favoriteSchema.parse({
@@ -225,7 +225,7 @@ const favorites: z.infer<typeof favoriteSchema>[] = [
         rank: 4,
         title: 'Scrap Mechanic',
         url: 'https://www.scrapmechanic.com/',
-        image: 'https://res.cloudinary.com/dxpwpno1e/image/upload/c_scale,w_400/v1720131014/scrap-mechanic_sewtmc.jpg',
+        image: 'https://images.wraithcode.io/2026-05/scrap-mechanic-400.png',
         favoriteType: FavoriteType.Game,
     }),
     favoriteSchema.parse({
@@ -233,7 +233,7 @@ const favorites: z.infer<typeof favoriteSchema>[] = [
         rank: 5,
         title: 'Minecraft',
         url: 'https://www.minecraft.net/',
-        image: 'https://res.cloudinary.com/dxpwpno1e/image/upload/c_scale,w_400/v1720131012/minecraft_k7f1qv.png',
+        image: 'https://images.wraithcode.io/2026-05/minecraft-400.png',
         favoriteType: FavoriteType.Game,
     }),
     favoriteSchema.parse({
@@ -241,7 +241,7 @@ const favorites: z.infer<typeof favoriteSchema>[] = [
         rank: 6,
         title: 'Dungeons & Dragons',
         url: 'https://dnd.wizards.com/',
-        image: 'https://res.cloudinary.com/dxpwpno1e/image/upload/c_scale,w_400/v1720131011/dnd_zqhgz2.jpg',
+        image: 'https://images.wraithcode.io/2026-05/dnd-400.png',
         favoriteType: FavoriteType.Game,
     }),
     favoriteSchema.parse({
@@ -249,7 +249,7 @@ const favorites: z.infer<typeof favoriteSchema>[] = [
         rank: 7,
         title: 'Zelda',
         url: 'https://en.wikipedia.org/wiki/The_Legend_of_Zelda_(video_game)',
-        image: 'https://res.cloudinary.com/dxpwpno1e/image/upload/c_scale,w_400/v1720131015/zelda_whvrkj.jpg',
+        image: 'https://images.wraithcode.io/2026-05/zelda-400.png',
         favoriteType: FavoriteType.Game,
     }),
     favoriteSchema.parse({
@@ -257,7 +257,7 @@ const favorites: z.infer<typeof favoriteSchema>[] = [
         rank: 8,
         title: 'Poker (Texas Hold\'em)',
         url: 'https://en.wikipedia.org/wiki/Texas_hold_%27em',
-        image: 'https://res.cloudinary.com/dxpwpno1e/image/upload/c_scale,w_400/v1721444591/texas-holdem_nylu9b.webp',
+        image: 'https://images.wraithcode.io/2026-05/texas-holdem-400.png',
         favoriteType: FavoriteType.Game,
     }),
 ];
