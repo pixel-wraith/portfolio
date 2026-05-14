@@ -9,7 +9,7 @@ const books = [
         url: 'https://jamesclear.com/atomic-habits-workbook',
         image: 'https://images.wraithcode.io/2026-05/atomic-habits-workbook-400.png',
         favorite: false,
-        currentlyReading: true,
+        currentlyReading: false,
         read: false,
     }),
     bookSchema.parse({
@@ -27,7 +27,7 @@ const books = [
         url: 'https://jamesclear.com/book-summaries/10x-rule',
         image: 'https://images.wraithcode.io/2026-05/the-10x-rule-400.png',
         favorite: true,
-        currentlyReading: false,
+        currentlyReading: true,
         read: true,
     }),
     bookSchema.parse({
