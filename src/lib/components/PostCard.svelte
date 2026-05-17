@@ -15,6 +15,10 @@
     class="post-card"
     class:condensed
 >
+    {#if !post.published}
+        <div class="post-card-draft">Draft</div>
+    {/if}
+
     <a href="/blog/{post.slug}">
         {#if post.cover}
             <div class="post-card-image">
@@ -64,6 +68,7 @@
 
 <style>
     .post-card {
+        position: relative;
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -95,6 +100,15 @@
                 display: flex;
                 justify-content: space-between;
             }
+        }
+
+        .post-card-draft {
+            position: absolute;
+            bottom: 98%;
+            right: 98%;
+            rotate: -45deg;
+            font-size: 0.85rem;
+            color: var(--accent1-500);
         }
 
         & a {
