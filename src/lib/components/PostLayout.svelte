@@ -14,6 +14,8 @@
 
     const canonical = $derived(`https://jakelundberg.dev${page.url.pathname}`);
     const ogImage = $derived(post.cover ?? 'https://images.wraithcode.io/og/default.png');
+    // Some OG parsers reject bare YYYY-MM-DD and want a full ISO 8601 datetime.
+    const publishedDateTime = $derived(`${post.date}T00:00:00.000Z`);
 </script>
 
 <svelte:head>
@@ -26,7 +28,7 @@
     <meta property="og:description" content={post.description} />
     <meta property="og:url" content={canonical} />
     <meta property="og:image" content={ogImage} />
-    <meta property="article:published_time" content={post.date} />
+    <meta property="article:published_time" content={publishedDateTime} />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={post.title} />
