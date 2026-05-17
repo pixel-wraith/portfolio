@@ -1,7 +1,10 @@
+import type { Tokens } from 'marked';
 import type { Highlighter } from 'shiki';
 
 import { Marked } from 'marked';
 import { createHighlighter } from 'shiki';
+
+import { slugify } from './slugify.ts';
 
 const LANGS = [
     'bash',
@@ -56,6 +59,18 @@ async function getMarked(): Promise<Marked> {
                     }
 
                     return `<pre><code>${escapeHtml(text)}</code></pre>`;
+                },
+                heading(this: { parser: { parseInline: (tokens: Tokens.Heading['tokens']) => string } }, { tokens, text, depth }: Tokens.Heading): string {
+                    const inner = this.parser.parseInline(tokens);
+                    let id: string | undefined;
+                    try {
+                        id = slugify(text);
+                    } catch {
+                        id = undefined;
+                    }
+                    return id
+                        ? `<h${depth} id="${id}">${inner}</h${depth}>\n`
+                        : `<h${depth}>${inner}</h${depth}>\n`;
                 },
             },
         });
