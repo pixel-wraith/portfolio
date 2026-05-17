@@ -19,13 +19,25 @@ function buildRegistry(): IPostEntry[] {
         eager: true,
     }) as Record<string, string>;
 
-    return Object.values(modules).map((raw) => {
+    const slugToPath = new Map<string, string>();
+    const entries: IPostEntry[] = [];
+
+    for (const [path, raw] of Object.entries(modules)) {
         const { frontmatter, body } = parseFrontmatter(raw);
-        return {
+
+        const existing = slugToPath.get(frontmatter.slug);
+        if (existing) {
+            throw new Error(`buildRegistry: duplicate slug ${JSON.stringify(frontmatter.slug)} in ${path} (already declared by ${existing})`);
+        }
+        slugToPath.set(frontmatter.slug, path);
+
+        entries.push({
             meta: { ...frontmatter, readingTimeMinutes: readingTimeMinutes(body) },
             body,
-        };
-    });
+        });
+    }
+
+    return entries;
 }
 
 function isVisible(entry: IPostEntry): boolean {
