@@ -49,6 +49,10 @@
         <h1>{post.title}</h1>
 
         <div class="post-meta">
+            {#if !post.published}
+                <span class="post-meta-draft">Draft</span>
+                <span aria-hidden="true">·</span>
+            {/if}
             <span>{dayjs(post.date).format('MMM DD, YYYY')}</span>
             <span aria-hidden="true">·</span>
             <span>{post.readingTimeMinutes} min read</span>
@@ -133,6 +137,10 @@
                 span {
                     font-size: 0.85rem;
                     color: var(--neutral-600);
+                }
+
+                .post-meta-draft {
+                    color: var(--accent1-500);
                 }
             }
         }
