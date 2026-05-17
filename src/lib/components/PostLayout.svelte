@@ -129,6 +129,11 @@
                 gap: 0.5rem;
                 font-size: 0.85rem;
                 color: var(--neutral-600);
+
+                span {
+                    font-size: 0.85rem;
+                    color: var(--neutral-600);
+                }
             }
         }
 
