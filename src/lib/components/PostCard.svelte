@@ -73,7 +73,7 @@
         transition: all 0.2s ease-in-out;
 
         &:hover,
-        &:focus {
+        &:focus-within {
             border-color: var(--primary-500);
             transform: scale(1.03);
         }
