@@ -20,7 +20,7 @@
 <div class="container">
     <header class="blog-header">
         <h1>Blog</h1>
-        <p>Engineering, leadership, and the craft of shipping software.</p>
+        <p>Productivity, engineering, leadership, and the craft of shipping software.</p>
     </header>
 
     <PostList
