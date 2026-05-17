@@ -206,7 +206,8 @@ textarea {
     }
 }
 
-p:not(:last-child) {
+p:not(:last-child),
+ul:not(:last-child) {
     margin-bottom: 1rem;
 }
 
