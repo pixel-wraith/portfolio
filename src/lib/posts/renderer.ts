@@ -30,6 +30,12 @@ const THEME = 'github-dark';
 let highlighterPromise: Promise<Highlighter> | undefined;
 let mdInstance: Marked | undefined;
 
+// Tracks heading-id usage within a single renderMarkdown call so duplicate
+// heading text gets disambiguated with -2/-3/... suffixes. Cleared at the
+// start of each call. Safe because rendering happens single-threaded at
+// build time inside one Vite worker.
+const headingIdCounts = new Map<string, number>();
+
 async function getHighlighter(): Promise<Highlighter> {
     if (!highlighterPromise) {
         highlighterPromise = createHighlighter({ themes: [THEME], langs: [...LANGS] });
@@ -62,15 +68,19 @@ async function getMarked(): Promise<Marked> {
                 },
                 heading(this: { parser: { parseInline: (tokens: Tokens.Heading['tokens']) => string } }, { tokens, text, depth }: Tokens.Heading): string {
                     const inner = this.parser.parseInline(tokens);
-                    let id: string | undefined;
+                    let baseId: string | undefined;
                     try {
-                        id = slugify(text);
+                        baseId = slugify(text);
                     } catch {
-                        id = undefined;
+                        baseId = undefined;
                     }
-                    return id
-                        ? `<h${depth} id="${id}">${inner}</h${depth}>\n`
-                        : `<h${depth}>${inner}</h${depth}>\n`;
+                    if (!baseId) {
+                        return `<h${depth}>${inner}</h${depth}>\n`;
+                    }
+                    const count = (headingIdCounts.get(baseId) ?? 0) + 1;
+                    headingIdCounts.set(baseId, count);
+                    const id = count === 1 ? baseId : `${baseId}-${count}`;
+                    return `<h${depth} id="${id}">${inner}</h${depth}>\n`;
                 },
             },
         });
@@ -80,6 +90,7 @@ async function getMarked(): Promise<Marked> {
 }
 
 export async function renderMarkdown(body: string): Promise<string> {
+    headingIdCounts.clear();
     const md = await getMarked();
     const html = md.parse(body);
 
