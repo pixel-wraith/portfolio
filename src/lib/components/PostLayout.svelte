@@ -1,5 +1,6 @@
 <script lang="ts">
     import type { Post, PostMeta } from "$lib/schemas/post.schema";
+
     import { page } from '$app/state';
     import dayjs from "dayjs";
 
@@ -61,6 +62,7 @@
     </header>
 
     <div class="post-body">
+        <!-- eslint-disable-next-line svelte/no-at-html-tags -- body HTML is built at build time from author-controlled markdown via marked + Shiki -->
         {@html post.renderedBody}
     </div>
 
