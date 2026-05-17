@@ -225,14 +225,18 @@ async function main(): Promise<void> {
     console.log(`Found ${articles.length} published articles.\n`);
 
     // Two-pass: pass 1 builds the devto-slug → our-slug map for internal link
-    // rewriting in pass 2, and detects slug collisions early.
+    // rewriting in pass 2. Same-titled posts (dev.to allows it) get a counter
+    // suffix so the API order winner keeps the bare slug.
     const slugMap = new Map<string, string>();
     const ourSlugUsage = new Map<string, string>();
     for (const article of articles) {
-        const ourSlug = slugify(article.title);
-        const prior = ourSlugUsage.get(ourSlug);
-        if (prior) {
-            throw new Error(`slug collision: "${article.title}" and "${prior}" both normalize to "${ourSlug}"`);
+        const base = slugify(article.title);
+        let ourSlug = base;
+        if (ourSlugUsage.has(ourSlug)) {
+            let counter = 2;
+            while (ourSlugUsage.has(`${base}-${counter}`)) counter++;
+            ourSlug = `${base}-${counter}`;
+            console.warn(`     ⚠ slug collision: "${article.title}" — disambiguated to "${ourSlug}" (other holder: "${ourSlugUsage.get(base)}")`);
         }
         ourSlugUsage.set(ourSlug, article.title);
         slugMap.set(article.slug, ourSlug);
@@ -317,7 +321,7 @@ async function main(): Promise<void> {
         imported++;
     }
 
-    await writeFile(MAPPING_PATH, `${JSON.stringify(mapping, null, 2)}\n`, 'utf-8');
+    await writeFile(MAPPING_PATH, `${JSON.stringify(mapping, null, 4)}\n`, 'utf-8');
 
     console.log(`\nDone. ${imported} imported, ${skipped} skipped.`);
     console.log(`Mapping written: ${MAPPING_PATH.replace(`${REPO_ROOT}/`, '')}`);
