@@ -13,6 +13,7 @@ export default antfu({
         '**/*.yaml',
         '**/migrations/*',
         '**/fixtures/*',
+        '.claude/**/*.local.json',
         'README.md',
     ],
     stylistic: {
