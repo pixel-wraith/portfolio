@@ -27,3 +27,7 @@ test-results
 
 # Sentry Config File
 .env.sentry-build-plugin
+
+# Transient images downloaded by scripts/import-from-devto.ts
+# These get uploaded to R2 (see image-uploads.json) and are not stored in the repo.
+src/lib/assets/images/blog/
