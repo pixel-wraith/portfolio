@@ -20,7 +20,7 @@
             <div class="post-card-image">
                 <img
                     src={post.cover}
-                    alt={post.title}
+                    alt=""
                 />
             </div>
         {/if}
