@@ -1,13 +1,18 @@
+import { error } from '@sveltejs/kit';
+import { getAllPosts } from '$lib/posts/loader';
+
 import type { EntryGenerator, PageServerLoad } from './$types';
 
-import { getAllPosts } from '$lib/posts/loader';
-import { error } from '@sveltejs/kit';
+const { totalPages } = getAllPosts({ page: 1 });
+const hasExtraPages = totalPages > 1;
 
-export const prerender = true;
+// Only prerender when pages 2+ actually exist; otherwise SvelteKit errors
+// on "prerenderable route with no entries". When there are no extra pages,
+// the route falls back to SSR and the load function 404s any request.
+export const prerender = hasExtraPages;
 
 export const entries: EntryGenerator = () => {
-    const { totalPages } = getAllPosts({ page: 1 });
-    if (totalPages <= 1) {
+    if (!hasExtraPages) {
         return [];
     }
 
