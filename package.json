@@ -23,6 +23,7 @@
         "dayjs": "^1.11.19",
         "marked": "^17.0.3",
         "shiki": "^4.0.2",
+        "yaml": "^2.9.0",
         "zod": "^4.3.6"
     },
     "devDependencies": {
