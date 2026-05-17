@@ -168,11 +168,6 @@
 		flex-direction: column;
 		gap: 1rem;
 
-		& .img-container {
-			display: flex;
-			justify-content: center;
-		}
-
 		@media (min-width: 500px) {
 			flex-direction: row;
 			gap: 0.5rem;
