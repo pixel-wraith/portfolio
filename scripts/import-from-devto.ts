@@ -11,7 +11,7 @@
 import { Buffer } from 'node:buffer';
 import { existsSync, readFileSync } from 'node:fs';
 import { mkdir, readdir, readFile, writeFile } from 'node:fs/promises';
-import { dirname, extname, resolve } from 'node:path';
+import { dirname, extname, relative, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 import { slugify } from '../src/lib/posts/slugify.ts';
@@ -141,6 +141,10 @@ async function downloadImage(url: string, destBase: string): Promise<string> {
         const res = await fetch(url, { signal: controller.signal });
         if (!res.ok)
             throw new Error(`HTTP ${res.status}`);
+        // Two-layer guard: the Content-Length check rejects oversized images
+        // before reading the body when the server advertises a length.
+        // Servers that omit the header (chunked transfer, CDN proxies) bypass
+        // this layer; the post-download buffer.length check catches them.
         const contentLength = Number(res.headers.get('content-length') ?? 0);
         if (contentLength > MAX_IMAGE_BYTES) {
             throw new Error(`image is ${contentLength} bytes, exceeds ${MAX_IMAGE_BYTES} limit`);
@@ -243,7 +247,10 @@ async function main(): Promise<void> {
     }
 
     function rewriteInternalLinks(body: string): string {
-        return body.replace(/https:\/\/dev\.to\/wraith\/([a-z0-9-]+)/g, (match, devSlug: string) => {
+        // The negative lookahead skips non-article paths on the same handle
+        // (e.g. https://dev.to/wraith/series/24431) so we don't treat
+        // 'series' as a candidate slug.
+        return body.replace(/https:\/\/dev\.to\/wraith\/(?!series\/)([a-z0-9-]+)/g, (match, devSlug: string) => {
             const ourSlug = slugMap.get(devSlug);
             return ourSlug ? `/blog/${ourSlug}` : match;
         });
@@ -274,7 +281,7 @@ async function main(): Promise<void> {
         if (article.cover_image) {
             try {
                 const destPath = await downloadImage(article.cover_image, resolve(IMAGES_DIR, `${slug}-cover`));
-                const localPath = destPath.replace(`${REPO_ROOT}/`, '');
+                const localPath = relative(REPO_ROOT, destPath);
                 coverEntry = { originalUrl: article.cover_image, localPath, r2Url: null };
                 console.log(`     ✓ cover → ${localPath}`);
             } catch (err) {
@@ -292,7 +299,7 @@ async function main(): Promise<void> {
             const idx = String(j + 1).padStart(2, '0');
             try {
                 const destPath = await downloadImage(url, resolve(IMAGES_DIR, `${slug}-img-${idx}`));
-                const localPath = destPath.replace(`${REPO_ROOT}/`, '');
+                const localPath = relative(REPO_ROOT, destPath);
                 bodyEntries.push({ originalUrl: url, localPath, r2Url: null });
                 console.log(`     ✓ body img ${idx} → ${localPath}`);
             } catch (err) {
@@ -324,7 +331,7 @@ async function main(): Promise<void> {
     await writeFile(MAPPING_PATH, `${JSON.stringify(mapping, null, 4)}\n`, 'utf-8');
 
     console.log(`\nDone. ${imported} imported, ${skipped} skipped.`);
-    console.log(`Mapping written: ${MAPPING_PATH.replace(`${REPO_ROOT}/`, '')}`);
+    console.log(`Mapping written: ${relative(REPO_ROOT, MAPPING_PATH)}`);
     if (downloadFailures.length > 0) {
         console.warn(`\n${downloadFailures.length} image download failure(s):`);
         for (const f of downloadFailures) {
