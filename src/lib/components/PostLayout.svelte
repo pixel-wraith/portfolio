@@ -57,7 +57,7 @@
         {#if post.tags.length > 0}
             <div class="post-tags">
                 {#each post.tags as tag}
-                    <span class="post-tag">{tag}</span>
+                    <div>{tag}</div>
                 {/each}
             </div>
         {/if}
@@ -134,17 +134,30 @@
 
         & .post-tags {
             display: flex;
-            flex-wrap: wrap;
+            flex-direction: row;
             justify-content: center;
+            flex-wrap: wrap;
             gap: 0.5rem;
             margin-top: 1rem;
 
-            & .post-tag {
+            & div {
                 padding: 0.25rem 0.5rem;
                 background: var(--neutral-900);
                 color: var(--neutral-100);
                 font-size: 0.75rem;
                 line-height: 0.9rem;
+            }
+
+            & div:nth-child(1n) {
+                transform: rotate(-3deg);
+            }
+
+            & div:nth-child(2n) {
+                transform: rotate(-1deg);
+            }
+
+            & div:nth-child(3n) {
+                transform: rotate(2deg);
             }
         }
 
