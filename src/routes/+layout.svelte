@@ -237,10 +237,6 @@
             &.right {
                 justify-content: flex-end;
                 align-items: flex-start;
-
-                & a {
-                    line-height: 1.1rem;
-                }
             }
 
             &.left {
