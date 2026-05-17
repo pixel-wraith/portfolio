@@ -68,7 +68,7 @@ Body.`;
 
 Body text.`;
 
-        expect(() => parseFrontmatter(raw)).toThrow();
+        expect(() => parseFrontmatter(raw)).toThrow(/missing or unterminated frontmatter/);
     });
 
     it('throws when the frontmatter block is unterminated', () => {
@@ -76,7 +76,7 @@ Body text.`;
 title: Hello
 description: still going...`;
 
-        expect(() => parseFrontmatter(raw)).toThrow();
+        expect(() => parseFrontmatter(raw)).toThrow(/missing or unterminated frontmatter/);
     });
 
     it('throws when required frontmatter fields are missing', () => {
@@ -85,7 +85,7 @@ title: Hello
 ---
 Body.`;
 
-        expect(() => parseFrontmatter(raw)).toThrow();
+        expect(() => parseFrontmatter(raw)).toThrow(/does not match schema/);
     });
 
     it('throws when the frontmatter is not valid YAML', () => {
@@ -96,6 +96,6 @@ description: still going...
 ---
 Body.`;
 
-        expect(() => parseFrontmatter(raw)).toThrow();
+        expect(() => parseFrontmatter(raw)).toThrow(/invalid YAML/);
     });
 });
