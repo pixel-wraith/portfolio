@@ -1,6 +1,7 @@
 import type { Post, PostMeta } from '$lib/schemas/post.schema';
 
 import type { IPaginated } from './paginate';
+
 import { parseFrontmatter } from './frontmatter';
 import { paginate } from './paginate';
 import { readingTimeMinutes } from './reading-time';

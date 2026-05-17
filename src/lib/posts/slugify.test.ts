@@ -20,7 +20,7 @@ describe('slugify', () => {
     });
 
     it('strips apostrophes without creating extra hyphens', () => {
-        expect(slugify("Don't Panic")).toBe('dont-panic');
+        expect(slugify('Don\'t Panic')).toBe('dont-panic');
         expect(slugify('Don’t Panic')).toBe('dont-panic');
     });
 

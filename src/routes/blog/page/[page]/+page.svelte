@@ -1,6 +1,7 @@
 <script lang="ts">
     import type { IPaginated } from "$lib/posts/paginate";
     import type { PostMeta } from "$lib/schemas/post.schema";
+
     import { page as currentPage } from '$app/state';
     import PostList from "$lib/components/PostList.svelte";
 

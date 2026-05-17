@@ -1,6 +1,6 @@
-import type { PageServerLoad } from './$types';
-
 import { getAllPosts } from '$lib/posts/loader';
+
+import type { PageServerLoad } from './$types';
 
 export const prerender = true;
 

@@ -1,5 +1,6 @@
 <script lang="ts">
     import type { PostMeta } from "$lib/schemas/post.schema";
+
     import dayjs from "dayjs";
 
     interface IPostCardProps {

@@ -1,5 +1,6 @@
 <script lang="ts">
     import type { IPostBySlugResult } from "$lib/posts/loader";
+
     import PostLayout from "$lib/components/PostLayout.svelte";
 
     interface IPostPageProps {

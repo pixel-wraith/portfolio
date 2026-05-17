@@ -1,6 +1,7 @@
 <script lang="ts">
-    import PostCard from "$lib/components/PostCard.svelte";
     import type { PostMeta } from "$lib/schemas/post.schema";
+
+    import PostCard from "$lib/components/PostCard.svelte";
 
     interface IPostListProps {
         posts: PostMeta[];

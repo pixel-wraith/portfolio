@@ -1,7 +1,7 @@
-import type { EntryGenerator, PageServerLoad } from './$types';
-
-import { getAllSlugs, getPostBySlug } from '$lib/posts/loader';
 import { error } from '@sveltejs/kit';
+import { getAllSlugs, getPostBySlug } from '$lib/posts/loader';
+
+import type { EntryGenerator, PageServerLoad } from './$types';
 
 export const prerender = true;
 
