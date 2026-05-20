@@ -3,7 +3,7 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fc9tnbvcwfisb3i3dfq34.jpg",
             "localPath": "src/lib/assets/images/blog/start-with-a-gravel-road-why-mvps-beat-12-lane-highways-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/start-with-a-gravel-road-why-mvps-beat-12-lane-highways-cover-1600.webp"
         },
         "body": []
     },
@@ -11,7 +11,7 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fnbkd1e4wwp6ai8w4gyj6.png",
             "localPath": "src/lib/assets/images/blog/productivity-unlocked-your-guide-to-daily-inbox-processing-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/productivity-unlocked-your-guide-to-daily-inbox-processing-cover-1600.webp"
         },
         "body": []
     },
@@ -19,7 +19,7 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fe5so2nermyx1tawrq9z3.png",
             "localPath": "src/lib/assets/images/blog/the-hallmark-of-great-developers-writing-simple-code-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/the-hallmark-of-great-developers-writing-simple-code-cover-1600.webp"
         },
         "body": []
     },
@@ -27,7 +27,7 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Frliu4yth1xg1xeixnjfr.png",
             "localPath": "src/lib/assets/images/blog/ditch-the-clutter-why-you-need-an-inbox-for-your-brain-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/ditch-the-clutter-why-you-need-an-inbox-for-your-brain-cover-1600.webp"
         },
         "body": []
     },
@@ -35,7 +35,7 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F3ue0cvb7y9cwb424gzux.png",
             "localPath": "src/lib/assets/images/blog/embracing-change-the-real-skill-every-software-engineer-needs-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/embracing-change-the-real-skill-every-software-engineer-needs-cover-1600.webp"
         },
         "body": []
     },
@@ -43,7 +43,7 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fq3f05vbyqh05wdeg6y4b.png",
             "localPath": "src/lib/assets/images/blog/the-roadmap-to-real-impact-goal-setting-for-productivity-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/the-roadmap-to-real-impact-goal-setting-for-productivity-cover-1600.webp"
         },
         "body": []
     },
@@ -51,7 +51,7 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fldtmrts3ylyo3sw34wup.png",
             "localPath": "src/lib/assets/images/blog/beyond-the-bare-minimum-how-software-engineers-can-truly-stand-out-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/beyond-the-bare-minimum-how-software-engineers-can-truly-stand-out-cover-1600.webp"
         },
         "body": []
     },
@@ -59,7 +59,7 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fvuiz7c6fytxr2tqw41w4.png",
             "localPath": "src/lib/assets/images/blog/busy-vs-productive-why-prioritization-is-the-real-game-changer-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/busy-vs-productive-why-prioritization-is-the-real-game-changer-cover-1600.webp"
         },
         "body": []
     },
@@ -67,13 +67,13 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F6rfu81hg11pmdcajnepy.png",
             "localPath": "src/lib/assets/images/blog/the-uncomfortable-truth-youll-always-feel-behind-in-software-development-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/the-uncomfortable-truth-youll-always-feel-behind-in-software-development-cover-1600.webp"
         },
         "body": [
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/e45749psf6q31d9u6buu.gif",
                 "localPath": "src/lib/assets/images/blog/the-uncomfortable-truth-youll-always-feel-behind-in-software-development-img-01.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/the-uncomfortable-truth-youll-always-feel-behind-in-software-development-img-01.gif"
             }
         ]
     },
@@ -81,7 +81,7 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fqg2gobrjr8nwuimor9i2.png",
             "localPath": "src/lib/assets/images/blog/mastering-your-week-the-power-of-a-weekly-review-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/mastering-your-week-the-power-of-a-weekly-review-cover-1600.webp"
         },
         "body": []
     },
@@ -89,7 +89,7 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fgz15ohktw5dkkt0494xl.png",
             "localPath": "src/lib/assets/images/blog/translating-tech-their-understanding-is-up-to-you-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/translating-tech-their-understanding-is-up-to-you-cover-1600.webp"
         },
         "body": []
     },
@@ -97,7 +97,7 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fmb78h7u7uweyb73dwfrr.png",
             "localPath": "src/lib/assets/images/blog/the-art-of-context-a-game-changing-approach-to-task-management-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/the-art-of-context-a-game-changing-approach-to-task-management-cover-1600.webp"
         },
         "body": []
     },
@@ -105,7 +105,7 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fsog80vvfmdfe08bjedd2.png",
             "localPath": "src/lib/assets/images/blog/beyond-the-code-what-it-means-to-be-a-software-engineer-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/beyond-the-code-what-it-means-to-be-a-software-engineer-cover-1600.webp"
         },
         "body": []
     },
@@ -113,7 +113,7 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fpmogosop7g09m6rkhfrn.png",
             "localPath": "src/lib/assets/images/blog/transforming-procrastination-into-progress-a-practical-approach-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/transforming-procrastination-into-progress-a-practical-approach-cover-1600.webp"
         },
         "body": []
     },
@@ -121,7 +121,7 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fevhfgkgcy7a1sbo2dvwz.png",
             "localPath": "src/lib/assets/images/blog/think-before-you-code-the-art-of-understanding-problems-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/think-before-you-code-the-art-of-understanding-problems-cover-1600.webp"
         },
         "body": []
     },
@@ -129,7 +129,7 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fx49wiebpuft5fetwmeo7.jpg",
             "localPath": "src/lib/assets/images/blog/think-before-you-code-the-art-of-understanding-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/think-before-you-code-the-art-of-understanding-cover-1600.webp"
         },
         "body": []
     },
@@ -137,7 +137,7 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fc75mcif89pp76etsbdv7.png",
             "localPath": "src/lib/assets/images/blog/double-your-output-the-secrets-of-action-stacking-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/double-your-output-the-secrets-of-action-stacking-cover-1600.webp"
         },
         "body": []
     },
@@ -145,7 +145,7 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fos5af58fad8mc9qf5fa5.png",
             "localPath": "src/lib/assets/images/blog/accessibility-no-more-excuses-its-time-to-step-up-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/accessibility-no-more-excuses-its-time-to-step-up-cover-1600.webp"
         },
         "body": []
     },
@@ -153,7 +153,7 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F97imcp775qnc97b4izcl.png",
             "localPath": "src/lib/assets/images/blog/building-for-users-the-real-purpose-of-software-development-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/building-for-users-the-real-purpose-of-software-development-cover-1600.webp"
         },
         "body": []
     },
@@ -161,7 +161,7 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Frqycsm1rkbqsmrb7k3bf.png",
             "localPath": "src/lib/assets/images/blog/productivity-unlocked-the-two-minute-rule-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/productivity-unlocked-the-two-minute-rule-cover-1600.webp"
         },
         "body": []
     },
@@ -169,7 +169,7 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fnhwvq0x39ln88hpqwqd3.png",
             "localPath": "src/lib/assets/images/blog/the-time-trap-how-much-are-you-losing-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/the-time-trap-how-much-are-you-losing-cover-1600.webp"
         },
         "body": []
     },
@@ -181,13 +181,13 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fj6q8r5ahty9pnlqioknv.png",
             "localPath": "src/lib/assets/images/blog/micro-moments-macro-results-the-art-of-time-gap-optimization-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/micro-moments-macro-results-the-art-of-time-gap-optimization-cover-1600.webp"
         },
         "body": [
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/bsbtkoxp6tfkyqarvdkt.png",
                 "localPath": "src/lib/assets/images/blog/micro-moments-macro-results-the-art-of-time-gap-optimization-img-01.png",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/micro-moments-macro-results-the-art-of-time-gap-optimization-img-01-1600.webp"
             }
         ]
     },
@@ -195,13 +195,13 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fy4h0xjk1bnrltmsb4rek.png",
             "localPath": "src/lib/assets/images/blog/micro-moments-macro-results-the-art-of-time-gap-optimization-2-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/micro-moments-macro-results-the-art-of-time-gap-optimization-2-cover-1600.webp"
         },
         "body": [
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/bsbtkoxp6tfkyqarvdkt.png",
                 "localPath": "src/lib/assets/images/blog/micro-moments-macro-results-the-art-of-time-gap-optimization-2-img-01.png",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/micro-moments-macro-results-the-art-of-time-gap-optimization-2-img-01-1600.webp"
             }
         ]
     },
@@ -209,7 +209,7 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fvem0gabjxb114xhe1b23.png",
             "localPath": "src/lib/assets/images/blog/the-productivity-secret-hiding-in-plain-sight-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/the-productivity-secret-hiding-in-plain-sight-cover-1600.webp"
         },
         "body": []
     },
@@ -221,7 +221,7 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F5d79f6nnnil61i8045l1.png",
             "localPath": "src/lib/assets/images/blog/the-best-way-to-get-better-at-writing-code-is-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/the-best-way-to-get-better-at-writing-code-is-cover-1600.webp"
         },
         "body": []
     },
@@ -229,13 +229,13 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fvrseces093wfgkmxm4jm.png",
             "localPath": "src/lib/assets/images/blog/why-do-we-need-clean-code-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/why-do-we-need-clean-code-cover-1600.webp"
         },
         "body": [
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kpivnq4cpa8us8q3n15j.png",
                 "localPath": "src/lib/assets/images/blog/why-do-we-need-clean-code-img-01.png",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/why-do-we-need-clean-code-img-01-1600.webp"
             }
         ]
     },
@@ -243,7 +243,7 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fxxunrauaicqxurcma3qq.png",
             "localPath": "src/lib/assets/images/blog/write-it-down-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/write-it-down-cover-1600.webp"
         },
         "body": []
     },
@@ -251,7 +251,7 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fohekzox5ehava5cl55zp.png",
             "localPath": "src/lib/assets/images/blog/what-are-your-geniuses-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/what-are-your-geniuses-cover-1600.webp"
         },
         "body": []
     },
@@ -259,23 +259,23 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fxijfbxqe8c4vtw0hwjjs.png",
             "localPath": "src/lib/assets/images/blog/time-saving-tip-2-user-snippets-in-vscode-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/time-saving-tip-2-user-snippets-in-vscode-cover-1600.webp"
         },
         "body": [
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/j41i7zabra7d6imhbz2j.png",
                 "localPath": "src/lib/assets/images/blog/time-saving-tip-2-user-snippets-in-vscode-img-01.png",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/time-saving-tip-2-user-snippets-in-vscode-img-01-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/96f0fkq0pd7g8wpf97s2.png",
                 "localPath": "src/lib/assets/images/blog/time-saving-tip-2-user-snippets-in-vscode-img-02.png",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/time-saving-tip-2-user-snippets-in-vscode-img-02-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/exp4wp7crhk32khk0a5p.gif",
                 "localPath": "src/lib/assets/images/blog/time-saving-tip-2-user-snippets-in-vscode-img-03.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/time-saving-tip-2-user-snippets-in-vscode-img-03.gif"
             }
         ]
     },
@@ -283,23 +283,23 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8r1dvujaqbb9kh3m6ds4.jpg",
             "localPath": "src/lib/assets/images/blog/my-3-rules-for-documenting-code-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/my-3-rules-for-documenting-code-cover-1600.webp"
         },
         "body": [
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/uj8crlt54k76jri1b0f7.png",
                 "localPath": "src/lib/assets/images/blog/my-3-rules-for-documenting-code-img-01.png",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/my-3-rules-for-documenting-code-img-01-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/pomudgtas0bt8drlh3wc.png",
                 "localPath": "src/lib/assets/images/blog/my-3-rules-for-documenting-code-img-02.png",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/my-3-rules-for-documenting-code-img-02-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/h651uhmvlp6njrs2f3nq.png",
                 "localPath": "src/lib/assets/images/blog/my-3-rules-for-documenting-code-img-03.png",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/my-3-rules-for-documenting-code-img-03-1600.webp"
             }
         ]
     },
@@ -307,7 +307,7 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9ffpvy652vdmsipby8na.jpg",
             "localPath": "src/lib/assets/images/blog/time-saving-tip-1-use-voice-dictation-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/time-saving-tip-1-use-voice-dictation-cover-1600.webp"
         },
         "body": []
     },
@@ -315,7 +315,7 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fc4f02sbvmhuqvjgyd7om.jpg",
             "localPath": "src/lib/assets/images/blog/coding-tip-1-stop-using-static-strings-so-much-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/coding-tip-1-stop-using-static-strings-so-much-cover-1600.webp"
         },
         "body": []
     },
@@ -323,28 +323,28 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F7ws0irbg0c2ndpj0mvyz.jpg",
             "localPath": "src/lib/assets/images/blog/4-pitfalls-to-watch-out-for-as-a-developer-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/4-pitfalls-to-watch-out-for-as-a-developer-cover-1600.webp"
         },
         "body": [
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/17ax4lsmys1xfnxo8g2y.jpg",
                 "localPath": "src/lib/assets/images/blog/4-pitfalls-to-watch-out-for-as-a-developer-img-01.jpg",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/4-pitfalls-to-watch-out-for-as-a-developer-img-01-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/lo9dndwu1jl8fvgcdrxx.jpg",
                 "localPath": "src/lib/assets/images/blog/4-pitfalls-to-watch-out-for-as-a-developer-img-02.jpg",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/4-pitfalls-to-watch-out-for-as-a-developer-img-02-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/x1s91su37fbgi35e4h8l.jpg",
                 "localPath": "src/lib/assets/images/blog/4-pitfalls-to-watch-out-for-as-a-developer-img-03.jpg",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/4-pitfalls-to-watch-out-for-as-a-developer-img-03-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/67h4eytfa7ui527dqcz8.jpg",
                 "localPath": "src/lib/assets/images/blog/4-pitfalls-to-watch-out-for-as-a-developer-img-04.jpg",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/4-pitfalls-to-watch-out-for-as-a-developer-img-04-1600.webp"
             }
         ]
     },
@@ -352,18 +352,18 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fjdl0v5colsqxx4m4tugd.png",
             "localPath": "src/lib/assets/images/blog/a-halloween-horror-story-the-missing-cta-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/a-halloween-horror-story-the-missing-cta-cover-1600.webp"
         },
         "body": [
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7upbj2pmywoudkjkcdnu.gif",
                 "localPath": "src/lib/assets/images/blog/a-halloween-horror-story-the-missing-cta-img-01.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/a-halloween-horror-story-the-missing-cta-img-01.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/llrnuomt0jdfa155jj41.gif",
                 "localPath": "src/lib/assets/images/blog/a-halloween-horror-story-the-missing-cta-img-02.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/a-halloween-horror-story-the-missing-cta-img-02.gif"
             }
         ]
     },
@@ -371,38 +371,38 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Flg8mq1gcbow09exkbl8e.jpg",
             "localPath": "src/lib/assets/images/blog/so-you-want-to-be-a-better-developer-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/so-you-want-to-be-a-better-developer-cover-1600.webp"
         },
         "body": [
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/lec56qpvndwjzpq4wvgi.jpg",
                 "localPath": "src/lib/assets/images/blog/so-you-want-to-be-a-better-developer-img-01.jpg",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/so-you-want-to-be-a-better-developer-img-01-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kskesl3k5w2y371lv2mq.jpg",
                 "localPath": "src/lib/assets/images/blog/so-you-want-to-be-a-better-developer-img-02.jpg",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/so-you-want-to-be-a-better-developer-img-02-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9u1qo9seq1ffz2mtacez.jpg",
                 "localPath": "src/lib/assets/images/blog/so-you-want-to-be-a-better-developer-img-03.jpg",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/so-you-want-to-be-a-better-developer-img-03-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/muyw9psdy2dj01rddyhu.jpg",
                 "localPath": "src/lib/assets/images/blog/so-you-want-to-be-a-better-developer-img-04.jpg",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/so-you-want-to-be-a-better-developer-img-04-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fhbq6a1h96sfzgihmlzs.jpg",
                 "localPath": "src/lib/assets/images/blog/so-you-want-to-be-a-better-developer-img-05.jpg",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/so-you-want-to-be-a-better-developer-img-05-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/n0ekcligiudd0a1c36yb.jpg",
                 "localPath": "src/lib/assets/images/blog/so-you-want-to-be-a-better-developer-img-06.jpg",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/so-you-want-to-be-a-better-developer-img-06-1600.webp"
             }
         ]
     },
@@ -410,48 +410,48 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fouflzi1kmql5zmwbro87.jpg",
             "localPath": "src/lib/assets/images/blog/my-8-tips-for-a-better-life-as-a-developer-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/my-8-tips-for-a-better-life-as-a-developer-cover-1600.webp"
         },
         "body": [
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/shosztzzfmpjuf7ksr5c.jpg",
                 "localPath": "src/lib/assets/images/blog/my-8-tips-for-a-better-life-as-a-developer-img-01.jpg",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/my-8-tips-for-a-better-life-as-a-developer-img-01-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7knnfnk29bpe02gibac4.png",
                 "localPath": "src/lib/assets/images/blog/my-8-tips-for-a-better-life-as-a-developer-img-02.png",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/my-8-tips-for-a-better-life-as-a-developer-img-02-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/clgqlfokffwpu57wnkr9.png",
                 "localPath": "src/lib/assets/images/blog/my-8-tips-for-a-better-life-as-a-developer-img-03.png",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/my-8-tips-for-a-better-life-as-a-developer-img-03-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vcsabk75mtb2o8dlwbt3.jpg",
                 "localPath": "src/lib/assets/images/blog/my-8-tips-for-a-better-life-as-a-developer-img-04.jpg",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/my-8-tips-for-a-better-life-as-a-developer-img-04-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/42zs3m4tlzbcilh338nd.png",
                 "localPath": "src/lib/assets/images/blog/my-8-tips-for-a-better-life-as-a-developer-img-05.png",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/my-8-tips-for-a-better-life-as-a-developer-img-05-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/13x844h65h98y6c78bsk.png",
                 "localPath": "src/lib/assets/images/blog/my-8-tips-for-a-better-life-as-a-developer-img-06.png",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/my-8-tips-for-a-better-life-as-a-developer-img-06-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/jf7cy31tmzjjfz9wz2cn.png",
                 "localPath": "src/lib/assets/images/blog/my-8-tips-for-a-better-life-as-a-developer-img-07.png",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/my-8-tips-for-a-better-life-as-a-developer-img-07-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/yeqff10xv6ej22xk22w8.jpg",
                 "localPath": "src/lib/assets/images/blog/my-8-tips-for-a-better-life-as-a-developer-img-08.jpg",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/my-8-tips-for-a-better-life-as-a-developer-img-08-1600.webp"
             }
         ]
     },
@@ -459,38 +459,38 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fqp1tngepmxxsiko0bypr.jpg",
             "localPath": "src/lib/assets/images/blog/being-a-new-hire-is-a-super-power-dont-waste-it-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/being-a-new-hire-is-a-super-power-dont-waste-it-cover-1600.webp"
         },
         "body": [
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9vb1qukw1225nz2wuw1c.png",
                 "localPath": "src/lib/assets/images/blog/being-a-new-hire-is-a-super-power-dont-waste-it-img-01.png",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/being-a-new-hire-is-a-super-power-dont-waste-it-img-01-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/iyqnsnav4enwlt2ldxks.jpg",
                 "localPath": "src/lib/assets/images/blog/being-a-new-hire-is-a-super-power-dont-waste-it-img-02.jpg",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/being-a-new-hire-is-a-super-power-dont-waste-it-img-02-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/bopyc7if30qrpni7gndl.jpg",
                 "localPath": "src/lib/assets/images/blog/being-a-new-hire-is-a-super-power-dont-waste-it-img-03.jpg",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/being-a-new-hire-is-a-super-power-dont-waste-it-img-03-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rwebttc4i70c6qwje6rg.png",
                 "localPath": "src/lib/assets/images/blog/being-a-new-hire-is-a-super-power-dont-waste-it-img-04.png",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/being-a-new-hire-is-a-super-power-dont-waste-it-img-04-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/sf9ur7z4connxxq5h6nl.png",
                 "localPath": "src/lib/assets/images/blog/being-a-new-hire-is-a-super-power-dont-waste-it-img-05.png",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/being-a-new-hire-is-a-super-power-dont-waste-it-img-05-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/f3kx8887z56yu03hhpqo.png",
                 "localPath": "src/lib/assets/images/blog/being-a-new-hire-is-a-super-power-dont-waste-it-img-06.png",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/being-a-new-hire-is-a-super-power-dont-waste-it-img-06-1600.webp"
             }
         ]
     },
@@ -498,58 +498,58 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fqusn6m3kwvrh721j1u9n.jpg",
             "localPath": "src/lib/assets/images/blog/exposure-in-the-workplace-vs-code-extensions-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/exposure-in-the-workplace-vs-code-extensions-cover-1600.webp"
         },
         "body": [
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hfmwxlyjusjjwkv9xpqt.gif",
                 "localPath": "src/lib/assets/images/blog/exposure-in-the-workplace-vs-code-extensions-img-01.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/exposure-in-the-workplace-vs-code-extensions-img-01.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/uk73x7hl39q5otzxjz0j.png",
                 "localPath": "src/lib/assets/images/blog/exposure-in-the-workplace-vs-code-extensions-img-02.png",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/exposure-in-the-workplace-vs-code-extensions-img-02-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nqsdot4rpudhf6771g21.gif",
                 "localPath": "src/lib/assets/images/blog/exposure-in-the-workplace-vs-code-extensions-img-03.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/exposure-in-the-workplace-vs-code-extensions-img-03.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vhpy3z3o9n8ejoqk9ez9.png",
                 "localPath": "src/lib/assets/images/blog/exposure-in-the-workplace-vs-code-extensions-img-04.png",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/exposure-in-the-workplace-vs-code-extensions-img-04-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/c8socv8cu4q8e7ywpyns.gif",
                 "localPath": "src/lib/assets/images/blog/exposure-in-the-workplace-vs-code-extensions-img-05.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/exposure-in-the-workplace-vs-code-extensions-img-05.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2ngwis5bxvocx9ad3hyx.png",
                 "localPath": "src/lib/assets/images/blog/exposure-in-the-workplace-vs-code-extensions-img-06.png",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/exposure-in-the-workplace-vs-code-extensions-img-06-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/t3xsybexh4rz2b9rxp2e.gif",
                 "localPath": "src/lib/assets/images/blog/exposure-in-the-workplace-vs-code-extensions-img-07.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/exposure-in-the-workplace-vs-code-extensions-img-07.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fafhf1u93o1l2b9z9cqh.png",
                 "localPath": "src/lib/assets/images/blog/exposure-in-the-workplace-vs-code-extensions-img-08.png",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/exposure-in-the-workplace-vs-code-extensions-img-08-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/j2r06q7w0mm5nhnwoo3q.gif",
                 "localPath": "src/lib/assets/images/blog/exposure-in-the-workplace-vs-code-extensions-img-09.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/exposure-in-the-workplace-vs-code-extensions-img-09.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/8dgjx95zkrtgqfzjf1cz.gif",
                 "localPath": "src/lib/assets/images/blog/exposure-in-the-workplace-vs-code-extensions-img-10.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/exposure-in-the-workplace-vs-code-extensions-img-10.gif"
             }
         ]
     },
@@ -557,43 +557,43 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F50ad47co4keifr91ql2r.jpg",
             "localPath": "src/lib/assets/images/blog/my-favorite-interview-questions-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/my-favorite-interview-questions-cover-1600.webp"
         },
         "body": [
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/umzx725lhb7qcgksq4je.gif",
                 "localPath": "src/lib/assets/images/blog/my-favorite-interview-questions-img-01.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/my-favorite-interview-questions-img-01.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/x2d4hfdwhgcvlhigahmo.gif",
                 "localPath": "src/lib/assets/images/blog/my-favorite-interview-questions-img-02.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/my-favorite-interview-questions-img-02.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tseot3kjta8h60t5nbq8.gif",
                 "localPath": "src/lib/assets/images/blog/my-favorite-interview-questions-img-03.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/my-favorite-interview-questions-img-03.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/t12b3bsd5e0yagmwflhf.gif",
                 "localPath": "src/lib/assets/images/blog/my-favorite-interview-questions-img-04.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/my-favorite-interview-questions-img-04.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/r2unv6kvak1udv4yqp5o.gif",
                 "localPath": "src/lib/assets/images/blog/my-favorite-interview-questions-img-05.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/my-favorite-interview-questions-img-05.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/73btkxw8hl7bug3d8a5n.gif",
                 "localPath": "src/lib/assets/images/blog/my-favorite-interview-questions-img-06.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/my-favorite-interview-questions-img-06.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/e4as4vi9wpt5ob3yn2si.gif",
                 "localPath": "src/lib/assets/images/blog/my-favorite-interview-questions-img-07.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/my-favorite-interview-questions-img-07.gif"
             }
         ]
     },
@@ -601,68 +601,68 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F3qpiqj4yvsm93sopp8z0.jpg",
             "localPath": "src/lib/assets/images/blog/lets-talk-about-job-interviews-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/lets-talk-about-job-interviews-cover-1600.webp"
         },
         "body": [
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ezu5ehm4bypy96puholi.gif",
                 "localPath": "src/lib/assets/images/blog/lets-talk-about-job-interviews-img-01.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/lets-talk-about-job-interviews-img-01.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/h00de150dvmm2hgl8vi2.gif",
                 "localPath": "src/lib/assets/images/blog/lets-talk-about-job-interviews-img-02.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/lets-talk-about-job-interviews-img-02.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3d9eu5poby0ms5s2d6un.gif",
                 "localPath": "src/lib/assets/images/blog/lets-talk-about-job-interviews-img-03.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/lets-talk-about-job-interviews-img-03.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/lm9r24bvszs17aghjkpj.gif",
                 "localPath": "src/lib/assets/images/blog/lets-talk-about-job-interviews-img-04.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/lets-talk-about-job-interviews-img-04.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/w492mfas50xujrc6uj0l.gif",
                 "localPath": "src/lib/assets/images/blog/lets-talk-about-job-interviews-img-05.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/lets-talk-about-job-interviews-img-05.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4j931ejii6rzqhn1cq5d.gif",
                 "localPath": "src/lib/assets/images/blog/lets-talk-about-job-interviews-img-06.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/lets-talk-about-job-interviews-img-06.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rzoeneaz72pdcvdsg19i.gif",
                 "localPath": "src/lib/assets/images/blog/lets-talk-about-job-interviews-img-07.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/lets-talk-about-job-interviews-img-07.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/npaj7cb8biliw6ux960n.gif",
                 "localPath": "src/lib/assets/images/blog/lets-talk-about-job-interviews-img-08.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/lets-talk-about-job-interviews-img-08.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/g10z7e4xq4x1p53nqt0h.gif",
                 "localPath": "src/lib/assets/images/blog/lets-talk-about-job-interviews-img-09.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/lets-talk-about-job-interviews-img-09.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7t3hac40hfmy8mjhykv3.gif",
                 "localPath": "src/lib/assets/images/blog/lets-talk-about-job-interviews-img-10.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/lets-talk-about-job-interviews-img-10.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0wjv5t526tkplfelypll.gif",
                 "localPath": "src/lib/assets/images/blog/lets-talk-about-job-interviews-img-11.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/lets-talk-about-job-interviews-img-11.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/y8wg5v0snt1yo9iczq2z.gif",
                 "localPath": "src/lib/assets/images/blog/lets-talk-about-job-interviews-img-12.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/lets-talk-about-job-interviews-img-12.gif"
             }
         ]
     },
@@ -670,48 +670,48 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9ob75kc7ag00qlbdd95i.jpg",
             "localPath": "src/lib/assets/images/blog/exposure-in-the-workplace-pretzels-and-arrays-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/exposure-in-the-workplace-pretzels-and-arrays-cover-1600.webp"
         },
         "body": [
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ywgukjcezod8fzu0l4pc.gif",
                 "localPath": "src/lib/assets/images/blog/exposure-in-the-workplace-pretzels-and-arrays-img-01.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/exposure-in-the-workplace-pretzels-and-arrays-img-01.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/awha89w7v12x0c1vwaj1.gif",
                 "localPath": "src/lib/assets/images/blog/exposure-in-the-workplace-pretzels-and-arrays-img-02.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/exposure-in-the-workplace-pretzels-and-arrays-img-02.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ljdjeywybzhazhp5k9ld.gif",
                 "localPath": "src/lib/assets/images/blog/exposure-in-the-workplace-pretzels-and-arrays-img-03.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/exposure-in-the-workplace-pretzels-and-arrays-img-03.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nsf4ioj5w3hisj4nalul.gif",
                 "localPath": "src/lib/assets/images/blog/exposure-in-the-workplace-pretzels-and-arrays-img-04.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/exposure-in-the-workplace-pretzels-and-arrays-img-04.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fdp8w66x8terulqk78fc.gif",
                 "localPath": "src/lib/assets/images/blog/exposure-in-the-workplace-pretzels-and-arrays-img-05.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/exposure-in-the-workplace-pretzels-and-arrays-img-05.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0bko9qq696aro98404tj.gif",
                 "localPath": "src/lib/assets/images/blog/exposure-in-the-workplace-pretzels-and-arrays-img-06.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/exposure-in-the-workplace-pretzels-and-arrays-img-06.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/6lskgp3k51hs9jmtsbsa.gif",
                 "localPath": "src/lib/assets/images/blog/exposure-in-the-workplace-pretzels-and-arrays-img-07.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/exposure-in-the-workplace-pretzels-and-arrays-img-07.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/s7p18xqr0kbecalwxdw5.gif",
                 "localPath": "src/lib/assets/images/blog/exposure-in-the-workplace-pretzels-and-arrays-img-08.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/exposure-in-the-workplace-pretzels-and-arrays-img-08.gif"
             }
         ]
     },
@@ -719,48 +719,48 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Frl8ka4fvsaienhtyc0h2.jpg",
             "localPath": "src/lib/assets/images/blog/exposure-in-the-workplace-colors-containers-and-looking-up-the-tree-to-parents-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/exposure-in-the-workplace-colors-containers-and-looking-up-the-tree-to-parents-cover-1600.webp"
         },
         "body": [
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/zot5tf3bu1kodj43ocvh.gif",
                 "localPath": "src/lib/assets/images/blog/exposure-in-the-workplace-colors-containers-and-looking-up-the-tree-to-parents-img-01.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/exposure-in-the-workplace-colors-containers-and-looking-up-the-tree-to-parents-img-01.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0iogblu9jn0d31b7fldx.gif",
                 "localPath": "src/lib/assets/images/blog/exposure-in-the-workplace-colors-containers-and-looking-up-the-tree-to-parents-img-02.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/exposure-in-the-workplace-colors-containers-and-looking-up-the-tree-to-parents-img-02.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9k1gvtkfquoh801yeghq.png",
                 "localPath": "src/lib/assets/images/blog/exposure-in-the-workplace-colors-containers-and-looking-up-the-tree-to-parents-img-03.png",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/exposure-in-the-workplace-colors-containers-and-looking-up-the-tree-to-parents-img-03-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/k0garj8466f8h9xbfl8i.png",
                 "localPath": "src/lib/assets/images/blog/exposure-in-the-workplace-colors-containers-and-looking-up-the-tree-to-parents-img-04.png",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/exposure-in-the-workplace-colors-containers-and-looking-up-the-tree-to-parents-img-04-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/g0g9xkb4d291b7q9lj96.gif",
                 "localPath": "src/lib/assets/images/blog/exposure-in-the-workplace-colors-containers-and-looking-up-the-tree-to-parents-img-05.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/exposure-in-the-workplace-colors-containers-and-looking-up-the-tree-to-parents-img-05.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fzxciwyv36g1hlpfvk9c.gif",
                 "localPath": "src/lib/assets/images/blog/exposure-in-the-workplace-colors-containers-and-looking-up-the-tree-to-parents-img-06.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/exposure-in-the-workplace-colors-containers-and-looking-up-the-tree-to-parents-img-06.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/r08v07ok9qateyhv6hf0.gif",
                 "localPath": "src/lib/assets/images/blog/exposure-in-the-workplace-colors-containers-and-looking-up-the-tree-to-parents-img-07.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/exposure-in-the-workplace-colors-containers-and-looking-up-the-tree-to-parents-img-07.gif"
             },
             {
                 "originalUrl": "https://i.imgur.com/8Km9tLL.jpg",
                 "localPath": "src/lib/assets/images/blog/exposure-in-the-workplace-colors-containers-and-looking-up-the-tree-to-parents-img-08.jpg",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/exposure-in-the-workplace-colors-containers-and-looking-up-the-tree-to-parents-img-08-1600.webp"
             }
         ]
     },
@@ -768,38 +768,38 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fyructq7tn469a2or45ly.jpg",
             "localPath": "src/lib/assets/images/blog/i-made-a-boo-boo-filling-an-array-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/i-made-a-boo-boo-filling-an-array-cover-1600.webp"
         },
         "body": [
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/s1vab2dt84f2yeoqvaek.gif",
                 "localPath": "src/lib/assets/images/blog/i-made-a-boo-boo-filling-an-array-img-01.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/i-made-a-boo-boo-filling-an-array-img-01.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ipx0ka0yse6ftaqtq3qb.gif",
                 "localPath": "src/lib/assets/images/blog/i-made-a-boo-boo-filling-an-array-img-02.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/i-made-a-boo-boo-filling-an-array-img-02.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/uysbdevyp5monesc4n0s.gif",
                 "localPath": "src/lib/assets/images/blog/i-made-a-boo-boo-filling-an-array-img-03.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/i-made-a-boo-boo-filling-an-array-img-03.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/1cw2esxg4kqlrcx79iyo.gif",
                 "localPath": "src/lib/assets/images/blog/i-made-a-boo-boo-filling-an-array-img-04.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/i-made-a-boo-boo-filling-an-array-img-04.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vjifm94izvogchea066n.gif",
                 "localPath": "src/lib/assets/images/blog/i-made-a-boo-boo-filling-an-array-img-05.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/i-made-a-boo-boo-filling-an-array-img-05.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/90lvswas1fgsk8f2r96y.gif",
                 "localPath": "src/lib/assets/images/blog/i-made-a-boo-boo-filling-an-array-img-06.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/i-made-a-boo-boo-filling-an-array-img-06.gif"
             }
         ]
     },
@@ -807,43 +807,43 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fgr97vddrq9ii94d9x7ij.jpeg",
             "localPath": "src/lib/assets/images/blog/a-mobile-bugs-life-how-to-debug-web-apps-on-mobile-devices-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/a-mobile-bugs-life-how-to-debug-web-apps-on-mobile-devices-cover-1600.webp"
         },
         "body": [
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4xgakrtzgkuptsuyo61l.gif",
                 "localPath": "src/lib/assets/images/blog/a-mobile-bugs-life-how-to-debug-web-apps-on-mobile-devices-img-01.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/a-mobile-bugs-life-how-to-debug-web-apps-on-mobile-devices-img-01.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/j5kvlozqcjrg1u0t0qay.gif",
                 "localPath": "src/lib/assets/images/blog/a-mobile-bugs-life-how-to-debug-web-apps-on-mobile-devices-img-02.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/a-mobile-bugs-life-how-to-debug-web-apps-on-mobile-devices-img-02.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/78mityx6cs18bizju0a0.gif",
                 "localPath": "src/lib/assets/images/blog/a-mobile-bugs-life-how-to-debug-web-apps-on-mobile-devices-img-03.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/a-mobile-bugs-life-how-to-debug-web-apps-on-mobile-devices-img-03.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/bvurnqnzsjauxk5eh90u.gif",
                 "localPath": "src/lib/assets/images/blog/a-mobile-bugs-life-how-to-debug-web-apps-on-mobile-devices-img-04.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/a-mobile-bugs-life-how-to-debug-web-apps-on-mobile-devices-img-04.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nvwnsgln2gn6ywrzo4tc.gif",
                 "localPath": "src/lib/assets/images/blog/a-mobile-bugs-life-how-to-debug-web-apps-on-mobile-devices-img-05.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/a-mobile-bugs-life-how-to-debug-web-apps-on-mobile-devices-img-05.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3c2rczeuulwai7mok0pc.gif",
                 "localPath": "src/lib/assets/images/blog/a-mobile-bugs-life-how-to-debug-web-apps-on-mobile-devices-img-06.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/a-mobile-bugs-life-how-to-debug-web-apps-on-mobile-devices-img-06.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0668as49lafsvtr3lbrk.gif",
                 "localPath": "src/lib/assets/images/blog/a-mobile-bugs-life-how-to-debug-web-apps-on-mobile-devices-img-07.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/a-mobile-bugs-life-how-to-debug-web-apps-on-mobile-devices-img-07.gif"
             }
         ]
     },
@@ -851,53 +851,53 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9j0m5w3clph3sd9fx480.jpg",
             "localPath": "src/lib/assets/images/blog/the-tool-that-made-building-my-contact-form-painless-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/the-tool-that-made-building-my-contact-form-painless-cover-1600.webp"
         },
         "body": [
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/j47d9zg3843qtd58fzzz.gif",
                 "localPath": "src/lib/assets/images/blog/the-tool-that-made-building-my-contact-form-painless-img-01.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/the-tool-that-made-building-my-contact-form-painless-img-01.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/blltqti2rsyhsjrse253.png",
                 "localPath": "src/lib/assets/images/blog/the-tool-that-made-building-my-contact-form-painless-img-02.png",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/the-tool-that-made-building-my-contact-form-painless-img-02-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/oqdx9p9gf7mqp6ibc9po.png",
                 "localPath": "src/lib/assets/images/blog/the-tool-that-made-building-my-contact-form-painless-img-03.png",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/the-tool-that-made-building-my-contact-form-painless-img-03-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/oymieipy1fis0oaj5t45.gif",
                 "localPath": "src/lib/assets/images/blog/the-tool-that-made-building-my-contact-form-painless-img-04.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/the-tool-that-made-building-my-contact-form-painless-img-04.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/wi4bj9sl06h2gs7feeia.png",
                 "localPath": "src/lib/assets/images/blog/the-tool-that-made-building-my-contact-form-painless-img-05.png",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/the-tool-that-made-building-my-contact-form-painless-img-05-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/xj5cbdq2elrghgdugni5.png",
                 "localPath": "src/lib/assets/images/blog/the-tool-that-made-building-my-contact-form-painless-img-06.png",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/the-tool-that-made-building-my-contact-form-painless-img-06-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vaqc5imnh7l8h95x17g8.png",
                 "localPath": "src/lib/assets/images/blog/the-tool-that-made-building-my-contact-form-painless-img-07.png",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/the-tool-that-made-building-my-contact-form-painless-img-07-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/h8fwwkay97oomvghtvgf.png",
                 "localPath": "src/lib/assets/images/blog/the-tool-that-made-building-my-contact-form-painless-img-08.png",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/the-tool-that-made-building-my-contact-form-painless-img-08-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0r1btqaym0wmtwyry2us.gif",
                 "localPath": "src/lib/assets/images/blog/the-tool-that-made-building-my-contact-form-painless-img-09.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/the-tool-that-made-building-my-contact-form-painless-img-09.gif"
             }
         ]
     },
@@ -905,38 +905,38 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fcz99rjzgziuz2f1j83od.jpg",
             "localPath": "src/lib/assets/images/blog/attack-of-the-clones-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/attack-of-the-clones-cover-1600.webp"
         },
         "body": [
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/t0cds8oxesvp9v8bm8hx.gif",
                 "localPath": "src/lib/assets/images/blog/attack-of-the-clones-img-01.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/attack-of-the-clones-img-01.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/eix1hpg59kd9ftw5d6wu.jpg",
                 "localPath": "src/lib/assets/images/blog/attack-of-the-clones-img-02.jpg",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/attack-of-the-clones-img-02-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/yypyianb8h23r2ki3ls2.gif",
                 "localPath": "src/lib/assets/images/blog/attack-of-the-clones-img-03.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/attack-of-the-clones-img-03.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/49krfg3mz1kxrxk6citg.jpg",
                 "localPath": "src/lib/assets/images/blog/attack-of-the-clones-img-04.jpg",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/attack-of-the-clones-img-04-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9j460j8ce5001sjd563a.gif",
                 "localPath": "src/lib/assets/images/blog/attack-of-the-clones-img-05.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/attack-of-the-clones-img-05.gif"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/dmrjs185rrvpribhxcfv.gif",
                 "localPath": "src/lib/assets/images/blog/attack-of-the-clones-img-06.gif",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/attack-of-the-clones-img-06.gif"
             }
         ]
     },
@@ -944,38 +944,38 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F3edpm5mnelsshp9h64dz.jpg",
             "localPath": "src/lib/assets/images/blog/css-scoping-in-svelte-and-how-to-work-around-it-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/css-scoping-in-svelte-and-how-to-work-around-it-cover-1600.webp"
         },
         "body": [
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/f7v3wczy5jcpy6pa9xjv.png",
                 "localPath": "src/lib/assets/images/blog/css-scoping-in-svelte-and-how-to-work-around-it-img-01.png",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/css-scoping-in-svelte-and-how-to-work-around-it-img-01-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/m3fg1kkjab6otn3le0qi.png",
                 "localPath": "src/lib/assets/images/blog/css-scoping-in-svelte-and-how-to-work-around-it-img-02.png",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/css-scoping-in-svelte-and-how-to-work-around-it-img-02-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7b73j36fq3gaibk1g261.png",
                 "localPath": "src/lib/assets/images/blog/css-scoping-in-svelte-and-how-to-work-around-it-img-03.png",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/css-scoping-in-svelte-and-how-to-work-around-it-img-03-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/uj1hzzry2xg0xusvzelx.png",
                 "localPath": "src/lib/assets/images/blog/css-scoping-in-svelte-and-how-to-work-around-it-img-04.png",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/css-scoping-in-svelte-and-how-to-work-around-it-img-04-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ow6d4cu4vqokt8dwfpr8.png",
                 "localPath": "src/lib/assets/images/blog/css-scoping-in-svelte-and-how-to-work-around-it-img-05.png",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/css-scoping-in-svelte-and-how-to-work-around-it-img-05-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4dwmre4qd5caq3gweosu.png",
                 "localPath": "src/lib/assets/images/blog/css-scoping-in-svelte-and-how-to-work-around-it-img-06.png",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/css-scoping-in-svelte-and-how-to-work-around-it-img-06-1600.webp"
             }
         ]
     },
@@ -983,33 +983,33 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fcqicnacsfwn77047x7g6.jpg",
             "localPath": "src/lib/assets/images/blog/5-habits-to-increase-your-productivity-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/5-habits-to-increase-your-productivity-cover-1600.webp"
         },
         "body": [
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4jlw1rmiib020vxkxi9h.png",
                 "localPath": "src/lib/assets/images/blog/5-habits-to-increase-your-productivity-img-01.png",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/5-habits-to-increase-your-productivity-img-01-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/yktk882ooa6r34xf2crz.png",
                 "localPath": "src/lib/assets/images/blog/5-habits-to-increase-your-productivity-img-02.png",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/5-habits-to-increase-your-productivity-img-02-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vqkt57vfxew9jyf85jtm.png",
                 "localPath": "src/lib/assets/images/blog/5-habits-to-increase-your-productivity-img-03.png",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/5-habits-to-increase-your-productivity-img-03-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vsri2m14a9twtx9hg34w.png",
                 "localPath": "src/lib/assets/images/blog/5-habits-to-increase-your-productivity-img-04.png",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/5-habits-to-increase-your-productivity-img-04-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/x4yfsm37m87l4aimpe2u.png",
                 "localPath": "src/lib/assets/images/blog/5-habits-to-increase-your-productivity-img-05.png",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/5-habits-to-increase-your-productivity-img-05-1600.webp"
             }
         ]
     },
@@ -1017,63 +1017,63 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fvs8wn7q2bb2wjweebyps.jpg",
             "localPath": "src/lib/assets/images/blog/omg-so-many-tools-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/omg-so-many-tools-cover-1600.webp"
         },
         "body": [
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/sq4dre1eoe5g9z4347qi.jpg",
                 "localPath": "src/lib/assets/images/blog/omg-so-many-tools-img-01.jpg",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/omg-so-many-tools-img-01-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ead8lqig94wv1djyu1il.jpg",
                 "localPath": "src/lib/assets/images/blog/omg-so-many-tools-img-02.jpg",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/omg-so-many-tools-img-02-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2xxcxt2vun5v9mcqaicp.jpg",
                 "localPath": "src/lib/assets/images/blog/omg-so-many-tools-img-03.jpg",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/omg-so-many-tools-img-03-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7szp2hp6iazc014pqdwi.jpg",
                 "localPath": "src/lib/assets/images/blog/omg-so-many-tools-img-04.jpg",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/omg-so-many-tools-img-04-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4hmbteqaiccnht0f6zi6.jpg",
                 "localPath": "src/lib/assets/images/blog/omg-so-many-tools-img-05.jpg",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/omg-so-many-tools-img-05-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/dyof6151mqjfk39f6l63.jpg",
                 "localPath": "src/lib/assets/images/blog/omg-so-many-tools-img-06.jpg",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/omg-so-many-tools-img-06-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/i5kadog3rwt1rv04n38b.jpg",
                 "localPath": "src/lib/assets/images/blog/omg-so-many-tools-img-07.jpg",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/omg-so-many-tools-img-07-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/1nh98igtwlfc0umtmff6.jpg",
                 "localPath": "src/lib/assets/images/blog/omg-so-many-tools-img-08.jpg",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/omg-so-many-tools-img-08-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nxvi3t1q045p0uie9dkx.jpg",
                 "localPath": "src/lib/assets/images/blog/omg-so-many-tools-img-09.jpg",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/omg-so-many-tools-img-09-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/l3m70futyjqcstmd65gf.jpg",
                 "localPath": "src/lib/assets/images/blog/omg-so-many-tools-img-10.jpg",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/omg-so-many-tools-img-10-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/mj5p9degrzz76mss20qr.jpg",
                 "localPath": "src/lib/assets/images/blog/omg-so-many-tools-img-11.jpg",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/omg-so-many-tools-img-11-1600.webp"
             }
         ]
     },
@@ -1081,33 +1081,33 @@
         "cover": {
             "originalUrl": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fjbwcnzdfa4z2lry1k8f0.jpg",
             "localPath": "src/lib/assets/images/blog/the-curse-of-imposter-syndrome-and-how-to-overcome-it-cover.webp",
-            "r2Url": null
+            "r2Url": "https://images.wraithcode.io/2026-05/the-curse-of-imposter-syndrome-and-how-to-overcome-it-cover-1600.webp"
         },
         "body": [
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/e2cx5v8y7egleo46d0uv.jpg",
                 "localPath": "src/lib/assets/images/blog/the-curse-of-imposter-syndrome-and-how-to-overcome-it-img-01.jpg",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/the-curse-of-imposter-syndrome-and-how-to-overcome-it-img-01-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/riw2rmfee2dw9ipln4td.jpg",
                 "localPath": "src/lib/assets/images/blog/the-curse-of-imposter-syndrome-and-how-to-overcome-it-img-02.jpg",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/the-curse-of-imposter-syndrome-and-how-to-overcome-it-img-02-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3j11wjsdmtevkurcjiah.jpg",
                 "localPath": "src/lib/assets/images/blog/the-curse-of-imposter-syndrome-and-how-to-overcome-it-img-03.jpg",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/the-curse-of-imposter-syndrome-and-how-to-overcome-it-img-03-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rtmiqnej64z3gtjy9zad.jpg",
                 "localPath": "src/lib/assets/images/blog/the-curse-of-imposter-syndrome-and-how-to-overcome-it-img-04.jpg",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/the-curse-of-imposter-syndrome-and-how-to-overcome-it-img-04-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/27bwtfrwf6aee61ke2lb.png",
                 "localPath": "src/lib/assets/images/blog/the-curse-of-imposter-syndrome-and-how-to-overcome-it-img-05.png",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/the-curse-of-imposter-syndrome-and-how-to-overcome-it-img-05-1600.webp"
             }
         ]
     },
@@ -1117,42 +1117,42 @@
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/n6aojxqhemdg8bxdb76p.jpg",
                 "localPath": "src/lib/assets/images/blog/asking-for-development-help-the-right-way-img-01.jpg",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/asking-for-development-help-the-right-way-img-01-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/wa779a3dugk2c03zgehv.jpg",
                 "localPath": "src/lib/assets/images/blog/asking-for-development-help-the-right-way-img-02.jpg",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/asking-for-development-help-the-right-way-img-02-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/a49dg71lkwtykrlzuchb.jpg",
                 "localPath": "src/lib/assets/images/blog/asking-for-development-help-the-right-way-img-03.jpg",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/asking-for-development-help-the-right-way-img-03-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tyfye2fcu6msed6tiqq0.jpg",
                 "localPath": "src/lib/assets/images/blog/asking-for-development-help-the-right-way-img-04.jpg",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/asking-for-development-help-the-right-way-img-04-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7pbkla4t7cf6yacgvkvk.jpg",
                 "localPath": "src/lib/assets/images/blog/asking-for-development-help-the-right-way-img-05.jpg",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/asking-for-development-help-the-right-way-img-05-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/axo5hlqyr8zr93mwpd3y.jpg",
                 "localPath": "src/lib/assets/images/blog/asking-for-development-help-the-right-way-img-06.jpg",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/asking-for-development-help-the-right-way-img-06-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/spkt32hs6mel69llpx7m.jpg",
                 "localPath": "src/lib/assets/images/blog/asking-for-development-help-the-right-way-img-07.jpg",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/asking-for-development-help-the-right-way-img-07-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/dt3lcxy8wr2eik7xume7.jpg",
                 "localPath": "src/lib/assets/images/blog/asking-for-development-help-the-right-way-img-08.jpg",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/asking-for-development-help-the-right-way-img-08-1600.webp"
             }
         ]
     },
@@ -1162,17 +1162,17 @@
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/y6o1prinuqhamwqpqtd7.png",
                 "localPath": "src/lib/assets/images/blog/sharing-data-across-your-react-app-with-react-context-img-01.png",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/sharing-data-across-your-react-app-with-react-context-img-01-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/8dm53h6r8kxw46gilxp4.png",
                 "localPath": "src/lib/assets/images/blog/sharing-data-across-your-react-app-with-react-context-img-02.png",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/sharing-data-across-your-react-app-with-react-context-img-02-1600.webp"
             },
             {
                 "originalUrl": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/m80eomennrxdz8wosylb.png",
                 "localPath": "src/lib/assets/images/blog/sharing-data-across-your-react-app-with-react-context-img-03.png",
-                "r2Url": null
+                "r2Url": "https://images.wraithcode.io/2026-05/sharing-data-across-your-react-app-with-react-context-img-03-1600.webp"
             }
         ]
     }
