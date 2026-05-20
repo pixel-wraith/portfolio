@@ -15,7 +15,8 @@
         "test:unit": "vitest",
         "test": "npm run test:unit -- --run && npm run test:e2e",
         "test:e2e": "playwright test",
-        "import:devto": "tsx scripts/import-from-devto.ts"
+        "import:devto": "tsx scripts/import-from-devto.ts",
+        "apply:image-uploads": "tsx scripts/apply-image-uploads.ts"
     },
     "dependencies": {
         "@antfu/eslint-config": "^7.6.1",
