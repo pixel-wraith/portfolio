@@ -8,7 +8,7 @@ published: true
 devto_id: 1373013
 ---
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/n6aojxqhemdg8bxdb76p.jpg)
+![Image description](https://images.wraithcode.io/2026-05/asking-for-development-help-the-right-way-img-01-1600.webp)
 
 *Internal Slack channel*
 > "I have a problem, can someone help?"
@@ -44,7 +44,7 @@ If you still haven't been able to solve the issue after 20 minutes, then reach o
 
 ## If You're Getting an Error, READ IT!
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/wa779a3dugk2c03zgehv.jpg)
+![Image description](https://images.wraithcode.io/2026-05/asking-for-development-help-the-right-way-img-02-1600.webp)
 
 So many times I've seen people posting a screenshot of an error they're getting and asking what the issue is, even though the error message clearly says what the problem is.
 
@@ -56,7 +56,7 @@ I know some of the error messages out there are cryptic and unhelpful if you don
 
 ## Before you Ask, Check if Someone Else Has
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/a49dg71lkwtykrlzuchb.jpg)
+![Image description](https://images.wraithcode.io/2026-05/asking-for-development-help-the-right-way-img-03-1600.webp)
 
 One of the biggest frustrations I see is when someone asks a question that has already been answered. I understand that the internet is a big place, and we'll miss a few things from time to time. But if I can literally copy your question, paste it into any search engine and find the answer in the top 3 results, it just tells me that you didn't bother looking and instead wanted someone else to do the work for you.
 
@@ -68,7 +68,7 @@ So before you ask, do some looking yourself. Literally type your question into a
 
 ## Ask in the Correct Place
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tyfye2fcu6msed6tiqq0.jpg)
+![Image description](https://images.wraithcode.io/2026-05/asking-for-development-help-the-right-way-img-04-1600.webp)
 
 Okay, so you've done your due diligence and tried to solve the problem for at least 20 minutes. You looked around on Stack Overflow, or in your server's chat history and you've confirmed your question hasn't been answered yet. Now it's time to ask your question. But stop and think...where should you ask it?
 
@@ -82,7 +82,7 @@ Pay attention to where you're submitting your questions, **AND DON'T SPAM MULTIP
 
 ## Ask Clear Questions
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7pbkla4t7cf6yacgvkvk.jpg)
+![Image description](https://images.wraithcode.io/2026-05/asking-for-development-help-the-right-way-img-05-1600.webp)
 
 On many occasions, I've seen incredibely vague questions asked that are like, "Can someone help me with a problem?".
 
@@ -94,7 +94,7 @@ If you have a question, just ask it. Don't beat around the bush. Don't force oth
 
 ## Provide Context
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/axo5hlqyr8zr93mwpd3y.jpg)
+![Image description](https://images.wraithcode.io/2026-05/asking-for-development-help-the-right-way-img-06-1600.webp)
 
 Too often I see questions being asked as though everyone understands the context and details the asker is referring to. Consider an example:
 
@@ -145,7 +145,7 @@ This is a bit more to type out, but it provided plenty of information for other 
 
 ## Share Your Code
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/spkt32hs6mel69llpx7m.jpg)
+![Image description](https://images.wraithcode.io/2026-05/asking-for-development-help-the-right-way-img-07-1600.webp)
 
 This could have gone in the last section, but it's so important I thought it warranted it's own.
 
@@ -161,7 +161,7 @@ You may be asking, "But how do I share my code? I don't want to copy and paste d
 
 ## Don't Burn Bridges
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/dt3lcxy8wr2eik7xume7.jpg)
+![Image description](https://images.wraithcode.io/2026-05/asking-for-development-help-the-right-way-img-08-1600.webp)
 
 > "Well I guess everyone is too busy to help me..."
 

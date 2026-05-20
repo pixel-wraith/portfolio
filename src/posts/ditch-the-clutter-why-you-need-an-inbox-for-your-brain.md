@@ -4,6 +4,7 @@ description: "Ever feel like you're juggling too many tasks, and letting too man
 date: "2025-05-05"
 tags: ["productivity"]
 slug: "ditch-the-clutter-why-you-need-an-inbox-for-your-brain"
+cover: "https://images.wraithcode.io/2026-05/ditch-the-clutter-why-you-need-an-inbox-for-your-brain-cover-1600.webp"
 published: true
 devto_id: 2461047
 ---

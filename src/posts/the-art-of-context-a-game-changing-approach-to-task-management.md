@@ -4,6 +4,7 @@ description: "Image this, you just ran out to pick up the dry-cleaning before yo
 date: "2025-04-07"
 tags: ["productivity"]
 slug: "the-art-of-context-a-game-changing-approach-to-task-management"
+cover: "https://images.wraithcode.io/2026-05/the-art-of-context-a-game-changing-approach-to-task-management-cover-1600.webp"
 published: true
 devto_id: 2388667
 ---

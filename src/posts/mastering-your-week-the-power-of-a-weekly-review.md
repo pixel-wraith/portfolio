@@ -4,6 +4,7 @@ description: "I'd like to start this week's post off with two questions.   Do yo
 date: "2025-04-14"
 tags: ["productivity"]
 slug: "mastering-your-week-the-power-of-a-weekly-review"
+cover: "https://images.wraithcode.io/2026-05/mastering-your-week-the-power-of-a-weekly-review-cover-1600.webp"
 published: true
 devto_id: 2406453
 ---

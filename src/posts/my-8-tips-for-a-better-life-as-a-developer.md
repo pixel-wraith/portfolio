@@ -4,6 +4,7 @@ description: "I've been a software developer and engineer for almost 13 years no
 date: "2023-10-19"
 tags: ["career", "productivity", "development"]
 slug: "my-8-tips-for-a-better-life-as-a-developer"
+cover: "https://images.wraithcode.io/2026-05/my-8-tips-for-a-better-life-as-a-developer-cover-1600.webp"
 published: true
 devto_id: 1639828
 ---
@@ -12,7 +13,7 @@ I've been a software developer and engineer for almost 13 years now and have lea
 
 ## 1. Find a place you enjoy working in or at
 
-![Three people sitting at a coffee shop working on their computers and smiling.](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/shosztzzfmpjuf7ksr5c.jpg)
+![Three people sitting at a coffee shop working on their computers and smiling.](https://images.wraithcode.io/2026-05/my-8-tips-for-a-better-life-as-a-developer-img-01-1600.webp)
 
 Your environment contributes a lot to your life. It can add or reduce stress, help you to focus or distract you, make you feel safe or not, and so much more. Because it plays such an integral part in every single one of our lives, I thought it fitting to start here.
 
@@ -26,7 +27,7 @@ What does "right" mean to you?
 
 ## 2. Invest in your hardware
 
-![A desk with high tech equipment in a dark room with LEDs illuminating the space](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7knnfnk29bpe02gibac4.png)
+![A desk with high tech equipment in a dark room with LEDs illuminating the space](https://images.wraithcode.io/2026-05/my-8-tips-for-a-better-life-as-a-developer-img-02-1600.webp)
 
 As software developers, there are a few pieces of hardware that we use a ridiculous amount. An argument could be made that we use things like our keyboard and desk chair more than any other items in our lives. And of course we can get the job done with any old keyboard, and we can make due sitting on any chair. But I've found that a little investment in "nicer" hardware has a big impact on how I experience my work.
 
@@ -62,7 +63,7 @@ What hardware do you use? What would be your dream hardware?
 
 ## 3. Find tools you *enjoy* working with
 
-![A screenshot of an application wall with fun emoji-like faces on the app icons](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/clgqlfokffwpu57wnkr9.png)
+![A screenshot of an application wall with fun emoji-like faces on the app icons](https://images.wraithcode.io/2026-05/my-8-tips-for-a-better-life-as-a-developer-img-03-1600.webp)
 
 In addition to hardware, as developers, we use a lot of software tools to do our jobs. Some we have no choice in using, but there are many that we do, and finding tools that you actually enjoy using can really make your daily experience better. Even just having a tool you can configure to look how you like can have a positive impact.
 
@@ -84,7 +85,7 @@ What are some of the tools that bring you joy in your daily development life?
 
 ## 4. Set Goals
 
-![A typewriter with the "goals" printed on a piece of paper sticking out of it](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vcsabk75mtb2o8dlwbt3.jpg)
+![A typewriter with the "goals" printed on a piece of paper sticking out of it](https://images.wraithcode.io/2026-05/my-8-tips-for-a-better-life-as-a-developer-img-04-1600.webp)
 
 I know this sounds obvious, and I'm sure we've all heard this from countless other sources. But you might be surprised how many people don't set goals for themselves. Don't believe me? turn to any 2 or 3 of your neighbors and ask what goals they are currently working toward. When I ask this, all too frequently I just get a shrug of the shoulders and a, "Nothing really" response.
 
@@ -99,7 +100,7 @@ What goals are you trying to accomplish right now?
 
 ## 5. Be Curious and Learn *Why*
 
-![A sign on a window that says "#becurious"](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/42zs3m4tlzbcilh338nd.png)
+![A sign on a window that says "#becurious"](https://images.wraithcode.io/2026-05/my-8-tips-for-a-better-life-as-a-developer-img-05-1600.webp)
 
 So many people get frustrated or judge the way things are done in coding projects. I've certainly been there! 
 
@@ -120,7 +121,7 @@ What was the last coding *thing* you were really frustrated by? Did you learn *w
 
 ## 6. Block Your Calendar for Focus Work
 
-![Calendar entries each day of the week for 2 hours that say "Focus Time"](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/13x844h65h98y6c78bsk.png)
+![Calendar entries each day of the week for 2 hours that say "Focus Time"](https://images.wraithcode.io/2026-05/my-8-tips-for-a-better-life-as-a-developer-img-06-1600.webp)
 
 This one is easier said than done, depending on where you work, but it can have an amazing impact on your developer life!
 
@@ -139,7 +140,7 @@ During what part of the day do you find you are most productive?
 
 ## 7. Keep your PRs Small
 
-![A screenshot of the GitHub review header showing 3 files changed and a total of 35 changes made](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/jf7cy31tmzjjfz9wz2cn.png)
+![A screenshot of the GitHub review header showing 3 files changed and a total of 35 changes made](https://images.wraithcode.io/2026-05/my-8-tips-for-a-better-life-as-a-developer-img-07-1600.webp)
 
 I love this one, and it has become a big priority for me over the last several years.
 
@@ -159,7 +160,7 @@ What was the worst PR you ever had to review?
 
 ## 8. Write Down Everything!
 
-![Someone writing notes in a notebook](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/yeqff10xv6ej22xk22w8.jpg)
+![Someone writing notes in a notebook](https://images.wraithcode.io/2026-05/my-8-tips-for-a-better-life-as-a-developer-img-08-1600.webp)
 
 My last tip is something I also started doing after reading [How to Take Smart Notes](https://www.amazon.ca/How-Take-Smart-Notes-Technique/dp/3982438802) and [Getting Things Done](https://www.amazon.ca/Getting-Things-Done-Stress-Free-Productivity/dp/0142000280) and it has had an amazing impact on my life.
 

@@ -4,6 +4,7 @@ description: "Alright folks, time for another spoon full of hard dev truth. So g
 date: "2025-03-19"
 tags: ["a11y", "webdev", "softwaredevelopment", "softwareengineering"]
 slug: "accessibility-no-more-excuses-its-time-to-step-up"
+cover: "https://images.wraithcode.io/2026-05/accessibility-no-more-excuses-its-time-to-step-up-cover-1600.webp"
 published: true
 devto_id: 2343015
 ---

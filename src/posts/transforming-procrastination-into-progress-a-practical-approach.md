@@ -4,6 +4,7 @@ description: "This week, rather than discussing how to do more, I thought we'd f
 date: "2025-03-31"
 tags: ["productivity"]
 slug: "transforming-procrastination-into-progress-a-practical-approach"
+cover: "https://images.wraithcode.io/2026-05/transforming-procrastination-into-progress-a-practical-approach-cover-1600.webp"
 published: true
 devto_id: 2368794
 ---

@@ -4,6 +4,7 @@ description: "We've all been there...waiting for a partner to finish getting rea
 date: "2025-02-11"
 tags: ["productivity"]
 slug: "micro-moments-macro-results-the-art-of-time-gap-optimization-2"
+cover: "https://images.wraithcode.io/2026-05/micro-moments-macro-results-the-art-of-time-gap-optimization-2-cover-1600.webp"
 published: true
 devto_id: 2270355
 ---
@@ -42,4 +43,4 @@ It can be a pain in the butt to manage our to-do lists, let alone figure out how
 
 I've been using it for over a year now and can honestly say I'm more productive today than I have ever been.
 
-[![A cute little bumblebee with "BuzyBee" spelled out next to it in playful letters](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/bsbtkoxp6tfkyqarvdkt.png)](https://buzybee.buzz)
+[![A cute little bumblebee with "BuzyBee" spelled out next to it in playful letters](https://images.wraithcode.io/2026-05/micro-moments-macro-results-the-art-of-time-gap-optimization-2-img-01-1600.webp)](https://buzybee.buzz)

@@ -4,6 +4,7 @@ description: "Have you ever slowed down enough to experience just how long 2 min
 date: "2025-03-04"
 tags: ["productivity"]
 slug: "productivity-unlocked-the-two-minute-rule"
+cover: "https://images.wraithcode.io/2026-05/productivity-unlocked-the-two-minute-rule-cover-1600.webp"
 published: true
 devto_id: 2311066
 ---

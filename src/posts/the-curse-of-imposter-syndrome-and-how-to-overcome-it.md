@@ -4,6 +4,7 @@ description: "The other day, I saw someone share a post about how they were feel
 date: "2023-03-11"
 tags: ["career", "mentalhealth"]
 slug: "the-curse-of-imposter-syndrome-and-how-to-overcome-it"
+cover: "https://images.wraithcode.io/2026-05/the-curse-of-imposter-syndrome-and-how-to-overcome-it-cover-1600.webp"
 published: true
 devto_id: 1396309
 ---
@@ -13,7 +14,7 @@ The other day, I saw someone share a post about how they were feeling like they'
 So what is this thing that so many developers are going though?
 
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/e2cx5v8y7egleo46d0uv.jpg)
+![Image description](https://images.wraithcode.io/2026-05/the-curse-of-imposter-syndrome-and-how-to-overcome-it-img-01-1600.webp)
 
 
 Unfortunately, it's so common it has a widely known name...**Imposter Syndrome**.
@@ -40,7 +41,7 @@ So finally, without any more delay, in no particular order, here are my 4 pieces
 
 
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/riw2rmfee2dw9ipln4td.jpg)
+![Image description](https://images.wraithcode.io/2026-05/the-curse-of-imposter-syndrome-and-how-to-overcome-it-img-02-1600.webp)
 
 ## Look for Success in Failure
 I used to get frustrated when some bug would crash my app, or user feedback revealed that my design wasn't performing well. I thought I'd failed. That everyone was going to look down on me and lose trust in my abilities.
@@ -55,7 +56,7 @@ Failures may mean something "bad" happened. But they also present an opportunity
 
 
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3j11wjsdmtevkurcjiah.jpg)
+![Image description](https://images.wraithcode.io/2026-05/the-curse-of-imposter-syndrome-and-how-to-overcome-it-img-03-1600.webp)
 
 ## Seek Better, NOT Perfect
 
@@ -75,7 +76,7 @@ Seeing how much progress I've made alsmost always gives me a little boost. Even 
 
 
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rtmiqnej64z3gtjy9zad.jpg)
+![Image description](https://images.wraithcode.io/2026-05/the-curse-of-imposter-syndrome-and-how-to-overcome-it-img-04-1600.webp)
 
 ## Talk to Someone
 There's a reason therapy is so widely used and recommended. Talking to someone about what's going on with you and your life can be immensly helpful (not just for dealing with Imposter Syndrome). But when I say "talk to someone", it doesn't have to be a therapist.
@@ -88,7 +89,7 @@ Regardless of your situation, there is always someone to talk to. There is nothi
 
 
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/27bwtfrwf6aee61ke2lb.png)
+![Image description](https://images.wraithcode.io/2026-05/the-curse-of-imposter-syndrome-and-how-to-overcome-it-img-05-1600.webp)
 
 ## Find Meaning in What You Do
 Okay, that probably sounds little cheesy, but it really does matter. It's hard to feel like an imposter when you are doing something or supporting something you find meaning in. Unfortunately, I can't tell you exactly how to do this, because finding meaning is a deeply personal thing. What matters to me isn't necessarily what going to matter to you.

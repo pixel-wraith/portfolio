@@ -4,6 +4,7 @@ description: "There are a lot of arguments that have gone on over the years arou
 date: "2023-12-05"
 tags: ["development", "documentation"]
 slug: "my-3-rules-for-documenting-code"
+cover: "https://images.wraithcode.io/2026-05/my-3-rules-for-documenting-code-cover-1600.webp"
 published: true
 devto_id: 1688057
 ---
@@ -13,7 +14,7 @@ There are a lot of arguments that have gone on over the years around comments. M
 
 ## Rule 1: Names should explain *What*
 
-![An abstract humanoid thinking about something with question marks over their head](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/uj8crlt54k76jri1b0f7.png)
+![An abstract humanoid thinking about something with question marks over their head](https://images.wraithcode.io/2026-05/my-3-rules-for-documenting-code-img-01-1600.webp)
 
 The name of a variable, parameter, interface, function, class, method, or some other *thing* in your code should provide sufficient information to clearly describe *What* that thing does or *What* value it holds. Another dev should be able to read the name of the thing weeks or months later and know exactly *What* it does or *What* it holds without needing to ask, look through additional code, or read additional documentation. If they do, the name should be changed to be more clear.
 
@@ -58,7 +59,7 @@ So to sum up the first rule, anything you give a name to in your code should cle
 
 ## Rule 2: Code should explain *How*
 
-![A person sitting at a desk writing how something is done](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/pomudgtas0bt8drlh3wc.png)
+![A person sitting at a desk writing how something is done](https://images.wraithcode.io/2026-05/my-3-rules-for-documenting-code-img-02-1600.webp)
 
 While the name of a thing tells *What* it does, the code inside it should describe *How* it does it. Now, that might sound a bit obvious, but it brings with it a few things you have to consider. 
 
@@ -73,7 +74,7 @@ So, in order for your code to meet the second rule, it must be understandable by
 
 ## Rule 3: Comments should explain *Why*
 
-![A team of people on computers wondering why something was done the way it was, with question marks filling a very large display in front of them](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/h651uhmvlp6njrs2f3nq.png)
+![A team of people on computers wondering why something was done the way it was, with question marks filling a very large display in front of them](https://images.wraithcode.io/2026-05/my-3-rules-for-documenting-code-img-03-1600.webp)
 
 Lastly, when more information is needed, when we need understanding beyond the *What* and *How*, we need the *Why*...and this is where comments come to save the day. When we're writing code, there are times when we need to pass on more information, like *Why* a decision was made, *Why* a piece of code was needed, or some additional context that's relevant to it. These are are the kinds of things that should be commented. 
 

@@ -4,6 +4,7 @@ description: "\"Do you have any questions for us?\"  No matter the job, the comp
 date: "2023-09-28"
 tags: ["webdev", "career", "interview"]
 slug: "my-favorite-interview-questions"
+cover: "https://images.wraithcode.io/2026-05/my-favorite-interview-questions-cover-1600.webp"
 published: true
 devto_id: 1614460
 ---
@@ -13,7 +14,7 @@ devto_id: 1614460
 No matter the job, the company, or the industry, every decent interview includes this question, or one very similar to it. There are countless articles, books, videos and posts that discuss how you should handle it. Even Hollywood includes it in shows and movies, and they **rarely** get things right about our industry! But despite it's prominence and importance, I had several people in my recent slew of interviews mention how glad they were that I had questions for them, because the last N interviews they had, the interviewee just said, "Nope, no questions from me." 
 
 
-![A man falling back in his chair speechless](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/umzx725lhb7qcgksq4je.gif)
+![A man falling back in his chair speechless](https://images.wraithcode.io/2026-05/my-favorite-interview-questions-img-01.gif)
 
 
 So this week, I thought I'd share some of my favorite questions to ask during interviews.
@@ -37,7 +38,7 @@ I personally prefer a collaborative team culture, and plenty of communication, b
 
 Every company has negatives or downsides. That's just the nature of the world...nothing is perfect (except maybe cake 🍰). So I ask this question to see if any of the regular goings-on are on my Oh-No-No's list.
 
-![Tom Haverford from Parks and Rec saying, "Not loving 90's R& music is #3 on the Oh-No-No's list."](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/x2d4hfdwhgcvlhigahmo.gif)
+![Tom Haverford from Parks and Rec saying, "Not loving 90's R& music is #3 on the Oh-No-No's list."](https://images.wraithcode.io/2026-05/my-favorite-interview-questions-img-02.gif)
 
 
 ## Question 2 - If someone were to fill this role and do an amazing job...What would that look like in your eyes?
@@ -46,7 +47,7 @@ With this question, I'm not looking for a how-to manual to tell me how to do the
 
 By finding out what different people's definition of "doing an amazing job" looks like, you can get a real sense of what is valued.
 
-![Shawn and Gus from Psych sitting on a couch and Shawn is saying, "You have your value system, and I have mine."](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tseot3kjta8h60t5nbq8.gif)
+![Shawn and Gus from Psych sitting on a couch and Shawn is saying, "You have your value system, and I have mine."](https://images.wraithcode.io/2026-05/my-favorite-interview-questions-img-03.gif)
 
 
 
@@ -62,7 +63,7 @@ Or perhaps they're tracking things like average PR/MR time, average PR/MR size, 
 
 It's important to note, that I am making some assumptions here based on my experience. That's why it's important to use this question as a conversation starter, and not the end-all-be-all answer. The answer I get gives me a general sense of things, but I am sure to follow-up on my assumptions with more questions to turn assumption into fact and understanding.
 
-![Moira Rose from Schitt's Creek saying, "Never assume, dear. It makes an ass out of both of us."](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/t12b3bsd5e0yagmwflhf.gif)
+![Moira Rose from Schitt's Creek saying, "Never assume, dear. It makes an ass out of both of us."](https://images.wraithcode.io/2026-05/my-favorite-interview-questions-img-04.gif)
 
 
 ## Question 4 - If the CEO came to you and said you can change any 1 thing about your's or your team's job, no approval necessary. What is the 1 thing you would change?
@@ -71,7 +72,7 @@ This question, and the next, I like to ask to get a sense of the good and bad pa
 
 So instead, I phrase like you see above. This way, I'm still bringing up the topic of things they don't like, but in a much more positive tone. Rather than "don't like" the focus is on "change". And the little story told in the question about "the CEO coming to you", and you not needing approval to make things better adds a bit more positivity to it. I've found that I get much more honest answers from people when asking this way, and their responses have lead to some great conversations. It's also a bonus if you know of a tool you can suggest to them that might allow that change to happen!
 
-![Michael Scott from The Office saying, "I don't hate it. I just don't like it. At all. And it's terrible."](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/r2unv6kvak1udv4yqp5o.gif)
+![Michael Scott from The Office saying, "I don't hate it. I just don't like it. At all. And it's terrible."](https://images.wraithcode.io/2026-05/my-favorite-interview-questions-img-05.gif)
 
 
 ## Question 5 - In the opposite direction, if someone else on your team was given the same opportunity to change 1 thing, but you could "protect" 1 thing. What's the 1 thing you wouldn't want to be changed?
@@ -80,7 +81,7 @@ As I said before, I like to ask this question immediately after the last questio
 
 One of the best answers I received that made me really want to work there, was the answer I got from one of the mid-level engineers on the team. They said something along the lines of "The camaraderie and freedom of our team. We've become a close knit group. We work together really well, and we've all become friends. There isn't any problem I could run into here that I wouldn't go to any member of the team with." I could tell in how they talked about it that they really meant what they were saying. This lead to a great discussion about the team and some more specific examples of what it was like to work with them. 
 
-![Dean from Supernatural saying, "Don't Ever Change"](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/73btkxw8hl7bug3d8a5n.gif)
+![Dean from Supernatural saying, "Don't Ever Change"](https://images.wraithcode.io/2026-05/my-favorite-interview-questions-img-06.gif)
 
 
 ## I have lots of other questions, but I know you're busy, so I'll stop here
@@ -95,4 +96,4 @@ Do you have your own favorite questions to ask in interviews? I would love to he
 
 Thank you for taking the time, and allowing me to share my favorite interview questions with you! Until next time, Happy Hacking!
 
-![Ralph from The Simpsons saying, "Goodbye by friends", then rolling down a hill.](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/e4as4vi9wpt5ob3yn2si.gif)
+![Ralph from The Simpsons saying, "Goodbye by friends", then rolling down a hill.](https://images.wraithcode.io/2026-05/my-favorite-interview-questions-img-07.gif)

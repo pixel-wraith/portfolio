@@ -4,6 +4,7 @@ description: "As professionals, we often find ourselves in situations where we n
 date: "2025-04-08"
 tags: ["webdev", "softwaredevelopment", "softwareengineering"]
 slug: "translating-tech-their-understanding-is-up-to-you"
+cover: "https://images.wraithcode.io/2026-05/translating-tech-their-understanding-is-up-to-you-cover-1600.webp"
 published: true
 devto_id: 2391471
 ---

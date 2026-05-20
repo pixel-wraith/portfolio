@@ -4,13 +4,14 @@ description: "Hault! If you're hoping for some interesting tidbits on the second
 date: "2023-08-09"
 tags: ["javascript"]
 slug: "attack-of-the-clones"
+cover: "https://images.wraithcode.io/2026-05/attack-of-the-clones-cover-1600.webp"
 published: true
 devto_id: 1563689
 ---
 
 Hault! If you're hoping for some interesting tidbits on the second Star Wars movie from 20+ years ago...this is not the article you are looking for.
 
-![Old Obi-Wan casually waving his hand as he uses his Jedi powers](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/t0cds8oxesvp9v8bm8hx.gif)
+![Old Obi-Wan casually waving his hand as he uses his Jedi powers](https://images.wraithcode.io/2026-05/attack-of-the-clones-img-01.gif)
 
 If you're still hear, then perhaps you're hoping to learn a little something about cloning objects in Javascript. If so, you've come to the right place because that is exactly what I want to talk about in this post!
 
@@ -26,7 +27,7 @@ So what is this mystical, Jedi-esk power I'm speaking of?
 
 This new browser API's main purpose is to allow us to quickly and easily create deep clones of objects without the need of some workaround or third party library! Not only that, but it also brings with it the ability to *transfer* properties from one object to another instead of cloning them.
 
-![Young Obi-Wan saying "That is good news."](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/eix1hpg59kd9ftw5d6wu.jpg)
+![Young Obi-Wan saying "That is good news."](https://images.wraithcode.io/2026-05/attack-of-the-clones-img-02-1600.webp)
 
 So why is this new API worth a blog post? To understand that, we first need to understand a few things about Javascript.
 
@@ -84,7 +85,7 @@ Okay, we understand the difference between shallow and deep clones, but why does
 
 ## The Problem
 
-![Star Wars droid saying "This doesn't look good..."](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/yypyianb8h23r2ki3ls2.gif)
+![Star Wars droid saying "This doesn't look good..."](https://images.wraithcode.io/2026-05/attack-of-the-clones-img-03.gif)
 
 Let say we make a shallow clone of our object and then want to update it. No problem...
 
@@ -133,7 +134,7 @@ console.log(clone);
 
 Uh oh, looks like we have an issue...both of our objects have been updated! But we only changed the value on the clone. How could this be?
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/49krfg3mz1kxrxk6citg.jpg)
+![Image description](https://images.wraithcode.io/2026-05/attack-of-the-clones-img-04-1600.webp)
 
 The problem stems from how Javascript stores data in memory and how it references that data.
 
@@ -185,7 +186,7 @@ const clone2 = Object.assign({}, x);
 
 ## Deep Clones...the old way
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9j460j8ce5001sjd563a.gif)
+![Image description](https://images.wraithcode.io/2026-05/attack-of-the-clones-img-05.gif)
 
 So we understand what deep clones are, and the need for them, but how do we create them?
 
@@ -250,7 +251,7 @@ Phew, that was a lot! But we now understand the problems we used to have cloning
 
 We also saw the difference between *shallow* and *deep* clones, the difference between accessing data *by reference* and *by value*, and how we used to have to create deep clones, as well as the downsides of those methods.
 
-![Old Obi-Wan telling Luke Skywalker "That's good. You've taken your first step into a larger world."](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/dmrjs185rrvpribhxcfv.gif)
+![Old Obi-Wan telling Luke Skywalker "That's good. You've taken your first step into a larger world."](https://images.wraithcode.io/2026-05/attack-of-the-clones-img-06.gif)
 
 
 Thanks for joining me, and until next time, Happy Hacking!

@@ -4,6 +4,7 @@ description: "Hang on, before you continue, everyone in the conference room!  Fo
 date: "2023-09-07"
 tags: ["css", "webdev", "frontend"]
 slug: "exposure-in-the-workplace-colors-containers-and-looking-up-the-tree-to-parents"
+cover: "https://images.wraithcode.io/2026-05/exposure-in-the-workplace-colors-containers-and-looking-up-the-tree-to-parents-cover-1600.webp"
 published: true
 devto_id: 1592467
 ---
@@ -16,7 +17,7 @@ No, the kind of exposure I'm referring to here is even better! ...exposure to ne
 
 I always like having conversations with other web developers because I frequently get exposed to new stuff. Whether it's a new CSS property, some Javascript API, or just a different approach to solving a problem, I love learning new stuff like this. Which inspired me to start a new series to share and expose this stuff to more people. So in each episode, with the help of the Dunder Mifflin crew, I'm going to share a few (hopefully new for you) topics, along with an example or 2 of when they might be used.
 
-![Michael Scott from The Office saying "That sounds good."](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/zot5tf3bu1kodj43ocvh.gif)
+![Michael Scott from The Office saying "That sounds good."](https://images.wraithcode.io/2026-05/exposure-in-the-workplace-colors-containers-and-looking-up-the-tree-to-parents-img-01.gif)
 
 In this first episode, I thought I'd share a few CSS things that I've been really excited about.
 
@@ -39,7 +40,7 @@ Not all devices support these new color spaces. But that's okay because `oklch()
 
 Thanks to [@evilmartians](https://github.com/evilmartians) there's a fantastic little [color picker](https://oklch.com) I like to use that shows you both the new color and the fallback color right next to each other! You should totally check the tool out and see what new colors are available. I was more surprised than Dwight when Michael returned after not getting the job at corporate (or rather, after Michel "removed himself from consideration")! 
 
-![Dwight from The Office standing speechless](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0iogblu9jn0d31b7fldx.gif)
+![Dwight from The Office standing speechless](https://images.wraithcode.io/2026-05/exposure-in-the-workplace-colors-containers-and-looking-up-the-tree-to-parents-img-02.gif)
 
 
 ## Container Queries
@@ -50,14 +51,14 @@ But why talk about it, when we can see an example!
 
 Let's say we have a component that looks like this:
 
-![An example component with information about Dwight K. Shrute in a vertical layout for mobile devices. An image of him is at the top. Beneath that is his name and job title. And below that is some content about him.](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9k1gvtkfquoh801yeghq.png)
+![An example component with information about Dwight K. Shrute in a vertical layout for mobile devices. An image of him is at the top. Beneath that is his name and job title. And below that is some content about him.](https://images.wraithcode.io/2026-05/exposure-in-the-workplace-colors-containers-and-looking-up-the-tree-to-parents-img-03-1600.webp)
 
 And it's structure looks like this:
 
 ```html
   <div class="card">
     <header>
-      <img src="https://i.imgur.com/8Km9tLL.jpg" alt="Dwight Schrute" />
+      <img src="https://images.wraithcode.io/2026-05/exposure-in-the-workplace-colors-containers-and-looking-up-the-tree-to-parents-img-08-1600.webp" alt="Dwight Schrute" />
       <div>
         <h2>Dwight K. Shrute</h2>
         <p>Assistant to the Regional Manager</p>
@@ -119,11 +120,11 @@ And then creating a container query to target elements inside  when our containe
 
 Now, whenever our `.card` is 500px wide (or more), our header will change it's layout so the contents are displayed horizontally.
 
-![An example component with information about Dwight K. Shrute in new layout when the .card element is wider than 500px wide. An image of him is at the top-left. To the right of that is his name and job title. And below that header info is some content about him.](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/k0garj8466f8h9xbfl8i.png)
+![An example component with information about Dwight K. Shrute in new layout when the .card element is wider than 500px wide. An image of him is at the top-left. To the right of that is his name and job title. And below that header info is some content about him.](https://images.wraithcode.io/2026-05/exposure-in-the-workplace-colors-containers-and-looking-up-the-tree-to-parents-img-04-1600.webp)
 
 And according to [caniuse.com](https://caniuse.com/?search=@container) they are supported in the latest versions of the big 4 browsers! 
 
-![Jim from The Office saying yes excitedly](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/g0g9xkb4d291b7q9lj96.gif)
+![Jim from The Office saying yes excitedly](https://images.wraithcode.io/2026-05/exposure-in-the-workplace-colors-containers-and-looking-up-the-tree-to-parents-img-05.gif)
 
 
 ## `:has()`
@@ -132,7 +133,7 @@ The last thing I'd like to expose you to is another thing developers have been a
 
 You heard me right! CSS no longer just flows from top to bottom!
 
-![Michael from The Office laughing saying "Oh Wow"](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fzxciwyv36g1hlpfvk9c.gif)
+![Michael from The Office laughing saying "Oh Wow"](https://images.wraithcode.io/2026-05/exposure-in-the-workplace-colors-containers-and-looking-up-the-tree-to-parents-img-06.gif)
 
 And even better, it's incredibly easy to use!
 
@@ -173,4 +174,4 @@ What are some of your favorite CSS features that other developers may not know a
 
 Thanks for taking the time to expose yourself to something (hopefully) new. Until next time, Happy Hacking!
 
-![Stanley from The Office standing up saying "I'm Done. Goodbye."](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/r08v07ok9qateyhv6hf0.gif)
+![Stanley from The Office standing up saying "I'm Done. Goodbye."](https://images.wraithcode.io/2026-05/exposure-in-the-workplace-colors-containers-and-looking-up-the-tree-to-parents-img-07.gif)

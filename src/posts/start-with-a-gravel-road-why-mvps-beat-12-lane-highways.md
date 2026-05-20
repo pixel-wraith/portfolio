@@ -4,6 +4,7 @@ description: "Building software is like traveling between destinations. In our c
 date: "2025-12-05"
 tags: ["softwaredevelopment", "softwareengineering", "development", "webdev"]
 slug: "start-with-a-gravel-road-why-mvps-beat-12-lane-highways"
+cover: "https://images.wraithcode.io/2026-05/start-with-a-gravel-road-why-mvps-beat-12-lane-highways-cover-1600.webp"
 published: true
 devto_id: 3085134
 ---

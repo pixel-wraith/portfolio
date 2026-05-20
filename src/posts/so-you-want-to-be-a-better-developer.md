@@ -4,6 +4,7 @@ description: "The software development journey is a strange one. There's no defi
 date: "2023-10-28"
 tags: ["career", "productivity", "development"]
 slug: "so-you-want-to-be-a-better-developer"
+cover: "https://images.wraithcode.io/2026-05/so-you-want-to-be-a-better-developer-cover-1600.webp"
 published: true
 devto_id: 1648735
 ---
@@ -17,7 +18,7 @@ This is by no means a "How To" guide on becoming the best developer out there. T
 
 ## Build Stuff and Things
 
-![Lego of different colors spread out on a table](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/lec56qpvndwjzpq4wvgi.jpg)
+![Lego of different colors spread out on a table](https://images.wraithcode.io/2026-05/so-you-want-to-be-a-better-developer-img-01-1600.webp)
 
 The simplest thing you can do to become a better developer is to just build stuff. Developing software is just like learning to play the guitar, doing pushups, or painting a picture...you can study techniques until you're blue in the face. But you really only get better once you dive in and do the thing. So that's my first tip...just build stuff! 
 
@@ -32,7 +33,7 @@ A few additional tips:
 
 ## Don't Let Comfort Get in the Way
 
-![A cute, fluffy puppy laying down on a comfy looking blanket](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kskesl3k5w2y371lv2mq.jpg)
+![A cute, fluffy puppy laying down on a comfy looking blanket](https://images.wraithcode.io/2026-05/so-you-want-to-be-a-better-developer-img-02-1600.webp)
 
 This is something I've sadly seen quite a lot, and have even experienced myself from time to time. You get to a point where you've learned enough to do the job, and you get comfortable. You might have a challenging ticket here or there, but for the most part, the job is predictable, you have the skills to do what you need to do, and you don't really need to expand beyond this. If this is what you want for yourself, there's nothing wrong with it at all. But you will hit a plateau in your growth as a developer. So if you want to be a better developer (and if you're reading this, I assume you do) this kind of comfortable stagnation is absolutely something to look out for, and avoid.
 
@@ -46,7 +47,7 @@ A few additional tips:
 
 ## Read the Docs
 
-![Black framed glasses resting on top of a notebook with writing on it](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9u1qo9seq1ffz2mtacez.jpg)
+![Black framed glasses resting on top of a notebook with writing on it](https://images.wraithcode.io/2026-05/so-you-want-to-be-a-better-developer-img-03-1600.webp)
 
 In most cases, documentation will be the single most up-to-date and thorough source of information on a technology, and will provide all those little details that don't get included in books, how-to articles, and tutorial videos. To be fair, it can be a little boring...which is probably one of the reasons why so many people learn the tech by other means!
 
@@ -63,7 +64,7 @@ A few additional tips:
 
 ## Challenge Yourself
 
-![A person standing on a large rock](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/muyw9psdy2dj01rddyhu.jpg)
+![A person standing on a large rock](https://images.wraithcode.io/2026-05/so-you-want-to-be-a-better-developer-img-04-1600.webp)
 
 Something I see a lot, especially with young developers, is seeking out work you *know* you can already do. As of this writing, Hacktoberfest is coming to an end, but it's been a great example of this. So many people looking for tickets they already know they're capable of completing. There's nothing wrong with this if it makes you happy, and you're happy with the results, of course! I only mention it to explain what I mean when I say "Challenge Yourself". 
 
@@ -80,7 +81,7 @@ A few additional tips:
 
 ## Improve Your Soft Skills
 
-![Four women sitting around a table talking](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fhbq6a1h96sfzgihmlzs.jpg)
+![Four women sitting around a table talking](https://images.wraithcode.io/2026-05/so-you-want-to-be-a-better-developer-img-05-1600.webp)
 
 This is an area of software development I don't feel gets enough focus. I know most developers typically want to focus on learning things specifically dedicated to writing code. I mean, let's face it, that's why we became developers! But so much of the software development lifecycle is centered around soft skills it seems silly not to make it a primary part of our growth. So if you want to become a better developer, this is one area I highly encourage you to focus on.
 
@@ -96,7 +97,7 @@ Fortunately, there are TONS of resources out there for learning and improving th
 
 ## Learn How To Learn
 
-![A stack of books](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/n0ekcligiudd0a1c36yb.jpg)
+![A stack of books](https://images.wraithcode.io/2026-05/so-you-want-to-be-a-better-developer-img-06-1600.webp)
 
 In my opinion, the ability to learn new things is the most important skill a developer can have. Now, that might *seem* like an obvious statement, but let me clarify what I mean here.
 

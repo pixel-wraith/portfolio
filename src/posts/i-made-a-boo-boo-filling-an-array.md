@@ -4,6 +4,7 @@ description: "The other day I was chatting with a young developer and they menti
 date: "2023-09-01"
 tags: ["bug", "development", "javascript"]
 slug: "i-made-a-boo-boo-filling-an-array"
+cover: "https://images.wraithcode.io/2026-05/i-made-a-boo-boo-filling-an-array-cover-1600.webp"
 published: true
 devto_id: 1586809
 ---
@@ -18,7 +19,7 @@ This is the start of a new series of posts where I'm going to share some of the 
 
 So with that, let me share with you a mistake I made just yesterday...
 
-![Will Arnet saying "I've made a huge mistake".](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/s1vab2dt84f2yeoqvaek.gif)
+![Will Arnet saying "I've made a huge mistake".](https://images.wraithcode.io/2026-05/i-made-a-boo-boo-filling-an-array-img-01.gif)
 
 
 ## The Premise
@@ -82,7 +83,7 @@ const animate = () => {
 }
 ```
 
-![A monkey pushing a laptop off a table](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ipx0ka0yse6ftaqtq3qb.gif)
+![A monkey pushing a laptop off a table](https://images.wraithcode.io/2026-05/i-made-a-boo-boo-filling-an-array-img-02.gif)
 
 All done, time to test.
 
@@ -125,7 +126,7 @@ cubes: [
 ]
 ```
 
-![Ben from Parks and Recreation thinking at a desk, then someone holds a lightbulb over his head and turns it on. Ben gestures as though he has just figured something out.](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/uysbdevyp5monesc4n0s.gif)
+![Ben from Parks and Recreation thinking at a desk, then someone holds a lightbulb over his head and turns it on. Ben gestures as though he has just figured something out.](https://images.wraithcode.io/2026-05/i-made-a-boo-boo-filling-an-array-img-03.gif)
 
 There it is! When the mesh is being set, it's changing all the objects...that usually means a reference issue.
 
@@ -152,7 +153,7 @@ The data in memory gets updated. Then if we use `myOtherObject` to read the data
 console.log(myOtherObject.x); // 789
 ```
 
-![An animated cat spreading it's arms and the words "The More You Know" appear over it's head.](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/1cw2esxg4kqlrcx79iyo.gif)
+![An animated cat spreading it's arms and the words "The More You Know" appear over it's head.](https://images.wraithcode.io/2026-05/i-made-a-boo-boo-filling-an-array-img-04.gif)
 
 
 So all the objects in my array are referring to the same object in memory. But why?
@@ -179,7 +180,7 @@ console.log(cubes[1].mesh.position.z) // 999;
 
 I hadn't thought through this enough in the beginning, and just assumed that `.fill()` would apply a new object to each element in the array.
 
-![Jason Momoa posing adorably with the words "Oopsie Daisy" displayed.](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vjifm94izvogchea066n.gif)
+![Jason Momoa posing adorably with the words "Oopsie Daisy" displayed.](https://images.wraithcode.io/2026-05/i-made-a-boo-boo-filling-an-array-img-05.gif)
 
 ## The Solution
 Now that I know the problem, the solution was pretty simple...
@@ -206,7 +207,7 @@ Now, a new object is created in memory each time, and every element in the array
 
 I tested again and BAM! Each cube animated on it's own when the camera came close to it! 
 
-![Carlton Banks from Fresh Prince of Bel-Air doing his happy dance.](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/90lvswas1fgsk8f2r96y.gif)
+![Carlton Banks from Fresh Prince of Bel-Air doing his happy dance.](https://images.wraithcode.io/2026-05/i-made-a-boo-boo-filling-an-array-img-06.gif)
 
 
 ## Conclusion

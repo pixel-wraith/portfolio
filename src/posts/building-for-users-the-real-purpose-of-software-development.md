@@ -4,6 +4,7 @@ description: "Grab your favorite emotional support squishmallow...this series mi
 date: "2025-03-12"
 tags: ["softwaredevelopment", "softwareengineering"]
 slug: "building-for-users-the-real-purpose-of-software-development"
+cover: "https://images.wraithcode.io/2026-05/building-for-users-the-real-purpose-of-software-development-cover-1600.webp"
 published: true
 devto_id: 2327834
 ---

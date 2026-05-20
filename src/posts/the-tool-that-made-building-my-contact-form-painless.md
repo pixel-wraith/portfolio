@@ -4,6 +4,7 @@ description: "Over the years I've built many email solutions that were simply me
 date: "2023-08-21"
 tags: ["valtown", "javascript", "tutorial", "email"]
 slug: "the-tool-that-made-building-my-contact-form-painless"
+cover: "https://images.wraithcode.io/2026-05/the-tool-that-made-building-my-contact-form-painless-cover-1600.webp"
 published: true
 devto_id: 1574833
 ---
@@ -18,7 +19,7 @@ Val Town is a website where you can write, run, and deploy small snippets of Jav
 
 Immediately after signing up, right there in their intro tutorial was the answer to my woes. A simple, built in function for sending yourself an email!
 
-![Ron Swanson tearing up, saying "It's so beautiful."](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/j47d9zg3843qtd58fzzz.gif)
+![Ron Swanson tearing up, saying "It's so beautiful."](https://images.wraithcode.io/2026-05/the-tool-that-made-building-my-contact-form-painless-img-01.gif)
 
 As luck would have it, I'm currently in the middle of rebuilding my portfolio site, and naturally I need a "Get in Touch" section. I wasn't really looking forward to building this functionality out again, so of course I HAD to give this new tool a try. Turns out, it's pretty awesome! And that's what this post is going to be about.
 
@@ -29,7 +30,7 @@ I'm going to show just how easy Val Town was to set up and implement with an ext
 ## Overview
 Let's first have a look at what we are going to build.
 
-![A simple flow chart with 4 nodes connected by arrows representing data passing back and forth between them. The Client node connects to the API node, indicating these 2 nodes will communicate with one another. The API and Val Town nodes are also connected, indicating they will also communicate with one another. Lastly, the Val Town node is connected to a node labelled "You" representing Val Town sending an email to yourself.](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/blltqti2rsyhsjrse253.png)
+![A simple flow chart with 4 nodes connected by arrows representing data passing back and forth between them. The Client node connects to the API node, indicating these 2 nodes will communicate with one another. The API and Val Town nodes are also connected, indicating they will also communicate with one another. Lastly, the Val Town node is connected to a node labelled "You" representing Val Town sending an email to yourself.](https://images.wraithcode.io/2026-05/the-tool-that-made-building-my-contact-form-painless-img-02-1600.webp)
 
 As you can see, we're going to create a very simple flow where our Client is going to be able to send data to our own API. The API will then send the data to Val Town where it will be emailed to yourself. Val Town will then send a response to the API letting it know if it was successful or not. The API will then relay this information back to the Client to let the user know.
 
@@ -44,7 +45,7 @@ If you haven't already, go ahead and create your Val Town account. Make sure you
 
 Now, go to [Home](https://www.val.town/). You may already see a few Vals displayed here if you did the tutorial, but you can ignore them for now. Next to your avatar in the top right of the window click "New Val", which should open a modal that looks like this:
 
-![The new Val modal on Val town](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/oqdx9p9gf7mqp6ibc9po.png)
+![The new Val modal on Val town](https://images.wraithcode.io/2026-05/the-tool-that-made-building-my-contact-form-painless-img-03-1600.webp)
 
 This is where we're going to write our first bit of Javascript to handle emailing ourselves. Our code will need to take 2 parameters, which are both strings, `subject` and `html`. `subject` will be the subject of the email being sent, and `html` will be the (HTML optional) body of the email. We'll then use the built in function to send an email to ourselves, and lastly respond with the status.
 
@@ -63,11 +64,11 @@ Now click `Run`.
 
 You should now see your Val displayed at the top of your list of Vals on your homepage.
 
-![Seth Meyers saying "Boom, easy as that."](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/oymieipy1fis0oaj5t45.gif)
+![Seth Meyers saying "Boom, easy as that."](https://images.wraithcode.io/2026-05/the-tool-that-made-building-my-contact-form-painless-img-04.gif)
 
 I want to point out a couple of things in the header of your new Val...
 
-![The header of a Val as displayed on the Val Town homepage](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/wi4bj9sl06h2gs7feeia.png)
+![The header of a Val as displayed on the Val Town homepage](https://images.wraithcode.io/2026-05/the-tool-that-made-building-my-contact-form-painless-img-05-1600.webp)
 
 1. Notice the name of the Val has been appended to your @username. This is how you will reference the Val later.
 
@@ -183,7 +184,7 @@ app.post('/', async (req, res) => {
 
 Now that we have more than a simple GET request, we're going to need something more to test our new endpoint. I personally prefer to use Postman. So we'll add the request to Postman and test that everything is working.
 
-![Screenshot of a Postman HTTP Request having been made with a url of http://localhost:80/, with body parameters: subject set to "this is just a test...", and body set to "this is just a test message...". The response is a JSON object with property: message set to "Everything looks good so far..."](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/xj5cbdq2elrghgdugni5.png)
+![Screenshot of a Postman HTTP Request having been made with a url of http://localhost:80/, with body parameters: subject set to "this is just a test...", and body set to "this is just a test message...". The response is a JSON object with property: message set to "Everything looks good so far..."](https://images.wraithcode.io/2026-05/the-tool-that-made-building-my-contact-form-painless-img-06-1600.webp)
 
 Great! Our POST endpoint is receiving the form data successfully. We're finally ready to make our request to Val Town.
 
@@ -217,7 +218,7 @@ Now, if you recall, earlier I mentioned the privacy setting on the Val we create
 
 Go back to your Val Town homepage and click your username in the upper right of the window. In the dropdown that appears, click "API tokens".
 
-![The Val Town user menu expanded with "API tokens" highlighted](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vaqc5imnh7l8h95x17g8.png)
+![The Val Town user menu expanded with "API tokens" highlighted](https://images.wraithcode.io/2026-05/the-tool-that-made-building-my-contact-form-painless-img-07-1600.webp)
 
 This will take you to another page where you should see at least 1 token already created for you. If you don't see one (it will look something like this: `abcd1234-a123-123a-456b-123ab45c67de` (<- this is just an example and is not a real token)) just click the "New" button and a new token will be generated for you.
 
@@ -232,7 +233,7 @@ VAL_TOWN_API_TOKEN=abcd1234-a123-123a-456b-123ab45c67de
 
 Next, let's add the fetch request to our code. Remember the more options menu in the header of your Val that I pointed out earlier? Go back there, hover over the "Endpoints" option and click "Copy run fetch".
 
-![The Val options menu expanded with the Endpoints > Copy run fetch option highlighted](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/h8fwwkay97oomvghtvgf.png)
+![The Val options menu expanded with the Endpoints > Copy run fetch option highlighted](https://images.wraithcode.io/2026-05/the-tool-that-made-building-my-contact-form-painless-img-08-1600.webp)
 
 Go back to the POST endpoint inside the index.js file, paste the fetch request into your `try` block.
 
@@ -362,7 +363,7 @@ app.get('/', (req, res) => {
 
 Now, if you visit `http://localhost:80` in your browser, you should see the barebones form. And if you fill it out and submit it, you should receive an email in just a moment or 2!
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0r1btqaym0wmtwyry2us.gif)
+![Image description](https://images.wraithcode.io/2026-05/the-tool-that-made-building-my-contact-form-painless-img-09.gif)
 
 ## Conclusion
 Let's recap everything we just did.

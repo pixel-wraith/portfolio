@@ -4,6 +4,7 @@ description: "Something I wish I had started doing much earlier in my career was
 date: "2024-06-12"
 tags: ["career", "writing"]
 slug: "write-it-down"
+cover: "https://images.wraithcode.io/2026-05/write-it-down-cover-1600.webp"
 published: true
 devto_id: 1885514
 ---

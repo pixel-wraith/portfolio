@@ -4,6 +4,7 @@ description: "A quick way to help you save time during your day, is to avoid typ
 date: "2023-11-29"
 tags: ["career", "development", "tip"]
 slug: "time-saving-tip-1-use-voice-dictation"
+cover: "https://images.wraithcode.io/2026-05/time-saving-tip-1-use-voice-dictation-cover-1600.webp"
 published: true
 devto_id: 1682729
 ---

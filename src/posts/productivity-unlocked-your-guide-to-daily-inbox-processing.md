@@ -4,6 +4,7 @@ description: "Hello, hello! So last week we learned about using your own inbox t
 date: "2025-05-13"
 tags: ["productivity"]
 slug: "productivity-unlocked-your-guide-to-daily-inbox-processing"
+cover: "https://images.wraithcode.io/2026-05/productivity-unlocked-your-guide-to-daily-inbox-processing-cover-1600.webp"
 published: true
 devto_id: 2484482
 ---

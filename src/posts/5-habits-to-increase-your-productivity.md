@@ -4,6 +4,7 @@ description: "Don’t count the days. Make the days count. Don’t think “I’
 date: "2023-03-31"
 tags: ["webdev", "productivity"]
 slug: "5-habits-to-increase-your-productivity"
+cover: "https://images.wraithcode.io/2026-05/5-habits-to-increase-your-productivity-cover-1600.webp"
 published: true
 devto_id: 1420933
 ---
@@ -19,7 +20,7 @@ I put a lot of emphasis on productivity in my personal life. It's allowed me to 
 
 
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4jlw1rmiib020vxkxi9h.png)
+![Image description](https://images.wraithcode.io/2026-05/5-habits-to-increase-your-productivity-img-01-1600.webp)
 
 ## Set Clearly Defined Goals 
 Setting goals is arguably the most important thing you can do to be productive. It's hard to stay productive long term when you don't have a north star guiding you. It's kind of like driving to a new place without GPS or a map. Sure, you're driving somewhere...but are you going in the right direction? But it's not enough to just set goals...those goals also need to be clearly defined.
@@ -52,7 +53,7 @@ Goal setting gives you the map to where you're trying to go. It gives you a dire
 
 
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/yktk882ooa6r34xf2crz.png)
+![Image description](https://images.wraithcode.io/2026-05/5-habits-to-increase-your-productivity-img-02-1600.webp)
 
 ## Timebox Yourself
 No, we're not putting on boxing gloves :joy:. Timeboxing is a practice of setting a fixed amount of time during which you focus on *some* activity. This box of time is...you guessed it...a timebox. 
@@ -71,7 +72,7 @@ A popular method for timeboxing is the Pomodoro Technique, where you pick a task
 
 
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vqkt57vfxew9jyf85jtm.png)
+![Image description](https://images.wraithcode.io/2026-05/5-habits-to-increase-your-productivity-img-03-1600.webp)
 
 ## Get a Morning Routine
 I'd heard this from lots of people for a long time and never really put any stock in it. But eventually I finally decided to give it a try, and once I settled into something that worked for me, it made a lot more sense why it gets brought up so much.
@@ -86,7 +87,7 @@ What does a morning routine look like? It's completely up to you! Make it your o
 
 
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vsri2m14a9twtx9hg34w.png)
+![Image description](https://images.wraithcode.io/2026-05/5-habits-to-increase-your-productivity-img-04-1600.webp)
 
 ## Keep Lists
 This is another very simple, but often overlooked method for being productive. So often, tasks get forgotten about when other, more pressing matters come up. It's really easy to forget you need to get your oil changed when your juggling the other more pressing matters in your life.
@@ -112,7 +113,7 @@ Regardless of the method you prefer to use, here are few tips on how to maximize
 
 
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/x4yfsm37m87l4aimpe2u.png)
+![Image description](https://images.wraithcode.io/2026-05/5-habits-to-increase-your-productivity-img-05-1600.webp)
 
 ## Get Up and Move
 This last tip is by no means the least important. In fact it's so recommended, I'm sure at some point in your life you've heard someone else mention it. 

@@ -4,6 +4,7 @@ description: "These days, there are Tons of tools all fighting for the attention
 date: "2023-03-17"
 tags: ["productivity", "webdev"]
 slug: "omg-so-many-tools"
+cover: "https://images.wraithcode.io/2026-05/omg-so-many-tools-cover-1600.webp"
 published: true
 devto_id: 1403733
 ---
@@ -17,7 +18,7 @@ I've always enjoyed learning what tools other people use because I get to discov
 So here we go...
 
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/sq4dre1eoe5g9z4347qi.jpg)
+![Image description](https://images.wraithcode.io/2026-05/omg-so-many-tools-img-01-1600.webp)
 
 ## Notes
 I've tried many note taking apps over the years, but never really settled on the "right" one. Sometimes they were missing some feature I needed (like markdown support), or they cost too much. Others couldn't be accessed across all devices. There was always something. But a few months ago I discovered [Obsidian](https://obsidian.md/) and have been pretty happy with it so far.
@@ -28,7 +29,7 @@ I definitely recommend this one to anyone looking for a new note taking app, or 
 
 
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ead8lqig94wv1djyu1il.jpg)
+![Image description](https://images.wraithcode.io/2026-05/omg-so-many-tools-img-02-1600.webp)
 
 ## Password Manager
 Password managers are amazing. If you aren't using one, I highly encourage you to do so. They make it so much easier to have strong passwords for all your accounnts without the hassle of having to remember them all (let's be honest, no one was remembering strong passwords unless they re-used them everywhere).
@@ -39,7 +40,7 @@ So far I give 1Password a :thumbsup:, but it's only been a couple of months, so 
 
 
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2xxcxt2vun5v9mcqaicp.jpg)
+![Image description](https://images.wraithcode.io/2026-05/omg-so-many-tools-img-03-1600.webp)
 
 ## To Do's
 I'm a big list person. Having my different lists for ideas, daily to do's, long term projects, or new tech to look into helps me stay organized. Like other categories of tools, I've tried many different apps for tracking to do items, but none of them really helped me stay productive. Sure, they helped me stay **organized**, but I always thought more could be done to encourage people to be more **productive** and gain more **satisfaction** from completing an item on their to do list, regardless of how mundane that task might be. And then I discovered [Habitica](https://habitica.com/).
@@ -50,7 +51,7 @@ I personally love gamifying things and am very motivated by accomplishments and 
 
 
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7szp2hp6iazc014pqdwi.jpg)
+![Image description](https://images.wraithcode.io/2026-05/omg-so-many-tools-img-04-1600.webp)
 
 ## Calendar
 When it comes to calendars, I still haven't had much luck. The normal Apple and Gmail ones are fine, but I wouldn't exactly go out of my way to recommend them. I was really excited when [Proton Calendar](https://calendary.proton.me) was released, but so far, it's been pretty limited...especially with Apple stuff. But I did recently discover [Cron](https://cron.com/) and it looks very promising.
@@ -59,7 +60,7 @@ From what I've been able to tell, it looks beautiful and has great Mac and iOS s
 
 
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4hmbteqaiccnht0f6zi6.jpg)
+![Image description](https://images.wraithcode.io/2026-05/omg-so-many-tools-img-05-1600.webp)
 
 ## Email
 Email has been around for what feels like forever. And there are of course some big hitters out there that dominate the market. Everyone and their mother knows about Gmail. And of course there's Outlook and Yahoo. But I personally have become partial to [Proton Mail](https://mail.proton.me). I've been using them for years, and have nothing but great things to say.
@@ -70,7 +71,7 @@ It may seem strange to pay for email these day's, but if you care at all about p
 
 
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/dyof6151mqjfk39f6l63.jpg)
+![Image description](https://images.wraithcode.io/2026-05/omg-so-many-tools-img-06-1600.webp)
 
 ## Project Tracking
 If you've spent any amount of time as a professional web developer, undoubtedly you've encounted half a dozen or more Project Management (PM) tools, all claiming to be the solution to all your problems. There are lots of opinions on this topic (many **strong** opinions), so all I'm going to say is that each person, team, and company is different. They all have different needs, different ways of doing things, and different preferences. This is definitely one of those things you just have to try for yourself to see if it's going to work for you.
@@ -87,7 +88,7 @@ Maybe a full project management tool is too much for you as an individual. That'
 
 
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/i5kadog3rwt1rv04n38b.jpg)
+![Image description](https://images.wraithcode.io/2026-05/omg-so-many-tools-img-07-1600.webp)
 
 ## Browers
 It wouldn't a web development tools list if we didnt include some browsers. We all know the big ones (Chrome, Firefox, Edge, and Safari). But lately, a lot of attention has been directed at some newer alternatives.
@@ -100,7 +101,7 @@ If you're a privacy focussed person, I highly recommend Duck Duck Go. I've been 
 
 
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/1nh98igtwlfc0umtmff6.jpg)
+![Image description](https://images.wraithcode.io/2026-05/omg-so-many-tools-img-08-1600.webp)
 
 ## Dev Tools
 What kind of dev would I be if I didn't take the opportunity to dive into some developer tools while we're on the subject?!
@@ -137,7 +138,7 @@ Rather than completely replace your terminal, Fig is an add-on that intergrates 
 
 
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nxvi3t1q045p0uie9dkx.jpg)
+![Image description](https://images.wraithcode.io/2026-05/omg-so-many-tools-img-09-1600.webp)
 
 ### Other
 There are so many other amazing tools I could talk about, but for the sake of time I'll just bring up 1 more...[Polypane](https://polypane.app/).
@@ -146,7 +147,7 @@ I discovered Polypane not too long ago, but it's already become an integral part
 
 
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/l3m70futyjqcstmd65gf.jpg)
+![Image description](https://images.wraithcode.io/2026-05/omg-so-many-tools-img-10-1600.webp)
 
 ## VPN
 It seems like I'm hearing more and more about VPNs these days. Whether it's from people becoming more privacy focussed, companies locking their development environments down, or much more extreme government censorship, the topic is becoming more common in casual conversation. And there are a lot of them out there...but depending on your situation, picking the right one can have a very significant impact on your life.
@@ -157,7 +158,7 @@ I really have nothing bad to say about Proton, and if you need a VPN, I'd recomm
 
 
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/mj5p9degrzz76mss20qr.jpg)
+![Image description](https://images.wraithcode.io/2026-05/omg-so-many-tools-img-11-1600.webp)
 
 ## How do you learn about new stuff?
 As you can see, I like to discover new tools in the hopes that one or two will make my life better/easier. But finding them can sometimes be a challenge. So in addition to the tools I use, I thought I might also share how I find them.

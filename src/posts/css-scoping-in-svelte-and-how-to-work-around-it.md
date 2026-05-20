@@ -4,6 +4,7 @@ description: "As web developers, we often face challenges when it comes to styli
 date: "2023-04-22"
 tags: ["svelte", "webdev"]
 slug: "css-scoping-in-svelte-and-how-to-work-around-it"
+cover: "https://images.wraithcode.io/2026-05/css-scoping-in-svelte-and-how-to-work-around-it-cover-1600.webp"
 published: true
 devto_id: 1443825
 ---
@@ -49,18 +50,18 @@ Let's say we have 2 components, `Container` and `Button`...
 Notice our `Container` component has 2 children, a "regular" `<button>` and our custom `Button` component. We're also adding some styles to all the buttons inside the `Container` component's `<style>` block to give them all a red background. Based on standard CSS rules, we should expect both of our buttons to be red, right? Let's take a look at our components in the browser...
 
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/f7v3wczy5jcpy6pa9xjv.png)
+![Image description](https://images.wraithcode.io/2026-05/css-scoping-in-svelte-and-how-to-work-around-it-img-01-1600.webp)
 
 
 Uh oh! Only the "regular" button has our styles applied. Why is that?
 
 Let's take a closer look at our components in the browser's dev tools to investigate.
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/m3fg1kkjab6otn3le0qi.png)
+![Image description](https://images.wraithcode.io/2026-05/css-scoping-in-svelte-and-how-to-work-around-it-img-02-1600.webp)
 
 Look at that...some weird looking class was added to one of our buttons, but not the other. But why does that matter? After all, the CSS we added should apply to all `button` elements, shouldn't it?. Let's look at the CSS in the browser's dev tools.
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7b73j36fq3gaibk1g261.png)
+![Image description](https://images.wraithcode.io/2026-05/css-scoping-in-svelte-and-how-to-work-around-it-img-03-1600.webp)
 
 Interesting. That strange class has been added to our CSS as well and instead of our background being set on all `button`'s, it's now only being applied to `button`'s with that special class.
 
@@ -129,7 +130,7 @@ In Svelte we can use JavaScript in our HTML by wrapping it in curly braces. So i
 
 Look at that! Our `Container` component is now able to set the background color of our custom `Button` component.
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/uj1hzzry2xg0xusvzelx.png)
+![Image description](https://images.wraithcode.io/2026-05/css-scoping-in-svelte-and-how-to-work-around-it-img-04-1600.webp)
 
 We could even make this a little shorter if we name our prop the same name as the CSS style.
 
@@ -289,7 +290,7 @@ Notice how we're setting the value of the `--button-background-color` variable o
 Now that we've made these changes, let's have a look in the browser to make sure our changes worked.
 
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ow6d4cu4vqokt8dwfpr8.png)
+![Image description](https://images.wraithcode.io/2026-05/css-scoping-in-svelte-and-how-to-work-around-it-img-05-1600.webp)
 
 Huzzah, it works! Now we are able to set the value of the background color in a single place, but have it update both the "regular" child component AND our custom component. Even better, if we add another button outside of `.container`, the styles do not get applied.
 
@@ -322,7 +323,7 @@ Huzzah, it works! Now we are able to set the value of the background color in a 
 </style>
 ```
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4dwmre4qd5caq3gweosu.png)
+![Image description](https://images.wraithcode.io/2026-05/css-scoping-in-svelte-and-how-to-work-around-it-img-06-1600.webp)
 
 So not only does this method give us the ability to set our value once and impact both our "regular" `button` element as well as our custom `Button` component, but we also get our scoping back! If this were Goldilocks and the Three Bears, I'd say this one is juuuuust right!
 

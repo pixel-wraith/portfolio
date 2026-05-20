@@ -4,6 +4,7 @@ description: "Hello hello 👋 I'd again like to start this week's post off with
 date: "2025-04-21"
 tags: ["productivity"]
 slug: "busy-vs-productive-why-prioritization-is-the-real-game-changer"
+cover: "https://images.wraithcode.io/2026-05/busy-vs-productive-why-prioritization-is-the-real-game-changer-cover-1600.webp"
 published: true
 devto_id: 2422007
 ---

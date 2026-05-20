@@ -4,13 +4,14 @@ description: "👻 Happy Halloween!!! 🎃    In honor of this spooky time of ye
 date: "2023-10-31"
 tags: ["webdev", "bug", "css"]
 slug: "a-halloween-horror-story-the-missing-cta"
+cover: "https://images.wraithcode.io/2026-05/a-halloween-horror-story-the-missing-cta-cover-1600.webp"
 published: true
 devto_id: 1652166
 ---
 
 👻 Happy Halloween!!! 🎃
 
-![A cute kitten poking it's head over a counter and then meowing, with the words "Happy Halloween" displayed](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7upbj2pmywoudkjkcdnu.gif)
+![A cute kitten poking it's head over a counter and then meowing, with the words "Happy Halloween" displayed](https://images.wraithcode.io/2026-05/a-halloween-horror-story-the-missing-cta-img-01.gif)
 
 In honor of this spooky time of year, I thought I'd share one of my developer horror stories with you.
 
@@ -20,7 +21,7 @@ For one of these tests, I was tasked with updating a page on the client's Single
 
 2 days later, I got a message that our test was tanking the client's sales 📉 and that we needed to investigate why right away. I looked over the code...everything looked good. I looked over the UI changes on their site...everything was in place, exactly how the designs had intended. I sent it over to the QA person to get another pair of eyes on it. After a few hours, they got back to me and reported that the Checkout button on the final page of the user checkout flow was missing in our test, and there was no way for user's to complete their orders.
 
-![Michael Scott from The Office cringing](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/llrnuomt0jdfa155jj41.gif)
+![Michael Scott from The Office cringing](https://images.wraithcode.io/2026-05/a-halloween-horror-story-the-missing-cta-img-02.gif)
 
 Once they pointed this out, it was easy to figure out what had happened. You see, with Single Page Applications, the page's HTML that exists outside the SPA's root node doesn't change very often after it's loaded (there are some exceptions to this, but those are beyond the scope of this post). So when we drop third-party scripts and styles onto the page, they remain there for the life of that page. 
 

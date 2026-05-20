@@ -4,6 +4,7 @@ description: "In software development, it's very common to have to utilize or te
 date: "2023-11-27"
 tags: ["development"]
 slug: "coding-tip-1-stop-using-static-strings-so-much"
+cover: "https://images.wraithcode.io/2026-05/coding-tip-1-stop-using-static-strings-so-much-cover-1600.webp"
 published: true
 devto_id: 1679072
 ---

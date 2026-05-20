@@ -4,6 +4,7 @@ description: "Let's face it: in software engineering, change is as inevitable as
 date: "2025-04-29"
 tags: ["webdev", "softwareengineering", "softwaredevelopment"]
 slug: "embracing-change-the-real-skill-every-software-engineer-needs"
+cover: "https://images.wraithcode.io/2026-05/embracing-change-the-real-skill-every-software-engineer-needs-cover-1600.webp"
 published: true
 devto_id: 2445752
 ---

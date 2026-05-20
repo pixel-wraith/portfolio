@@ -84,7 +84,7 @@ export default App
 
 Now if you run `npm run dev` you should see the following:
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/y6o1prinuqhamwqpqtd7.png)
+![Image description](https://images.wraithcode.io/2026-05/sharing-data-across-your-react-app-with-react-context-img-01-1600.webp)
 
 Great, we now have a blank canvas to begin our work!
 
@@ -241,7 +241,7 @@ If you run `npm run dev`, you should now be able to go to the following routes a
 
 Our app structure should now look like this:
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/8dm53h6r8kxw46gilxp4.png)
+![Image description](https://images.wraithcode.io/2026-05/sharing-data-across-your-react-app-with-react-context-img-02-1600.webp)
 
 Refer to branch [002-routers](https://github.com/iamthe-Wraith/xample-react-context/tree/002-routes) if you're having any issues.
 
@@ -354,7 +354,7 @@ export const Screen: FC<IProps> = ({
 
 There we go, now if you run `npm run dev` you should see:
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/m80eomennrxdz8wosylb.png)
+![Image description](https://images.wraithcode.io/2026-05/sharing-data-across-your-react-app-with-react-context-img-03-1600.webp)
 
 If you click the "Sign In" link, you should be redirected to the `SignIn` screen, and if you click the "Xample" logo, you should return to the `Home` screen.
 

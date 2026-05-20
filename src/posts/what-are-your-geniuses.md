@@ -4,6 +4,7 @@ description: "I've always found personal assessments to be very helpful and inte
 date: "2024-03-04"
 tags: ["productivity"]
 slug: "what-are-your-geniuses"
+cover: "https://images.wraithcode.io/2026-05/what-are-your-geniuses-cover-1600.webp"
 published: true
 devto_id: 1778955
 ---

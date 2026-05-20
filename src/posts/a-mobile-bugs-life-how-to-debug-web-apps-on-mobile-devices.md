@@ -4,13 +4,14 @@ description: "If only bugs in our code were as cute and adorable as those little
 date: "2023-08-25"
 tags: ["webdev", "testing", "mobile"]
 slug: "a-mobile-bugs-life-how-to-debug-web-apps-on-mobile-devices"
+cover: "https://images.wraithcode.io/2026-05/a-mobile-bugs-life-how-to-debug-web-apps-on-mobile-devices-cover-1600.webp"
 published: true
 devto_id: 1580071
 ---
 
 If only bugs in our code were as cute and adorable as those little rascals in A Bugs Life!
 
-![Cute, fat caterpillar from A Bugs Life pretending to be a bumblebee](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/4xgakrtzgkuptsuyo61l.gif)
+![Cute, fat caterpillar from A Bugs Life pretending to be a bumblebee](https://images.wraithcode.io/2026-05/a-mobile-bugs-life-how-to-debug-web-apps-on-mobile-devices-img-01.gif)
 
 We've all been there. You've spent hours working on your web app. Everything looks and works great on your computer. You take the time to test on different browsers, and use the built in dev tools to check dozens of device sizes. All look good. We're ready to move forward.
 
@@ -18,7 +19,7 @@ Maybe you have a staging environment you can deploy to in order to run tests in 
 
 Then, the alarms start going off...something's not working.
 
-![Caterpillar from A Bugs Life screaming](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/j5kvlozqcjrg1u0t0qay.gif)
+![Caterpillar from A Bugs Life screaming](https://images.wraithcode.io/2026-05/a-mobile-bugs-life-how-to-debug-web-apps-on-mobile-devices-img-02.gif)
 
 You check the logs and see a bunch of errors all pointing to mobile devices. You grab your phone, punch in the url, and sure enough, your app isn't working as it should...there's a bug...and not a cute one just learning to fly. How can this be? You tested your code thoroughly on your computer using [Device Mode](https://developer.chrome.com/docs/devtools/device-mode/). Why are we seeing these errors now?
 
@@ -27,7 +28,7 @@ As helpful as it is, Device Mode on desktop browsers is not a perfect comparison
 
 In this post, I'm going to share some other convenient methods for testing your web app on mobile devices that will provide more accurate results than just relying on Device Mode alone. A when we're through, hopefully they will help you get rid of those mean grasshoppers...I mean bugs.
 
-![A mean grasshopper from A Bugs Life looking down](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/78mityx6cs18bizju0a0.gif)
+![A mean grasshopper from A Bugs Life looking down](https://images.wraithcode.io/2026-05/a-mobile-bugs-life-how-to-debug-web-apps-on-mobile-devices-img-03.gif)
 
 ## Local Hosting
 Did you know that many bundlers come with support for hosting your web app from your own computer so it can be accessed on your local network? It's true! Tools like Vite, Webpack, and Parcel can be configured to host your development server so you can view the app in the browser of any device connected to your local network. They even do this with hot module reloading (HMR) so you can change your code and see it immediately on those devices!
@@ -111,7 +112,7 @@ Once again, grab your phone, open the browser, and go to `http://192.168.1.110:1
 These are just a few of the tools that are being used out there, but hopefully you can see how powerful this kind of setup can be! Without lots of complicated connections or deployments you can easily see how your web app runs on actual mobile devices, severely reducing the risk of those surprise production issues.
 
 
-![Flik from a A Bugs Life floating on a dandilion seed, smiling](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/bvurnqnzsjauxk5eh90u.gif)
+![Flik from a A Bugs Life floating on a dandilion seed, smiling](https://images.wraithcode.io/2026-05/a-mobile-bugs-life-how-to-debug-web-apps-on-mobile-devices-img-04.gif)
 
 But you may have noticed that you don't have access to your normal dev tools when viewing your app on your phone. In the next couple of sections, we'll take a look at some ways you can.
 
@@ -151,7 +152,7 @@ Once you select it, the menus should disappear, and a Safari dev tools window sh
 
 How cool is that?!
 
-![Rolly Pollies from A Bugs Life hanging from strings and laughing](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nvwnsgln2gn6ywrzo4tc.gif)
+![Rolly Pollies from A Bugs Life hanging from strings and laughing](https://images.wraithcode.io/2026-05/a-mobile-bugs-life-how-to-debug-web-apps-on-mobile-devices-img-05.gif)
 
 ## Remote debugging on Android
 Need to test your web app on an Android device? Not a problem! We're able to connect Android devices to our computers, and interact with them using any Chromium browser! If you aren't sure if you have a Chromium browser, Chrome, Edge, Arc, and Brave are popular choices.
@@ -193,7 +194,7 @@ A new section should appear just below the Chromium version. In this section, cl
 
 A new window should appear with the DevTools open. You can now interact with the browser on your Android device the exact same way you would from the desktop browser, including viewing the console, looking over all the network calls, and inspecting the page's HTML!
 
-![Bugs from A Bugs Life celegrating](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3c2rczeuulwai7mok0pc.gif)
+![Bugs from A Bugs Life celegrating](https://images.wraithcode.io/2026-05/a-mobile-bugs-life-how-to-debug-web-apps-on-mobile-devices-img-06.gif)
 
 ## Debugging Without a Physical Device
 Although the best testing is done on the physical device your app is going to run on, sometimes we don't have access to one. Lucky for us, there are lots tools out there that can help with this. Some are free (or at least have a free tier), but others do cost some money. But all are worth looking into to see which ones will suite your needs best.
@@ -216,4 +217,4 @@ Lastly, I shared a few tools with you that are great for testing web apps when y
 
 I hope this has helped to make your debugging efforts easier, and your dev experience a little better. Thank you for learning something new with me, and until next time, Happy Hacking!
 
-![Flick from A Bugs Life waving goodbye and then crashing into a rock](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0668as49lafsvtr3lbrk.gif)
+![Flick from A Bugs Life waving goodbye and then crashing into a rock](https://images.wraithcode.io/2026-05/a-mobile-bugs-life-how-to-debug-web-apps-on-mobile-devices-img-07.gif)

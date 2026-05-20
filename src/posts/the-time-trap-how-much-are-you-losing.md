@@ -4,6 +4,7 @@ description: "Have you ever sat down to relax after a long day of work, then sud
 date: "2025-02-19"
 tags: ["productivity"]
 slug: "the-time-trap-how-much-are-you-losing"
+cover: "https://images.wraithcode.io/2026-05/the-time-trap-how-much-are-you-losing-cover-1600.webp"
 published: true
 devto_id: 2286890
 ---

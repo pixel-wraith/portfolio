@@ -4,6 +4,7 @@ description: "In our fast-paced world, productivity is key. But what if I told y
 date: "2025-02-04"
 tags: ["productivity"]
 slug: "the-productivity-secret-hiding-in-plain-sight"
+cover: "https://images.wraithcode.io/2026-05/the-productivity-secret-hiding-in-plain-sight-cover-1600.webp"
 published: true
 devto_id: 2258693
 ---

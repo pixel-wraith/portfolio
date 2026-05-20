@@ -4,6 +4,7 @@ description: "Lemme start by asking you question...how many methods do you think
 date: "2023-09-15"
 tags: ["webdev", "javascript", "development"]
 slug: "exposure-in-the-workplace-pretzels-and-arrays"
+cover: "https://images.wraithcode.io/2026-05/exposure-in-the-workplace-pretzels-and-arrays-cover-1600.webp"
 published: true
 devto_id: 1601416
 ---
@@ -11,7 +12,7 @@ devto_id: 1601416
 Lemme start by asking you question...how many methods do you think Arrays have in Javascript?
 
 
-![Dwight Schrute from The Office thinking.](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ywgukjcezod8fzu0l4pc.gif)
+![Dwight Schrute from The Office thinking.](https://images.wraithcode.io/2026-05/exposure-in-the-workplace-pretzels-and-arrays-img-01.gif)
 
 
 Answer, a LOT.
@@ -21,7 +22,7 @@ At this point, I would assume that even Michael Scott knows about `.map()`, `.fi
 So let's hop into that pretzel line, and while we're waiting, expose ourselves! 
 
 
-![Stanley from The Office rushing to get to the pretzel line.](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/awha89w7v12x0c1vwaj1.gif)
+![Stanley from The Office rushing to get to the pretzel line.](https://images.wraithcode.io/2026-05/exposure-in-the-workplace-pretzels-and-arrays-img-02.gif)
 
 
 
@@ -52,7 +53,7 @@ const last = pretzelLine.at(-1);
 This is definitely a small convenience, but I love this method for this single reason. However, there are tons of other use cases where `.at()` makes things easier and more readable.
 
 
-![Holly from The Office sitting on the ground saying, "Crystal Cool".](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ljdjeywybzhazhp5k9ld.gif)
+![Holly from The Office sitting on the ground saying, "Crystal Cool".](https://images.wraithcode.io/2026-05/exposure-in-the-workplace-pretzels-and-arrays-img-03.gif)
 
 
 ## `.findLast()`
@@ -77,14 +78,14 @@ const last = pretzelLine.findLast(person => {
 console.log(last); // Michael Scott
 ```
 
-![Michael Scott from The Office saying, "Awesome blossom".](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nsf4ioj5w3hisj4nalul.gif)
+![Michael Scott from The Office saying, "Awesome blossom".](https://images.wraithcode.io/2026-05/exposure-in-the-workplace-pretzels-and-arrays-img-04.gif)
 
 
 ## `.toReversed()`
 It's not uncommon to have to reverse the order of an array. Maybe you have a list of names in alphabetical order (A-Z), and the user clicks to filter them from Z-A. Or you have a list of prices sorted lowest to highest and you need to view the highest prices first. This is a relatively normal task, and we've had the `.reverse()` method to handle it for a long time. But the problem has been that the `.reverse()` method mutates the original array.
 
 
-![Michael Scott with gum in his hair saying, "This just stinks".](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fdp8w66x8terulqk78fc.gif)
+![Michael Scott with gum in his hair saying, "This just stinks".](https://images.wraithcode.io/2026-05/exposure-in-the-workplace-pretzels-and-arrays-img-05.gif)
 
 
 Sometimes we need the order reversed *without* changing the original one. Enter our new friend, `[.toReversed()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toReversed)`.
@@ -107,7 +108,7 @@ console.log(pretzelLine[0]); // Bob Vance, Vance Refrigeration
 ```
 
 
-![Michael Scott saying, "Snip Snap" over and over again.](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0bko9qq696aro98404tj.gif)
+![Michael Scott saying, "Snip Snap" over and over again.](https://images.wraithcode.io/2026-05/exposure-in-the-workplace-pretzels-and-arrays-img-06.gif)
 
 
 Along with this method, we also got `[.toSorted()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toSorted)` and `[.toSpliced()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toSpliced)` which also return copies of the array instead of changing the original one!
@@ -115,7 +116,7 @@ Along with this method, we also got `[.toSorted()](https://developer.mozilla.org
 However, these are pretty new functions, so depending on your browser support requirements, you may not be able to use them just yet. But it's included in the latest versions of the big 4 browsers, so 🤞 you'll be able to soon! 
 
 
-![Jim from The Office crossing his fingers.](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/6lskgp3k51hs9jmtsbsa.gif)
+![Jim from The Office crossing his fingers.](https://images.wraithcode.io/2026-05/exposure-in-the-workplace-pretzels-and-arrays-img-07.gif)
 
 
 
@@ -157,4 +158,4 @@ Or if you need to change an element in an array, but you want to keep a copy of 
 Thank you for exposing yourself today! And until next time, Happy Hacking!
 
 
-![Michael Scott spinning, giving finger guns, and then walking off stage.](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/s7p18xqr0kbecalwxdw5.gif)
+![Michael Scott spinning, giving finger guns, and then walking off stage.](https://images.wraithcode.io/2026-05/exposure-in-the-workplace-pretzels-and-arrays-img-08.gif)

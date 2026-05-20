@@ -4,6 +4,7 @@ description: "How can I learn to write better code?  What's the best way to get 
 date: "2024-11-28"
 tags: ["development", "career"]
 slug: "the-best-way-to-get-better-at-writing-code-is"
+cover: "https://images.wraithcode.io/2026-05/the-best-way-to-get-better-at-writing-code-is-cover-1600.webp"
 published: true
 devto_id: 2125926
 ---

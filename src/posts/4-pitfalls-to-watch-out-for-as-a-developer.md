@@ -4,6 +4,7 @@ description: "In today's world of software development, there are many traps and
 date: "2023-11-08"
 tags: ["development", "career"]
 slug: "4-pitfalls-to-watch-out-for-as-a-developer"
+cover: "https://images.wraithcode.io/2026-05/4-pitfalls-to-watch-out-for-as-a-developer-cover-1600.webp"
 published: true
 devto_id: 1660749
 ---
@@ -15,7 +16,7 @@ Let me start this all by saying that if you find yourself in one of these pitfal
 
 ## 1. Taking Too Little or Too Much Time
 
-![An hourglass sitting on some rocks](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/17ax4lsmys1xfnxo8g2y.jpg)
+![An hourglass sitting on some rocks](https://images.wraithcode.io/2026-05/4-pitfalls-to-watch-out-for-as-a-developer-img-01-1600.webp)
 
 These 2 pitfalls can be a bit subjective, but they're ones I think are important, especially in the work place. Everyone's different in how they learn, how they approach problems, and how they implement solutions. So the amount of time it takes can vary from person to person...which is why this is a bit subjective. But in this case, I'm referring to the extremes in either direction. When someone immediately calls for help as soon as they encounter an issue (without trying to solve it themselves first), or someone that spends many hours on a problem without reaching out for help. Let's discuss each of these individually.
 
@@ -38,7 +39,7 @@ It also solves the second pitfall, because it puts a cap on how long you should 
 
 ## 2. Taking Feedback About Your Code Personally
 
-![An angry face painted on a yellow piece of cardboard](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/lo9dndwu1jl8fvgcdrxx.jpg)
+![An angry face painted on a yellow piece of cardboard](https://images.wraithcode.io/2026-05/4-pitfalls-to-watch-out-for-as-a-developer-img-02-1600.webp)
 
 Let's start by saying that none of us write perfect code. Even the greatest developers in the world can introduce bugs, overlook certain use cases, or forget to consider how one thing might impact another. It's for this very reason why pull requests (or merge requests if your a GitLab user) exist at all! Getting more eyes on code drastically reduces the chance of bugs being released to production. But this process relies on providing and receiving feedback on our code. The pitfall I've seen many developers fall into (including myself at times) is when they take that feedback as a personal judgement or attack.
 
@@ -67,7 +68,7 @@ Lastly, if someone is still taking feedback personally, or if the reviewer does 
 
 ## 3. Pretending To Understand
 
-![A man with a beard giving two thumbs up](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/x1s91su37fbgi35e4h8l.jpg)
+![A man with a beard giving two thumbs up](https://images.wraithcode.io/2026-05/4-pitfalls-to-watch-out-for-as-a-developer-img-03-1600.webp)
 
 Have you ever had a hard time with something, reached out for help, still didn't quite understand after the other person explained it, but smiled and nodded because you were afraid of looking incompetent? This is what I'm referring to here.
 
@@ -94,7 +95,7 @@ This also helps the other person know that you're not quite there yet and they m
 
 ## 4. Not Continuing to Learn
 
-![Brown wooden blocks with letters on them, arranged to spell, "I am still learning"](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/67h4eytfa7ui527dqcz8.jpg)
+![Brown wooden blocks with letters on them, arranged to spell, "I am still learning"](https://images.wraithcode.io/2026-05/4-pitfalls-to-watch-out-for-as-a-developer-img-04-1600.webp)
 
 This may be the biggest pitfall of them all. The tech world is in a constant state of change. In fact "change" is about the only constant we can expect as software developers. Because of this, we must always be learning as new technologies, techniques, tools, security vulnerabilities, user demands, and so much more are identified.
 

@@ -4,6 +4,7 @@ description: "Have you ever noticed how you write the same boilerplate code over
 date: "2023-12-15"
 tags: ["development", "tip", "react", "typescript"]
 slug: "time-saving-tip-2-user-snippets-in-vscode"
+cover: "https://images.wraithcode.io/2026-05/time-saving-tip-2-user-snippets-in-vscode-cover-1600.webp"
 published: true
 devto_id: 1698868
 ---
@@ -33,13 +34,13 @@ So let's dive in!
 
 First, you'll need to open the User Snippets configuration for the language/file type you want to create a Snippet for. So in VSCode, click to open the `Code` menu, select `Settings`, then click `Configure User Snippets`
 
-![Screenshot of the Code menu open with Settings selected, and the settings menu open beside it with Configure User Snippets highlighted](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/j41i7zabra7d6imhbz2j.png)
+![Screenshot of the Code menu open with Settings selected, and the settings menu open beside it with Configure User Snippets highlighted](https://images.wraithcode.io/2026-05/time-saving-tip-2-user-snippets-in-vscode-img-01-1600.webp)
 
 *Note, I'm using VSCode Insiders, so my `Code` menu might look a bit different than yours, but you should have these same options in VSCode.*
 
 Next, in the input that pops up, enter the language/file type you want to create a User Snippet for. In this example, I will search for `react` and click on `typescriptreact`.
 
-![Screenshot of the User Snippets search with "react" entered, and "typescriptreact" highlighted](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/96f0fkq0pd7g8wpf97s2.png)
+![Screenshot of the User Snippets search with "react" entered, and "typescriptreact" highlighted](https://images.wraithcode.io/2026-05/time-saving-tip-2-user-snippets-in-vscode-img-02-1600.webp)
 
 If this is your first time opening this file you should see a comment including information about what properties and variables are supported, as well as a simple example of what a Code Snippet looks like. Let's have a look at this, piece by piece, so we understand what options we have, and what structure we need to use.
 
@@ -209,7 +210,7 @@ Create a new file with the corresponding file type for your Snippet (or open an 
 
 With the proper file type open, now all we have to do is type the name of our `prefix`, select it from the options that appear, and press Enter.
 
-![Screen recording of utilizing the new "__fc" User Snippet in VSCode](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/exp4wp7crhk32khk0a5p.gif)
+![Screen recording of utilizing the new "__fc" User Snippet in VSCode](https://images.wraithcode.io/2026-05/time-saving-tip-2-user-snippets-in-vscode-img-03.gif)
 
 Would you look at that?! In just a couple seconds we were able to get an entire component's boilerplate up and running. Not to mention, we can be sure that everything we just added is corrected because it's being reused from a template.
 

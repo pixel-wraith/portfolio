@@ -4,6 +4,7 @@ description: "Ever feel like there aren't enough hours in the day? You're not al
 date: "2025-03-24"
 tags: ["productivity"]
 slug: "double-your-output-the-secrets-of-action-stacking"
+cover: "https://images.wraithcode.io/2026-05/double-your-output-the-secrets-of-action-stacking-cover-1600.webp"
 published: true
 devto_id: 2353557
 ---

@@ -4,6 +4,7 @@ description: "Continuous learning. Ask any accomplished person in the world toda
 date: "2025-04-22"
 tags: ["webdev", "softwareengineering", "softwaredevelopment"]
 slug: "beyond-the-bare-minimum-how-software-engineers-can-truly-stand-out"
+cover: "https://images.wraithcode.io/2026-05/beyond-the-bare-minimum-how-software-engineers-can-truly-stand-out-cover-1600.webp"
 published: true
 devto_id: 2424779
 ---

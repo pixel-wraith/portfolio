@@ -4,6 +4,7 @@ description: "This week, I'd like to have a frank discussion about what it reall
 date: "2025-04-01"
 tags: ["webdev", "softwaredevelopment", "softwareengineering"]
 slug: "beyond-the-code-what-it-means-to-be-a-software-engineer"
+cover: "https://images.wraithcode.io/2026-05/beyond-the-code-what-it-means-to-be-a-software-engineer-cover-1600.webp"
 published: true
 devto_id: 2371220
 ---

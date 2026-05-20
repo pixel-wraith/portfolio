@@ -4,6 +4,7 @@ description: "Let's start by considering a non-code related example to help us a
 date: "2024-06-26"
 tags: ["development"]
 slug: "why-do-we-need-clean-code"
+cover: "https://images.wraithcode.io/2026-05/why-do-we-need-clean-code-cover-1600.webp"
 published: true
 devto_id: 1881749
 ---
@@ -61,7 +62,7 @@ So all this is to say, *it's just better to write clean, well organized code*.
 
 ## Why does "dirty" code get written in the first place?
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kpivnq4cpa8us8q3n15j.png)
+![Image description](https://images.wraithcode.io/2026-05/why-do-we-need-clean-code-img-01-1600.webp)
 
 There are lots of arguments, reasons, and excuses why "dirty code" gets written. In this section, let's take a look at 3 of the most common ones I've heard, and dig into them a bit. Maybe some of them will sound familiar...
 

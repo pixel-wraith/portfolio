@@ -4,6 +4,7 @@ description: "\"If you can't explain something to a first-year student, then you
 date: "2025-05-06"
 tags: ["softwaredevelopment", "softwareengineering", "webdev"]
 slug: "the-hallmark-of-great-developers-writing-simple-code"
+cover: "https://images.wraithcode.io/2026-05/the-hallmark-of-great-developers-writing-simple-code-cover-1600.webp"
 published: true
 devto_id: 2463312
 ---

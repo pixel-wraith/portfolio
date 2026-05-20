@@ -4,6 +4,7 @@ description: "🚧 Warning: hard truths ahead.   Today we're addressing the unco
 date: "2025-03-25"
 tags: ["webdev", "softwaredevelopment", "softwareengineering"]
 slug: "think-before-you-code-the-art-of-understanding"
+cover: "https://images.wraithcode.io/2026-05/think-before-you-code-the-art-of-understanding-cover-1600.webp"
 published: true
 devto_id: 2355781
 ---

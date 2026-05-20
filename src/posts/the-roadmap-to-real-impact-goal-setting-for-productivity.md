@@ -4,6 +4,7 @@ description: "Once again, I'd like to start this week's post off with a question
 date: "2025-04-28"
 tags: ["productivity"]
 slug: "the-roadmap-to-real-impact-goal-setting-for-productivity"
+cover: "https://images.wraithcode.io/2026-05/the-roadmap-to-real-impact-goal-setting-for-productivity-cover-1600.webp"
 published: true
 devto_id: 2441970
 ---
