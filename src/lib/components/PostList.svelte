@@ -19,6 +19,33 @@
     {#if posts.length === 0}
         <p class="empty">No posts yet.</p>
     {:else}
+        {#if totalPages > 1}
+            <nav
+                class="pagination pagination-top"
+                aria-label="Pagination"
+            >
+                {#if page > 1}
+                    <a
+                        href={prevHref}
+                        class="pagination-link"
+                    >← Newer</a>
+                {:else}
+                    <span></span>
+                {/if}
+
+                <span class="pagination-status">Page {page} of {totalPages}</span>
+
+                {#if page < totalPages}
+                    <a
+                        href={nextHref}
+                        class="pagination-link"
+                    >Older →</a>
+                {:else}
+                    <span></span>
+                {/if}
+            </nav>
+        {/if}
+
         <div class="post-grid">
             {#each posts as post (post.slug)}
                 <PostCard {post} />
@@ -27,7 +54,7 @@
 
         {#if totalPages > 1}
             <nav
-                class="pagination"
+                class="pagination pagination-bottom"
                 aria-label="Pagination"
             >
                 {#if page > 1}
@@ -78,10 +105,21 @@
             grid-template-columns: 1fr auto 1fr;
             align-items: center;
             gap: 1rem;
-            margin-top: 3rem;
-            padding-top: 2rem;
-            border-top: 1px solid var(--neutral-300);
             color: var(--neutral-700);
+
+            &.pagination-top {
+                margin: 0 auto 3rem;
+                padding: 0 0 2rem;
+                border-top: none;
+                border-bottom: 1px solid var(--neutral-300);
+            }
+
+            &.pagination-bottom {
+                margin: 3rem auto 0;
+                padding: 2rem 0 0;
+                border-top: 1px solid var(--neutral-300);
+                border-bottom: none;
+            }
 
             & .pagination-status {
                 font-size: 0.9rem;

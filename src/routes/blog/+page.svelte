@@ -38,7 +38,7 @@
 
     .blog-header {
         max-width: 80rem;
-        margin: 0 auto 3rem;
+        margin: 0 auto 1rem;
         padding: 0 1rem;
         text-align: center;
         color: var(--neutral-900);
