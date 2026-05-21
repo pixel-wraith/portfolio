@@ -37,6 +37,15 @@
 </svelte:head>
 
 <article class="post">
+    <div class="post-links-container">
+        <a href="/blog" class="post-back-link">
+            <i class="fa-regular fa-chevron-left" aria-hidden="true"></i>
+            Back to all posts
+        </a>
+
+        <span></span>
+    </div>
+
     {#if post.cover}
         <img
             class="post-cover"
@@ -77,26 +86,32 @@
             class="post-nav"
             aria-label="Post navigation"
         >
-            {#if prev}
-                <a
-                    href="/blog/{prev.slug}"
-                    class="post-nav-link prev"
-                >
-                    <span class="post-nav-label">← Older</span>
-                    <span class="post-nav-title">{prev.title}</span>
-                </a>
-            {:else}
-                <span></span>
-            {/if}
-
             {#if next}
                 <a
                     href="/blog/{next.slug}"
                     class="post-nav-link next"
                 >
-                    <span class="post-nav-label">Newer →</span>
+                    <span class="post-nav-label">
+                        <i class="fa-regular fa-chevron-left" aria-hidden="true"></i>
+                        Newer
+                    </span>
                     <span class="post-nav-title">{next.title}</span>
                 </a>
+            {/if}
+
+            {#if prev}
+                <a
+                    href="/blog/{prev.slug}"
+                    class="post-nav-link prev"
+                >
+                    <span class="post-nav-label">
+                        Older
+                        <i class="fa-regular fa-chevron-right" aria-hidden="true"></i>
+                    </span>
+                    <span class="post-nav-title">{prev.title}</span>
+                </a>
+            {:else}
+                <span></span>
             {/if}
         </nav>
     {/if}
@@ -109,6 +124,24 @@
         margin: 0 auto 5rem;
         padding: 0 1rem;
         color: var(--neutral-900);
+
+        & .post-links-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 1rem 0;
+
+            & .post-back-link {
+                color: var(--neutral-600);
+                text-decoration: none;
+                transition: color 0.2s ease-in-out;
+
+                &:hover,
+                &:focus-visible {
+                    color: var(--primary-500);
+                }
+            }
+        }
 
         & .post-cover {
             display: block;
@@ -242,7 +275,7 @@
                     border-color: var(--primary-500);
                 }
 
-                &.next {
+                &.prev {
                     text-align: right;
                 }
             }

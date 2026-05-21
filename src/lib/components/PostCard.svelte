@@ -45,7 +45,7 @@
             {#if condensed}
                 <h3 class="h6">{post.title}</h3>
             {:else}
-                <h3>{post.title}</h3>
+                <h3 class="h5">{post.title}</h3>
             {/if}
             <div>
                 {#if condensed}

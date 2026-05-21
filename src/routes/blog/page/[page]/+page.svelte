@@ -23,7 +23,6 @@
 <div class="container">
     <header class="blog-header">
         <h1>Blog</h1>
-        <p>Page {data.page} of {data.totalPages}</p>
     </header>
 
     <PostList
@@ -41,18 +40,13 @@
 
     .blog-header {
         max-width: 80rem;
-        margin: 0 auto 3rem;
+        margin: 0 auto 1rem;
         padding: 0 1rem;
         text-align: center;
         color: var(--neutral-900);
 
         & h1 {
             margin: 0 0 0.5rem;
-        }
-
-        & p {
-            color: var(--neutral-600);
-            margin: 0;
         }
     }
 </style>

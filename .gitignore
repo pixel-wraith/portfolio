@@ -27,3 +27,6 @@ test-results
 
 # Sentry Config File
 .env.sentry-build-plugin
+
+# Claude Code harness-local state (per-machine settings)
+.claude/settings.local.json
