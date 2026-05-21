@@ -31,6 +31,7 @@ const ENV_PATH = resolve(REPO_ROOT, '.env');
 
 const CANONICAL_BASE = 'https://jakelundberg.dev/blog';
 const THROTTLE_MS = 1100;
+const FETCH_TIMEOUT_MS = 30_000;
 const APPLY = process.argv.includes('--apply');
 
 // ---------- types ----------
@@ -107,8 +108,21 @@ async function readPosts(): Promise<IPostInfo[]> {
 
 // ---------- dev.to API ----------
 
+// Node's fetch has no built-in timeout — wrap with AbortController so a
+// stuck socket on any single article doesn't hang the rest of the batch
+// behind the throttle sleeps.
+async function fetchWithTimeout(input: string, init: RequestInit): Promise<Response> {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
+    try {
+        return await fetch(input, { ...init, signal: controller.signal });
+    } finally {
+        clearTimeout(timer);
+    }
+}
+
 async function getArticle(id: number, apiKey: string): Promise<IDevtoArticle> {
-    const res = await fetch(`https://dev.to/api/articles/${id}`, {
+    const res = await fetchWithTimeout(`https://dev.to/api/articles/${id}`, {
         headers: { 'api-key': apiKey },
     });
     if (!res.ok) {
@@ -118,7 +132,7 @@ async function getArticle(id: number, apiKey: string): Promise<IDevtoArticle> {
 }
 
 async function patchCanonical(id: number, canonical: string, apiKey: string): Promise<void> {
-    const res = await fetch(`https://dev.to/api/articles/${id}`, {
+    const res = await fetchWithTimeout(`https://dev.to/api/articles/${id}`, {
         method: 'PUT',
         headers: { 'api-key': apiKey, 'content-type': 'application/json' },
         body: JSON.stringify({ article: { canonical_url: canonical } }),
@@ -195,6 +209,12 @@ async function main(): Promise<void> {
     console.log(`failed:          ${failed}`);
     if (!APPLY && needsUpdate > 0) {
         console.log('\nRe-run with `--apply` to actually PATCH dev.to.');
+    }
+
+    // Non-zero exit on any per-article failure so CI / shell automation
+    // doesn't silently treat partial failures as success.
+    if (failed > 0) {
+        process.exit(1);
     }
 }
 
