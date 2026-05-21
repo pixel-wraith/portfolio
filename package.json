@@ -14,7 +14,8 @@
         "lint:fix": "eslint . --fix",
         "test:unit": "vitest",
         "test": "npm run test:unit -- --run && npm run test:e2e",
-        "test:e2e": "playwright test"
+        "test:e2e": "playwright test",
+        "patch:devto-canonicals": "tsx scripts/patch-devto-canonicals.ts"
     },
     "dependencies": {
         "@antfu/eslint-config": "^7.6.1",
