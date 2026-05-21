@@ -37,6 +37,15 @@
 </svelte:head>
 
 <article class="post">
+    <div class="post-links-container">
+        <a href="/blog" class="post-back-link">
+            <i class="fa-regular fa-chevron-left" aria-hidden="true"></i>
+            Back to all posts
+        </a>
+
+        <span></span>
+    </div>
+
     {#if post.cover}
         <img
             class="post-cover"
@@ -109,6 +118,24 @@
         margin: 0 auto 5rem;
         padding: 0 1rem;
         color: var(--neutral-900);
+
+        & .post-links-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 1rem 0;
+
+            & .post-back-link {
+                color: var(--neutral-600);
+                text-decoration: none;
+                transition: color 0.2s ease-in-out;
+
+                &:hover,
+                &:focus-visible {
+                    color: var(--primary-500);
+                }
+            }
+        }
 
         & .post-cover {
             display: block;
