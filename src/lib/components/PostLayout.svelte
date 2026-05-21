@@ -86,26 +86,32 @@
             class="post-nav"
             aria-label="Post navigation"
         >
-            {#if prev}
-                <a
-                    href="/blog/{prev.slug}"
-                    class="post-nav-link prev"
-                >
-                    <span class="post-nav-label">← Older</span>
-                    <span class="post-nav-title">{prev.title}</span>
-                </a>
-            {:else}
-                <span></span>
-            {/if}
-
             {#if next}
                 <a
                     href="/blog/{next.slug}"
                     class="post-nav-link next"
                 >
-                    <span class="post-nav-label">Newer →</span>
+                    <span class="post-nav-label">
+                        <i class="fa-regular fa-chevron-left" aria-hidden="true"></i>
+                        Newer
+                    </span>
                     <span class="post-nav-title">{next.title}</span>
                 </a>
+            {/if}
+
+            {#if prev}
+                <a
+                    href="/blog/{prev.slug}"
+                    class="post-nav-link prev"
+                >
+                    <span class="post-nav-label">
+                        Older
+                        <i class="fa-regular fa-chevron-right" aria-hidden="true"></i>
+                    </span>
+                    <span class="post-nav-title">{prev.title}</span>
+                </a>
+            {:else}
+                <span></span>
             {/if}
         </nav>
     {/if}
@@ -269,7 +275,7 @@
                     border-color: var(--primary-500);
                 }
 
-                &.next {
+                &.prev {
                     text-align: right;
                 }
             }
