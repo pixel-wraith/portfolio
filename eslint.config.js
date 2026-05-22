@@ -76,15 +76,6 @@ export default antfu({
         ],
     },
 }, {
-    files: ['scripts/**/*.ts'],
-    rules: {
-        // CLI/migration scripts log to stdout/stderr by design.
-        'no-console': 'off',
-        'no-restricted-syntax': 'off',
-        // Scripts read configuration from process.env (e.g. .env file).
-        'node/no-process-env': 'off',
-    },
-}, {
     files: ['**/*.svelte'],
     rules: {
         'quotes': 'off',
