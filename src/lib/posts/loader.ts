@@ -28,6 +28,12 @@ export function getAllPosts({ page = 1, perPage = 12 }: { page?: number; perPage
     return paginate(POSTS.map(e => e.meta), page, perPage);
 }
 
+// Full visible corpus as a single array, without going through the paginator.
+// For full-corpus consumers like the sitemap that should never paginate.
+export function getAllPostsMeta(): PostMeta[] {
+    return POSTS.map(e => e.meta);
+}
+
 export function getRecentPosts(n: number): PostMeta[] {
     return POSTS.slice(0, n).map(e => e.meta);
 }

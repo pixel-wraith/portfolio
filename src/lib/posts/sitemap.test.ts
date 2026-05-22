@@ -37,7 +37,7 @@ describe('buildSitemapXml', () => {
         expect(segmentBeforeClose).not.toContain('<lastmod>');
     });
 
-    it('XML-escapes ampersands and other entity characters in loc', () => {
+    it('escapes XML entity characters in loc (&, <, > etc.)', () => {
         const xml = buildSitemapXml([
             { loc: 'https://example.com/path?a=1&b=2' },
             { loc: 'https://example.com/tag/<weird>' },
