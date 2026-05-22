@@ -37,6 +37,19 @@ describe('buildSitemapXml', () => {
         expect(segmentBeforeClose).not.toContain('<lastmod>');
     });
 
+    it('XML-escapes ampersands and other entity characters in loc', () => {
+        const xml = buildSitemapXml([
+            { loc: 'https://example.com/path?a=1&b=2' },
+            { loc: 'https://example.com/tag/<weird>' },
+        ]);
+
+        expect(xml).toContain('<loc>https://example.com/path?a=1&amp;b=2</loc>');
+        expect(xml).toContain('<loc>https://example.com/tag/&lt;weird&gt;</loc>');
+        // The raw `&` and `<` must not appear unescaped inside a <loc>.
+        expect(xml).not.toContain('a=1&b=2');
+        expect(xml).not.toContain('tag/<weird>');
+    });
+
     it('preserves the input order of urls', () => {
         const xml = buildSitemapXml([
             { loc: 'https://example.com/a' },

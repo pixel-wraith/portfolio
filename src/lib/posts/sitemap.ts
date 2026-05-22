@@ -3,11 +3,24 @@ export interface ISitemapEntry {
     lastmod?: string;
 }
 
+// Sitemap-protocol requires entity-escaping the five XML predefined entities
+// inside <loc> and other text values. URLs in real-world use frequently
+// contain `&` (query strings, UTM params) which would otherwise produce
+// XML that strict parsers (including Google's sitemap indexer) reject.
+function escapeXml(s: string): string {
+    return s
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&apos;');
+}
+
 export function buildSitemapXml(entries: ISitemapEntry[]): string {
     const urls = entries
         .map(e => `
   <url>
-    <loc>${e.loc}</loc>${e.lastmod ? `\n    <lastmod>${e.lastmod}</lastmod>` : ''}
+    <loc>${escapeXml(e.loc)}</loc>${e.lastmod ? `\n    <lastmod>${escapeXml(e.lastmod)}</lastmod>` : ''}
   </url>`)
         .join('');
 
