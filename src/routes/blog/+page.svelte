@@ -3,6 +3,7 @@
     import type { PostMeta } from "$lib/schemas/post.schema";
 
     import PostList from "$lib/components/PostList.svelte";
+    import { SITE_URL } from "$lib/constants/site";
 
     interface IBlogIndexProps {
         data: IPaginated<PostMeta>;
@@ -14,7 +15,7 @@
 <svelte:head>
     <title>Blog — Jake Lundberg</title>
     <meta name="description" content="Writing on engineering, leadership, productivity, and the craft of building software." />
-    <link rel="canonical" href="https://jakelundberg.dev/blog" />
+    <link rel="canonical" href="{SITE_URL}/blog" />
 </svelte:head>
 
 <div class="container">
