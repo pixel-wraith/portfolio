@@ -2,6 +2,7 @@
     import type { Post, PostMeta } from "$lib/schemas/post.schema";
 
     import { page } from '$app/state';
+    import { SITE_URL } from "$lib/constants/site";
     import dayjs from "dayjs";
 
     interface IPostLayoutProps {
@@ -12,7 +13,7 @@
 
     const { post, prev, next }: IPostLayoutProps = $props();
 
-    const canonical = $derived(`https://jakelundberg.dev${page.url.pathname}`);
+    const canonical = $derived(`${SITE_URL}${page.url.pathname}`);
     const ogImage = $derived(post.cover ?? 'https://images.wraithcode.io/og/default.png');
     // Some OG parsers reject bare YYYY-MM-DD and want a full ISO 8601 datetime.
     const publishedDateTime = $derived(`${post.date}T00:00:00.000Z`);

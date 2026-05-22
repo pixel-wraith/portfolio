@@ -4,6 +4,7 @@
 
     import { page as currentPage } from '$app/state';
     import PostList from "$lib/components/PostList.svelte";
+    import { SITE_URL } from "$lib/constants/site";
 
     interface IBlogPageProps {
         data: IPaginated<PostMeta>;
@@ -11,7 +12,7 @@
 
     const { data }: IBlogPageProps = $props();
 
-    const canonical = $derived(`https://jakelundberg.dev${currentPage.url.pathname}`);
+    const canonical = $derived(`${SITE_URL}${currentPage.url.pathname}`);
 </script>
 
 <svelte:head>
