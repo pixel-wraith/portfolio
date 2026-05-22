@@ -28,6 +28,10 @@ describe('buildRssXml', () => {
         expect(xml).toContain('<channel>');
         expect(xml).toContain('</channel>');
         expect(xml).toContain('</rss>');
+        // RSS 2.0 requires <title>, <link>, and <description> on the channel.
+        expect(xml).toContain('<title>');
+        expect(xml).toContain(`<link>${SITE}</link>`);
+        expect(xml).toContain('<description>');
         expect(xml).not.toContain('<item>');
     });
 
@@ -70,11 +74,14 @@ describe('buildRssXml', () => {
     it('escapes literal `]]>` sequences inside CDATA blocks', () => {
         const xml = buildRssXml([post({ description: 'hostile ]]> sequence' })], SITE);
 
-        // The literal closing of the post's CDATA must not appear in the body of an
-        // open CDATA block. The escape splits it: `]]]]><![CDATA[>`.
+        // The literal closing of the post's CDATA must not appear in the body of
+        // an open CDATA block. The escape splits it: `]]]]><![CDATA[>`.
         expect(xml).toContain(']]]]><![CDATA[>');
-        // And the description should still round-trip when stripped of CDATA markers.
+        // Both halves of the original content survive the split: the prose before
+        // the hostile sequence, and the prose after it. Asserting both prevents
+        // a truncation regression from passing the test.
         expect(xml).toContain('hostile ');
+        expect(xml).toContain(' sequence');
     });
 
     it('formats pubDate as RFC 822 in UTC at the start of the day', () => {
