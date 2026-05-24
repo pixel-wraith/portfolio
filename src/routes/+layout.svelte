@@ -124,7 +124,9 @@
             <div class="top">
                 <div class="side left"></div>
 
-                <Logo />
+                <a href="/" aria-label="Home" class="logo-container">
+                    <Logo hoverable />
+                </a>
 
                 <div class="side right">
                     <SocialLinks />
@@ -165,7 +167,9 @@
             <p class="copywrite">&copy; {new Date().getFullYear()} Jake Lundberg</p>
         </div>
 
-        <Logo />
+        <a href="/" aria-label="Home" class="logo-container">
+            <Logo hoverable />
+        </a>
 
         <div class="side right">
             <SocialLinks />
@@ -243,6 +247,13 @@
                 justify-content: flex-start;
             }
         }
+    }
+
+    .logo-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 2.5rem;
     }
 
     nav {
