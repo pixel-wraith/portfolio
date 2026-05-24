@@ -3,7 +3,7 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { describe, expect, it } from 'vitest';
 
-import { STATIC_ROUTES } from './+server';
+import { STATIC_ROUTES } from './static-routes';
 
 // The sitemap endpoint lives at src/routes/sitemap.xml/; one directory up is
 // src/routes/. This drift guard fires when someone adds a new top-level page
