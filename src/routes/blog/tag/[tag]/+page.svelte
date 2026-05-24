@@ -29,6 +29,7 @@
         <p>{data.posts.length} {data.posts.length === 1 ? 'post' : 'posts'} tagged #{data.tag}.</p>
     </header>
 
+    <!-- page=1/totalPages=1 suppresses PostList's pagination chrome — tag pages are unpaginated. -->
     <PostList
         posts={data.posts}
         page={1}

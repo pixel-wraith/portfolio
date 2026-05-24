@@ -12,6 +12,10 @@ const HAS_ANY_TAGS = ALL_TAGS.length > 0;
 export const prerender = HAS_ANY_TAGS;
 
 export const entries: EntryGenerator = () => {
+    if (!HAS_ANY_TAGS) {
+        return [];
+    }
+
     return ALL_TAGS.map(tag => ({ tag }));
 };
 
