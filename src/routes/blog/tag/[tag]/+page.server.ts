@@ -1,29 +1,12 @@
-import { error } from '@sveltejs/kit';
-import { getAllTags, getPostsByTag } from '$lib/posts/loader';
+import { getPostsByTag } from '$lib/posts/loader';
 
-import type { EntryGenerator, PageServerLoad } from './$types';
+import type { PageServerLoad } from './$types';
 
-const ALL_TAGS = getAllTags();
-const HAS_ANY_TAGS = ALL_TAGS.length > 0;
-
-// Only prerender when there is at least one tag across the corpus; otherwise
-// SvelteKit errors on "prerenderable route with no entries". Same pattern as
-// /blog/page/[page]: if nothing to enumerate, fall back to SSR and 404.
-export const prerender = HAS_ANY_TAGS;
-
-export const entries: EntryGenerator = () => {
-    if (!HAS_ANY_TAGS) {
-        return [];
-    }
-
-    return ALL_TAGS.map(tag => ({ tag }));
-};
-
+// SSR per-request rather than prerender. With prerender + entries(), SvelteKit
+// would 404 any path not in the enumerated tag list before load() runs — even
+// after removing error(404) here — which would surface the default "Page Not
+// Found" page for typo URLs. SSR mode lets load() return an empty posts list
+// for unknown tags so +page.svelte can render its friendly empty state.
 export const load: PageServerLoad = ({ params }) => {
-    const posts = getPostsByTag(params.tag);
-    if (posts.length === 0) {
-        error(404, `No posts tagged "${params.tag}"`);
-    }
-
-    return { tag: params.tag, posts };
+    return { tag: params.tag, posts: getPostsByTag(params.tag) };
 };
