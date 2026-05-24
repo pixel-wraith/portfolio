@@ -8,6 +8,7 @@
     import Logo from '$lib/components/Logo.svelte';
     import Toast from '$lib/components/modals/Toast.svelte';
     import SocialLinks from '$lib/components/SocialLinks.svelte';
+    import { OG_DEFAULT_IMAGE } from '$lib/constants/site';
     import { onMount } from 'svelte';
 
     interface ILayoutProps {
@@ -23,6 +24,11 @@
     }
 
     const { children }: ILayoutProps = $props();
+
+    // Post pages emit their own og:image / twitter:image via PostLayout, so the
+    // sitewide default is suppressed for /blog/{slug} to avoid duplicate meta
+    // tags. /blog, /blog/page/N and /blog/tag/X all use the default.
+    const isPostPage = $derived(/^\/blog\/[^/]+\/?$/.test($page.url.pathname));
 
     const navItems: INavItem[] = [
         {
@@ -114,6 +120,11 @@
 
 <svelte:head>
     <link rel="icon" href={favicon} />
+    {#if !isPostPage}
+        <meta property="og:image" content={OG_DEFAULT_IMAGE} />
+        <meta name="twitter:image" content={OG_DEFAULT_IMAGE} />
+        <meta name="twitter:card" content="summary_large_image" />
+    {/if}
 </svelte:head>
 
 <div class="app">
