@@ -22,7 +22,7 @@ export function GET(): Response {
 
     for (const tag of getAllTags()) {
         entries.push({
-            loc: `${SITE_URL}/blog/tag/${tag}`,
+            loc: `${SITE_URL}/blog/tag/${encodeURIComponent(tag)}`,
         });
     }
 

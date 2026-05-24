@@ -13,7 +13,7 @@
 
     const { data }: ITagPageProps = $props();
 
-    const canonical = $derived(`${SITE_URL}/blog/tag/${data.tag}`);
+    const canonical = $derived(`${SITE_URL}/blog/tag/${encodeURIComponent(data.tag)}`);
     const description = $derived(`Posts tagged #${data.tag} by Jake Lundberg.`);
 </script>
 
