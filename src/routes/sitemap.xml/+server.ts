@@ -4,14 +4,9 @@ import { SITE_URL } from '$lib/constants/site';
 import { getAllPostsMeta } from '$lib/posts/loader';
 import { buildSitemapXml } from '$lib/posts/sitemap';
 
-export const prerender = true;
+import { STATIC_ROUTES } from './static-routes';
 
-// Authoritative list of top-level static routes for the sitemap. Not derived
-// from the route tree (SvelteKit has no runtime introspection for that), so
-// when you add a new top-level page (e.g. /resume), add it here too or it
-// will be silently omitted from the sitemap. `static-routes.test.ts` is a
-// filesystem-scan drift guard that fails when this list and src/routes/ disagree.
-export const STATIC_ROUTES = ['/', '/about', '/experience', '/uses', '/blog'];
+export const prerender = true;
 
 export function GET(): Response {
     const entries: ISitemapEntry[] = STATIC_ROUTES.map(route => ({
