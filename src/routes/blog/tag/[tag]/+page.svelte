@@ -56,7 +56,7 @@
 <style>
     .container {
         width: 100%;
-        margin: 0 auto 5rem;
+        margin: 2rem auto 3rem;
     }
 
     .tag-header {
