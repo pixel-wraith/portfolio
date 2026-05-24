@@ -1,7 +1,7 @@
 import type { ISitemapEntry } from '$lib/posts/sitemap';
 
 import { SITE_URL } from '$lib/constants/site';
-import { getAllPostsMeta } from '$lib/posts/loader';
+import { getAllPostsMeta, getAllTags } from '$lib/posts/loader';
 import { buildSitemapXml } from '$lib/posts/sitemap';
 
 import { STATIC_ROUTES } from './static-routes';
@@ -20,7 +20,11 @@ export function GET(): Response {
         });
     }
 
-    // Tag pages (/blog/tag/{tag}) land in #9 and will be appended here then.
+    for (const tag of getAllTags()) {
+        entries.push({
+            loc: `${SITE_URL}/blog/tag/${tag}`,
+        });
+    }
 
     const xml = buildSitemapXml(entries);
 
