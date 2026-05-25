@@ -41,7 +41,10 @@
 
     {#if isEmpty}
         <div class="empty-state">
-            <a href="/blog" class="back-link">← Browse all posts</a>
+            <a href="/blog" class="back-link">
+                <i class="fa-regular fa-chevron-left" aria-hidden="true"></i>
+                Browse all posts
+            </a>
         </div>
     {:else}
         <!-- page=1/totalPages=1 suppresses PostList's pagination chrome — tag pages are unpaginated. -->

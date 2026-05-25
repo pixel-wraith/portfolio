@@ -67,7 +67,10 @@
                     <a
                         href={prevHref}
                         class="pagination-link"
-                    >← Newer</a>
+                    >
+                        <i class="fa-regular fa-chevron-left" aria-hidden="true"></i>
+                        Newer
+                    </a>
                 {:else}
                     <span></span>
                 {/if}
@@ -78,7 +81,10 @@
                     <a
                         href={nextHref}
                         class="pagination-link"
-                    >Older →</a>
+                    >
+                        Older
+                        <i class="fa-regular fa-chevron-right" aria-hidden="true"></i>
+                    </a>
                 {:else}
                     <span></span>
                 {/if}
