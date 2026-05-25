@@ -10,12 +10,14 @@
     }
 
     const { data }: IBlogIndexProps = $props();
+
+    const canonical = `${SITE_URL}/blog`;
 </script>
 
 <svelte:head>
     <title>Blog — Jake Lundberg</title>
     <meta name="description" content="Writing on engineering, leadership, productivity, and the craft of building software." />
-    <link rel="canonical" href="{SITE_URL}/blog" />
+    <link rel="canonical" href={canonical} />
 </svelte:head>
 
 <div class="container">
