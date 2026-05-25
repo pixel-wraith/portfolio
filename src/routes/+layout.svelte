@@ -36,6 +36,19 @@
     // if /blog/page/+page.svelte or /blog/tag/+page.svelte is ever added.
     const isPostPage = $derived(/^\/blog\/[^/]+\/?$/.test(page.url.pathname));
 
+    // A nav item lights up when the current path matches its route exactly
+    // (e.g. /blog) or is a sub-route of it (e.g. /blog/page/2, /blog/tag/X,
+    // /blog/{slug}). The `${route}/` boundary prevents accidental matches
+    // against unrelated routes that share a prefix (e.g. /blogger). External
+    // routes (https://wraithcode.io) are never highlighted.
+    function isNavItemActive(route: string): boolean {
+        if (route.startsWith('http')) {
+            return false;
+        }
+        const pathname = page.url.pathname;
+        return pathname === route || pathname.startsWith(`${route}/`);
+    }
+
     const navItems: INavItem[] = [
         {
             text: 'Experience',
@@ -61,7 +74,7 @@
         {
             text: 'Blog',
             subText: 'Learn then share',
-            route: 'https://dev.to/wraith',
+            route: '/blog',
             icon: 'fa-regular fa-blog',
             iconStyles: 'transform: rotate(2deg);',
         },
@@ -154,7 +167,7 @@
                 {#each navItems as { text, subText, route, icon, iconStyles }}
                     <a
                         href={route}
-                        class="nav-item {page.url.pathname === route ? 'active' : ''}"
+                        class="nav-item {isNavItemActive(route) ? 'active' : ''}"
                         target={route.startsWith('http') ? '_blank' : ''}
                     >
                         <div class="nav-item-icon">
