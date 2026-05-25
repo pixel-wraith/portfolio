@@ -29,7 +29,6 @@ jobs:
                 name: Set environment variables
                 run: |
                     rm -rf .env
-                    echo "DEV_TO_API_KEY=${{ secrets.DEV_TO_API_KEY }}" >> .env
                     echo "VALTOWN_AUTH_TOKEN=${{ secrets.VALTOWN_AUTH_TOKEN }}" >> .env
 
             -
