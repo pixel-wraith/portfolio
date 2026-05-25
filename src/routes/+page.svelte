@@ -1,16 +1,17 @@
 <script lang="ts">
-    import BlogPost from "$lib/components/BlogPost.svelte";
+    import type { PostMeta } from "$lib/schemas/post.schema";
+
     import Intro from "$lib/components/Intro.svelte";
     import IntroContent from "$lib/components/IntroContent.svelte";
+    import PostCard from "$lib/components/PostCard.svelte";
     import Section from "$lib/components/Section.svelte";
-    import { blogPostSchema } from "$lib/schemas/blog.schema";
     import { bookSchema } from "$lib/schemas/book.schema";
     import { z } from "zod";
 
     interface IPageProps {
         data: {
             blog: {
-                posts: z.infer<typeof blogPostSchema>[];
+                posts: PostMeta[];
             };
             currentlyReading: z.infer<typeof bookSchema>[];
         };
@@ -50,8 +51,8 @@
                 <h2>Latest Blog Posts</h2>
 
                 <div class="blog-posts">
-                    {#each data.blog.posts as post}
-                        <BlogPost {post} />
+                    {#each data.blog.posts as post (post.slug)}
+                        <PostCard {post} />
                     {/each}
                 </div>
             </div>
