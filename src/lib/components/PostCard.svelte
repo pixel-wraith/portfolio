@@ -1,59 +1,62 @@
 <script lang="ts">
-    import { blogPostSchema } from "$lib/schemas/blog.schema";
-    import dayjs from "dayjs";
-    import { z } from "zod";
+    import type { PostMeta } from "$lib/schemas/post.schema";
 
-    interface IBlogPostProps {
-        post: z.infer<typeof blogPostSchema>;
+    import dayjs from "dayjs";
+
+    interface IPostCardProps {
+        post: PostMeta;
         condensed?: boolean;
     }
 
-    const { post, condensed = false }: IBlogPostProps = $props();
+    const { post, condensed = false }: IPostCardProps = $props();
 </script>
 
 <article
-    class="blog-post"
+    class="post-card"
     class:condensed
 >
-    <a
-        href={post.url}
-        target="_blank"
-    >
-        <div class="blog-post-image">
-            <img
-                src={post.cover_image}
-                alt={post.title}
-            />
-        </div>
+    {#if !post.published}
+        <div class="post-card-draft">Draft</div>
+    {/if}
 
-        <div class="blog-post-metadata">
+    <a href="/blog/{post.slug}">
+        {#if post.cover}
+            <div class="post-card-image">
+                <img
+                    src={post.cover}
+                    alt=""
+                />
+            </div>
+        {/if}
+
+        <div class="post-card-metadata">
             <p class="metadata">
-                posted {dayjs(post.published_timestamp).format('MMM DD, YYYY')}
+                posted {dayjs(post.date).format('MMM DD, YYYY')}
             </p>
 
             {#if !condensed}
                 <p class="metadata">
-                    {post.reading_time_minutes} min read
+                    {post.readingTimeMinutes} min read
                 </p>
             {/if}
         </div>
 
-        <div class="blog-post-content">
+        <div class="post-card-content">
             {#if condensed}
                 <h3 class="h6">{post.title}</h3>
             {:else}
-                <h3>{post.title}</h3>
+                <h3 class="h5">{post.title}</h3>
             {/if}
             <div>
                 {#if condensed}
                     <p class="metadata">
-                        {post.reading_time_minutes} min read
+                        {post.readingTimeMinutes} min read
                     </p>
                 {:else}
                     <p>{post.description}</p>
 
-                    <div class="blog-post-tags">
-                        {#each (post.tag_list || []) as tag}
+                    <div class="post-card-tags">
+                        {#each post.tags as tag}
                             <div>{tag}</div>
                         {/each}
                     </div>
@@ -64,7 +67,8 @@
 </article>
 
 <style>
-    .blog-post {
+    .post-card {
+        position: relative;
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -74,7 +78,7 @@
         transition: all 0.2s ease-in-out;
 
         &:hover,
-        &:focus {
+        &:focus-within {
             border-color: var(--primary-500);
             transform: scale(1.03);
         }
@@ -92,10 +96,19 @@
         }
 
         &:not(.condensed) {
-            & .blog-post-metadata {
+            & .post-card-metadata {
                 display: flex;
                 justify-content: space-between;
             }
+        }
+
+        .post-card-draft {
+            position: absolute;
+            bottom: 98%;
+            right: 98%;
+            rotate: -45deg;
+            font-size: 0.85rem;
+            color: var(--accent1-500);
         }
 
         & a {
@@ -104,7 +117,6 @@
             justify-content: space-between;
             flex-grow: 1;
             height: 100%;
-            text-decoration: none;
             text-decoration: none;
         }
 
@@ -115,7 +127,7 @@
             object-position: center;
         }
 
-        & .blog-post-metadata {
+        & .post-card-metadata {
             padding: 0 0.5rem;
         }
 
@@ -125,7 +137,7 @@
             line-height: 0.9rem;
         }
 
-        & .blog-post-content {
+        & .post-card-content {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -136,7 +148,7 @@
                 margin-bottom: 0.5rem;
             }
 
-            & .blog-post-tags {
+            & .post-card-tags {
                 display: flex;
                 flex-direction: row;
                 justify-content: flex-end;

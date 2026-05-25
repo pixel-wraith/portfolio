@@ -1,19 +1,36 @@
-<a href="/" class="logo" aria-label="Home">
-    <i class="fa-regular fa-ghost" aria-hidden="true"></i>
-</a>
+<script lang="ts">
+    interface ILogoProps {
+        hoverable?: boolean;
+        size?: 'small' | 'medium' | 'large';
+    }
+
+    const { hoverable = false, size = 'small' }: ILogoProps = $props();
+    const imgSrc = $derived(`https://images.wraithcode.io/2026-05/pixel-white-${size === 'small' ? '400' : size === 'medium' ? '800' : '1600'}.webp`);
+</script>
+
+<div
+    class="logo"
+    class:hoverable={hoverable}
+>
+    <img src={imgSrc} alt="A cute, pixelated ghost" />
+</div>
 
 <style>
     .logo {
         display: flex;
-        color: var(--primary-500);
-        color: var(--neutral-900);
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
 
-        &:hover {
-            color: var(--neutral-400);
+        &.hoverable:hover {
+            opacity: 0.8;
         }
 
-        & i {
-            font-size: 2.25rem;
+        & img {
+            display: block;
+            width: 100%;
+            height: auto;
         }
     }
 </style>

@@ -15,7 +15,8 @@
     }
 
     const { data }: Props = $props();
-    const { projects, jobs } = data;
+    const projects = $derived(data.projects);
+    const jobs = $derived(data.jobs);
 
     const onReadMoreToggle = (projectId: string) => {
         return () => {
