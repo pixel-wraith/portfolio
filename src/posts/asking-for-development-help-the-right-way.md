@@ -4,6 +4,7 @@ description: "Internal Slack channel   \"I have a problem, can someone help?\"  
 date: "2023-02-22"
 tags: ["firebase", "performance", "cleancode", "softwaredevelopment"]
 slug: "asking-for-development-help-the-right-way"
+cover: "https://images.wraithcode.io/2026-05/asking-for-development-help-the-right-way-img-01-1600.webp"
 published: true
 devto_id: 1373013
 ---

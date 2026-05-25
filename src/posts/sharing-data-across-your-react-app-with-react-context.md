@@ -4,7 +4,7 @@ description: "It's very common to need to share data across different parts of a
 date: "2023-02-12"
 tags: ["react", "typescript", "webdev"]
 slug: "sharing-data-across-your-react-app-with-react-context"
-published: true
+published: false
 devto_id: 1362077
 ---
 
