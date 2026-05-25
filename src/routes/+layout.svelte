@@ -2,12 +2,13 @@
     import '$lib/assets/css/styles.css';
     import type { Snippet } from 'svelte';
 
-    import { page } from '$app/stores';
+    import { page } from '$app/state';
     import favicon from '$lib/assets/favicon.svg';
     import CareerExp from '$lib/components/CareerExp.svelte';
     import Logo from '$lib/components/Logo.svelte';
     import Toast from '$lib/components/modals/Toast.svelte';
     import SocialLinks from '$lib/components/SocialLinks.svelte';
+    import { OG_DEFAULT_IMAGE } from '$lib/constants/site';
     import { onMount } from 'svelte';
 
     interface ILayoutProps {
@@ -23,6 +24,17 @@
     }
 
     const { children }: ILayoutProps = $props();
+
+    // Post pages emit their own og:image / twitter:image via PostLayout, so the
+    // sitewide default is suppressed for /blog/{slug} to avoid duplicate meta
+    // tags. /blog, /blog/page/N and /blog/tag/X all use the default.
+    //
+    // Edge case: the regex also matches /blog/page and /blog/tag (the parent
+    // segments without their dynamic child), but those paths 404 because no
+    // route is defined for them — +error.svelte renders, not PostLayout, so no
+    // competing og:image is emitted and the suppression is harmless. Revisit
+    // if /blog/page/+page.svelte or /blog/tag/+page.svelte is ever added.
+    const isPostPage = $derived(/^\/blog\/[^/]+\/?$/.test(page.url.pathname));
 
     const navItems: INavItem[] = [
         {
@@ -114,6 +126,11 @@
 
 <svelte:head>
     <link rel="icon" href={favicon} />
+    {#if !isPostPage}
+        <meta property="og:image" content={OG_DEFAULT_IMAGE} />
+        <meta name="twitter:image" content={OG_DEFAULT_IMAGE} />
+        <meta name="twitter:card" content="summary_large_image" />
+    {/if}
 </svelte:head>
 
 <div class="app">
@@ -137,7 +154,7 @@
                 {#each navItems as { text, subText, route, icon, iconStyles }}
                     <a
                         href={route}
-                        class="nav-item {$page.url.pathname === route ? 'active' : ''}"
+                        class="nav-item {page.url.pathname === route ? 'active' : ''}"
                         target={route.startsWith('http') ? '_blank' : ''}
                     >
                         <div class="nav-item-icon">
