@@ -61,7 +61,7 @@
         {
             text: 'Blog',
             subText: 'Learn then share',
-            route: 'https://dev.to/wraith',
+            route: '/blog',
             icon: 'fa-regular fa-blog',
             iconStyles: 'transform: rotate(2deg);',
         },
