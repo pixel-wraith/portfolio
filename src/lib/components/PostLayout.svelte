@@ -98,6 +98,8 @@
                     </span>
                     <span class="post-nav-title">{next.title}</span>
                 </a>
+            {:else}
+                <span></span>
             {/if}
 
             {#if prev}
