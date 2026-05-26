@@ -18,6 +18,7 @@ const config = { kit: {
             'object-src': ['none'],
             'base-uri': ['self'],
             'worker-src': ['self', 'blob:'],
+            'report-uri': ['https://o4505018196295680.ingest.us.sentry.io/api/4510989810401280/security/?sentry_key=7393de73335ad3c189db8d8d7bfe824e'],
         },
     },
 
