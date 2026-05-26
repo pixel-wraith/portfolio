@@ -2,6 +2,7 @@
     import type { Post, PostMeta } from "$lib/schemas/post.schema";
 
     import { page } from '$app/state';
+    import { trackScrollDepth } from "$lib/actions/track-scroll-depth";
     import { OG_DEFAULT_IMAGE, SITE_URL } from "$lib/constants/site";
     import dayjs from "dayjs";
 
@@ -77,7 +78,7 @@
         {/if}
     </header>
 
-    <div class="post-body">
+    <div class="post-body" use:trackScrollDepth={post.slug}>
         <!-- eslint-disable-next-line svelte/no-at-html-tags -- body HTML is built at build time from author-controlled markdown via marked + Shiki -->
         {@html post.renderedBody}
     </div>
