@@ -30,6 +30,9 @@ jobs:
                 run: |
                     rm -rf .env
                     echo "VALTOWN_AUTH_TOKEN=${{ secrets.VALTOWN_AUTH_TOKEN }}" >> .env
+                    echo "PUBLIC_UMAMI_WEBSITE_ID=${{ secrets.PUBLIC_UMAMI_WEBSITE_ID }}" >> .env
+                    echo "TURNSTILE_SECRET_KEY=${{ secrets.TURNSTILE_SECRET_KEY }}" >> .env
+                    echo "PUBLIC_TURNSTILE_SITE_KEY=${{ secrets.PUBLIC_TURNSTILE_SITE_KEY }}" >> .env
 
             -
                 name: Build docker image
