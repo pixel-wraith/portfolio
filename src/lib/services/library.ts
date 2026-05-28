@@ -4,14 +4,23 @@ import { bookSchema } from '$lib/schemas/book.schema';
 
 const books = [
     bookSchema.parse({
-        id: 'atomic-habits-workbook',
-        title: 'Atomic Habits Workbook',
-        url: 'https://jamesclear.com/atomic-habits-workbook',
-        image: 'https://images.wraithcode.io/2026-05/atomic-habits-workbook-400.png',
+        id: 'getting-to-yes',
+        title: 'Getting to Yes',
+        url: 'https://www.amazon.com/Roger-Fisher-Getting-Yes-Negotiating/dp/B07VDDX39Q/ref=sr_1_14',
+        image: 'https://images.wraithcode.io/2026-05/getting-to-yes-1600.webp',
         favorite: false,
-        currentlyReading: false,
+        currentlyReading: true,
         read: false,
     }),
+    // bookSchema.parse({
+    //     id: 'atomic-habits-workbook',
+    //     title: 'Atomic Habits Workbook',
+    //     url: 'https://jamesclear.com/atomic-habits-workbook',
+    //     image: 'https://images.wraithcode.io/2026-05/atomic-habits-workbook-400.png',
+    //     favorite: false,
+    //     currentlyReading: false,
+    //     read: false,
+    // }),
     bookSchema.parse({
         id: 'supercommunicators',
         title: 'Supercommunicators',
@@ -27,7 +36,7 @@ const books = [
         url: 'https://jamesclear.com/book-summaries/10x-rule',
         image: 'https://images.wraithcode.io/2026-05/the-10x-rule-400.png',
         favorite: true,
-        currentlyReading: true,
+        currentlyReading: false,
         read: true,
     }),
     bookSchema.parse({
