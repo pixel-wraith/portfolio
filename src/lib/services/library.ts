@@ -7,7 +7,7 @@ const books = [
         id: 'getting-to-yes',
         title: 'Getting to Yes',
         url: 'https://www.amazon.com/Roger-Fisher-Getting-Yes-Negotiating/dp/B07VDDX39Q/ref=sr_1_14',
-        image: 'https://images.wraithcode.io/2026-05/getting-to-yes-1600.webp',
+        image: 'https://images.wraithcode.io/2026-05/getting-to-yes-400.png',
         favorite: false,
         currentlyReading: true,
         read: false,
