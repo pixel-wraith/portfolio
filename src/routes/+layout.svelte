@@ -4,7 +4,6 @@
 
     import { page } from '$app/state';
     import { env } from '$env/dynamic/public';
-    import favicon from '$lib/assets/favicon.svg';
     import CareerExp from '$lib/components/CareerExp.svelte';
     import Logo from '$lib/components/Logo.svelte';
     import Toast from '$lib/components/modals/Toast.svelte';
@@ -139,7 +138,6 @@
 </script>
 
 <svelte:head>
-    <link rel="icon" href={favicon} />
     {#if env.PUBLIC_UMAMI_WEBSITE_ID}
         <script defer src="https://cloud.umami.is/script.js" data-website-id={env.PUBLIC_UMAMI_WEBSITE_ID}></script>
     {/if}
