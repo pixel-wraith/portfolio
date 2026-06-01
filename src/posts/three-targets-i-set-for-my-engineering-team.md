@@ -4,7 +4,7 @@ description: "The three targets I set for my engineering team — PR size, open-
 date: "2026-06-01"
 tags: ["engineering", "management", "leadership", "codequality"]
 slug: "three-targets-i-set-for-my-engineering-team"
-cover: "https://images.wraithcode.io/2026-06/three-1600.webp"
+cover: "https://images.wraithcode.io/2026-06/three-400.webp"
 published: true
 devto_id: 2239522
 ---
