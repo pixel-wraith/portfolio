@@ -4,7 +4,7 @@ description: "The three targets I set for my engineering team — PR size, open-
 date: "2026-06-01"
 tags: ["engineering", "management", "leadership", "codequality"]
 slug: "three-targets-i-set-for-my-engineering-team"
-cover: "https://images.wraithcode.io/2026-06/three-400.webp"
+cover: "https://images.wraithcode.io/2026-06/three-1600.webp"
 published: true
 devto_id: 2239522
 ---
@@ -65,7 +65,7 @@ Whatever the cause, a PR that drags gets expensive. The author moves on to somet
 The fix isn't more meetings about PRs. A few things help most:
 
 1. **A blocked calendar slot for review.** A few hours per day per engineer, on the calendar, treated like a real meeting. Not "I'll get to it when I have time."
-2. **An idle-time SLA.** No PR sits for more than 8 business hours without some action being taking on it (ie. review feedback added, review feedback resolved, approved, etc.)
+2. **An idle-time SLA.** No PR sits for more than 8 business hours without some action being taken on it (ie. review feedback added, review feedback resolved, approved, etc.)
 3. **Pair review for anything risky.** Two reviewers on the same PR, at the same time, in the same room (or call). Faster and catches more than two separate reviews.
 
 If this number creeps up, the team is accruing review debt. It gets paid back, with interest, by whichever engineer has to rebase a five-day-old branch onto a main that's moved underneath them.
