@@ -11,9 +11,13 @@ const projects: z.infer<typeof projectSchema>[] = [
         image: 'https://images.wraithcode.io/2026-05/chester-without-shadow-800.png',
         published: true,
         links: [],
-        summary: `A personal productivity app built around David Allen's Getting Things Done system.
+        summary: `A personal productivity app built around David Allen's Getting Things Done method — designed, built, and shipped entirely solo.
 
-UPDATE—On 1 Nov, 2024, BuzyBee was released to the public! I'm continuing to add new features all the time, and have some big things planned to hopefully help others become more motivated to be productive! So bee on the look out over the next few months! (I couldn't help myself)`,
+- Launched to the public on **1 Nov, 2024** — my first released product
+- Pairs task and project management with a little AI help and habit tracking
+- Still my own #1 tool for staying on top of everything, with new features shipping all the time
+
+Big things are planned, so bee on the lookout. (I couldn't help myself.)`,
         description: `Several years ago, I adopted the [Getting Things Done](https://gettingthingsdone.com/) system to help manage all the things going on in my life. For a long time, I was able to make due with just using a note taking app. But after a while I outgrew that system and needed something a bit more. I spent a few months checking out different tools to replace it, but none really fit. So, like a true engineer, I dove in and decided to build the tool I was looking for...and so BuzyBee was born!
 
 From managing all the tasks and projects going on (and throwing in a little AI to help), to tracking and building habits, BuzyBee has become my #1 place to keep a handle on my personal productivity.`,
@@ -82,9 +86,13 @@ From managing all the tasks and projects going on (and throwing in a little AI t
                 url: 'https://github.com/iamthe-Wraith/kraken',
             }),
         ],
-        summary: `Managing code releases can be a tedious, time consuming process. And as a result...expensive! So I built a tool to automate it. What used to take us at least 45 minutes multiple times a week now takes less than 5 minutes! Not to mention it eliminates the possibility of human error and ensures everyone is doing things the same way.
+        summary: `A CLI tool that automates the tedious, error-prone code release process.
 
-So if you're tired of long, tedious, frustrating releases...maybe it's time to Release the Kraken!`,
+- Cut release time from **45+ minutes** down to **under 5**
+- Eliminates human error and keeps the whole team releasing the same way
+- Built to take the pain out of frequent, repetitive releases
+
+So if you're tired of long, frustrating releases...maybe it's time to Release the Kraken!`,
         description: ``,
         tech: [
             techSchema.parse({

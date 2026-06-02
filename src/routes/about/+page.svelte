@@ -32,24 +32,25 @@
 
             <IntroContent>
                 <p>
-                    I'm a father, husband, and software engineer originally from a tiny farming town in Washington State. I'm
-                    {age} years old, and I've been working in software development for over {yearsExp} years.
+                    When I'm not in front of a keyboard, I'm a husband, a dad, and full-time staff to three very spoiled dogs.
+                    I grew up in a tiny farming town in Washington State, I'm {age} years old, and I've spent over {yearsExp}
+                    years building software.
                 </p>
 
                 <p>
-                    I consider myself very fortunate to have found my passion in life. I truly love what I do. There's never a
-                    shortage of new problems to solve, or new things to learn.
+                    I consider myself lucky to have found my thing. I genuinely love what I do — there's never a shortage of new
+                    problems to solve or new things to learn.
                 </p>
 
                 <p>
-                    I was the kid who would dismantle my toys to see
-                    how they worked, and then <em>try</em> to put them back together again. That curiosity is still with me to
-                    this day and has driven me to always be learning and growing.
+                    I was the kid who would dismantle his toys to see how they worked, and then <em>try</em> to put them back
+                    together again. That curiosity never left, and it's still what drives me to keep learning and building.
                 </p>
 
                 <p>
-                    Today I live in Raleigh, North Carolina with my wife, son and 3 dogs. I'm a big fan of grilling and smoking
-                    meats, playing games with my son, and watching bad horror movies with my wife while snuggling up with our pups.
+                    Today I live in Raleigh, North Carolina with my wife, son, and three dogs. You'll usually find me grilling
+                    and smoking meats, playing games with my son, or watching gloriously bad horror movies with my wife while a
+                    pile of pups snores nearby.
                 </p>
             </IntroContent>
         </div>
@@ -206,6 +207,34 @@
         </div>
     </Section>
 
+    <Section>
+        <h2>
+            What I'm Like to Work With
+        </h2>
+
+        <div class="work-style">
+            <ul>
+                <li>
+                    I love sharing what I know — I've built internal knowledge bases, taught bootcamp classes, and will
+                    happily hijack a whiteboard.
+                </li>
+                <li>
+                    I stay calm when things break, and get genuinely curious when they get weird.
+                </li>
+                <li>
+                    I care about the craft: real tests, clean architecture, and standards that make life easier for the
+                    whole team.
+                </li>
+                <li>
+                    I'm always learning — the same kid who took his toys apart now does it with new tech.
+                </li>
+                <li>
+                    I lead with empathy first... and just enough sarcasm to keep retros interesting.
+                </li>
+            </ul>
+        </div>
+    </Section>
+
     <div class="quote-container">
         <blockquote>
             I hope everyone can find the same love and passion in their lives that I've found in software development. <br />
@@ -262,6 +291,19 @@
 		display: grid;
 		grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 		gap: 1rem;
+	}
+
+	.work-style {
+		max-width: 42rem;
+		margin: 0 auto;
+
+		& ul {
+			padding-left: 1.25rem;
+		}
+
+		& li {
+			margin-bottom: 0.75rem;
+		}
 	}
 
 	.grid-item {

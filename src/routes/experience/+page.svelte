@@ -37,15 +37,13 @@
     <Intro header="Experience">
         <IntroContent>
             <p>
-                I've been building stuff for the web for a long time. But even after all that time, I still get excited about
-                learning new things and building new stuff.
+                I've spent over a decade turning messy problems into software people actually want to use — wearing just
+                about every hat along the way: engineer, lead, architect, and manager.
             </p>
 
             <p>
-                Not only do I like learning new things, but I also loves using what I knows to help solve problems. I'm
-                always looking for ways to make things better. Wether it's optimizing an application's performance, automating
-                some tedious task, or just making something easier to use, I'm constantly working to make the web, and the world
-                around me a better, more enjoyable place.
+                What ties it all together is simple: I like making things better. Faster releases, cleaner architecture,
+                happier teams, less tedious busywork. Here's where I've done it — and a hint at what I could do next.
             </p>
         </IntroContent>
     </Intro>
@@ -61,13 +59,13 @@
                     </p>
                 {:else}
                     <p>
-                        I've had the privilege of working on some really cool projects over the years. From client management
-                        tools, to financial services, to environmental initiatives, I've gotten to work at a wide variety
-                        of businesses with some amazing people.
+                        From A/B testing platforms to financial services to climate tech, I've shipped across a wide range
+                        of industries and team sizes — early startups where I was one of three engineers, and established
+                        teams I helped level up.
                     </p>
 
                     <p>
-                        Here are a few of the places I've worked and some of the things I've done.
+                        Here's where I've worked and what I accomplished at each stop.
                     </p>
                 {/if}
             </div>
@@ -142,13 +140,12 @@
                     </p>
                 {:else}
                     <p>
-                        I honestly love what I do. Building software and solving problems with technology just feels like
-                        something I was born to do. That's why, even when I'm not at work, you'll often find me
-                        hacking away on some personal project.
+                        I honestly love what I do. Building software and solving problems just feels like something I was
+                        born to do — so even when I'm off the clock, you'll usually find me hacking on a personal project.
                     </p>
 
                     <p>
-                        Here are a few of the projects I've built over the years.
+                        Here are a few I've built — and actually shipped.
                     </p>
                 {/if}
             </div>

@@ -19,7 +19,11 @@ const jobs: z.infer<typeof jobSchema>[] = [
                 title: 'Senior Optimization Engineer',
                 startDate: dayjs('2016-05-02').toDate(),
                 endDate: dayjs('2020-06-01').toDate(),
-                summary: `Brooks Bell was my first professional development job after graduating college. There, I  built A/B tests for enterprise client. Within my first 6 months I took the initiative to built a custom command line tool to automate large portions of work, and to align the entire team around a single set of standards for all clients. I maintained that tool for the next 3(ish) years and it allowed us to increase the number of A/B tests we were able to output by more than 400%!`,
+                summary: `Took an enterprise A/B testing program from manual to machine — building the tooling that let the whole team move faster.
+
+- Built a custom command-line tool that automated large portions of test development and lifted the team's A/B test output by **over 400%**
+- Unified the entire team around a single set of standards across every client
+- Owned and maintained that tooling as core team infrastructure for 3+ years`,
                 tech: [
                     techSchema.parse({
                         id: 'nodejs',
@@ -71,7 +75,12 @@ const jobs: z.infer<typeof jobSchema>[] = [
                 title: 'Software Developer 2',
                 startDate: dayjs('2020-07-01').toDate(),
                 endDate: dayjs('2021-11-01').toDate(),
-                summary: `I landed at Levitate just days after being laid off at the very beginning of the Covid pandemic. While there, I went from having zero React experience to becoming the lead frontend developer of a new gamified sales tool the company was building. As an advocate for knowledge sharing, I led the initiative of building an internal knowledge-base for other teams to use to solve customer problems. Not only that, but I regularly joined client calls to help provide technical support, and in addition to my normal responsibilities, I also oversaw development for the companies marketing website.`,
+                summary: `Went from zero React experience to leading the frontend of a brand-new product.
+
+- Became lead frontend developer on a new gamified sales tool — starting with no prior React experience
+- Built an internal knowledge base that helped other teams solve customer problems faster
+- Owned development of the company's marketing website
+- Jumped on client calls to provide hands-on technical support`,
                 tech: [
                     techSchema.parse({
                         id: 'typescript',
@@ -113,7 +122,12 @@ const jobs: z.infer<typeof jobSchema>[] = [
                 title: 'Software Engineer',
                 startDate: dayjs('2021-11-01').toDate(),
                 endDate: dayjs('2022-08-01').toDate(),
-                summary: `I joined Karma Wallet very early on, so I was one of only three developers. But that didn't hinder me from building out a custom integration with external financial software, implementing a new automated continuous integration and continuous deployment (or CI/CD for short) pipeline, and also building an entirely new admin portal for internal employees to monitor business reporting and manage the company's users. While doing all this, I was still able to lead the team in migrating to Mobx and Typescript, which were new technologies for them, in an effort to solve some of their existing pain points.`,
+                summary: `One of the first three engineers, helping build an early-stage fintech from the ground up.
+
+- Built a custom integration with external financial software
+- Stood up the company's first automated CI/CD pipeline
+- Built a brand-new admin portal for internal teams to monitor business reporting and manage users
+- Led the team's migration to TypeScript and MobX to solve long-standing pain points`,
                 tech: [
                     techSchema.parse({
                         id: 'nodejs',
@@ -160,7 +174,11 @@ const jobs: z.infer<typeof jobSchema>[] = [
                 title: 'Software Engineer',
                 startDate: dayjs('2022-08-01').toDate(),
                 endDate: dayjs('2023-07-01').toDate(),
-                summary: `When I was at Kickfin, I headed up the frontend development of their latest (at the time) product, taking it from it's inception through to launch and beyond. I also lead development of lots of different features both for their internal tools used to manage the business, and for their external clients. So I got to experience solving problems for different kinds of users, which I really enjoyed!`,
+                summary: `Owned the frontend of a new product from first commit through launch and beyond.
+
+- Led frontend development of their newest product, taking it from inception all the way to launch
+- Shipped features across both internal business tools and customer-facing apps
+- Built for two very different audiences — internal teams and external clients`,
                 tech: [
                     techSchema.parse({
                         id: 'nodejs',
@@ -212,7 +230,13 @@ const jobs: z.infer<typeof jobSchema>[] = [
                 title: 'Senior Software Engineer',
                 startDate: dayjs('2023-10-01').toDate(),
                 endDate: dayjs('2025-02-01').toDate(),
-                summary: `While working as a Senior Software Engineer at Greenplaces, I lead a major overhaul of the application. The project was a huge undertaking, handling redesigning the UI, building out a new component library, refactoring and consolidating large portions of the backend, and implementing their first automated testing program to keep it all dependable and easy to maintain. During this whole process I administered standards across the team, assumed the management of the release process, and even reduced cycle time by more than 40%!`,
+                summary: `Led a top-to-bottom overhaul of the core application — and the process around shipping it.
+
+- Spearheaded a full UI redesign and built a new component library from scratch
+- Refactored and consolidated large portions of the backend
+- Stood up the company's first automated testing program to keep it all dependable and maintainable
+- Took over the release process and cut cycle time by **more than 40%**
+- Set and enforced engineering standards across the team`,
                 tech: [
                     techSchema.parse({
                         id: 'php',
@@ -245,7 +269,13 @@ const jobs: z.infer<typeof jobSchema>[] = [
                 title: 'Engineering Manager',
                 startDate: dayjs('2025-02-01').toDate(),
                 endDate: null,
-                summary: `I'm an Engineering Manager and Technical Architect who ships at slightly-illegal speeds by pairing sharp architecture with AI-powered workflows. I lead engineers across the stack, run crisp sprints, and keep code quality high with friendly-but-firm guardrails (review SLAs, PR size limits, and real tests). I modernize platforms from monolith to TypeScript microservices, design scalable Postgres with RLS, build sane RBAC for multi-tenant apps, and wire the hard bits—auth/MFA, data sync, job queues, CDC—so legacy and modern systems play nice. Releases flow through AWS with feature flags, while Sentry and CloudWatch keep us humble. I partner with Product and Design to turn ambitious ideas into shippable reality, balancing speed with reliability and leading with technical excellence, empathy, and just enough sarcasm to keep retros interesting.`,
+                summary: `Leading engineers to ship fast without sacrificing quality — pairing sharp architecture with AI-powered workflows.
+
+- Lead engineers across the stack with crisp sprints and friendly-but-firm guardrails: review SLAs, PR size limits, and real tests
+- Driving the modernization from legacy monolith to TypeScript microservices
+- Architect scalable, multi-tenant systems — Postgres with row-level security, sane RBAC, and the hard plumbing (auth/MFA, data sync, job queues, CDC)
+- Own reliable releases through AWS with feature flags, while Sentry and CloudWatch keep us honest
+- Partner with Product and Design to turn ambitious ideas into shippable reality`,
                 tech: [
                     techSchema.parse({
                         id: 'nodejs',

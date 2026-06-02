@@ -5,7 +5,9 @@
     import IntroContent from "$lib/components/IntroContent.svelte";
     import PostCard from "$lib/components/PostCard.svelte";
     import Section from "$lib/components/Section.svelte";
+    import { STARTED_WORKING_IN_SOFTWARE } from "$lib/constants/me";
     import { bookSchema } from "$lib/schemas/book.schema";
+    import dayjs from "dayjs";
     import { z } from "zod";
 
     interface IPageProps {
@@ -18,14 +20,40 @@
     }
 
     const { data }: IPageProps = $props();
+
+    let yearsExp = $state(dayjs().diff(dayjs(STARTED_WORKING_IN_SOFTWARE), 'years'));
+    const daysExp = dayjs().diff(dayjs(STARTED_WORKING_IN_SOFTWARE), 'days');
+    const numDaysBetweenAnniversaries = dayjs().diff(dayjs(STARTED_WORKING_IN_SOFTWARE).add(1, 'year'), 'days');
+
+    if (daysExp > numDaysBetweenAnniversaries) {
+        yearsExp++;
+    }
 </script>
 
 <div class="container">
     <Intro header="Hey, I'm Jake.">
         <IntroContent>
-            <p>
-                I'm an Engineering Manager and Technical Architect who ships at slightly-illegal speeds by pairing sharp architecture with AI-powered workflows. I lead engineers across the stack, run crisp sprints, and keep code quality high with friendly-but-firm guardrails (review SLAs, PR size limits, and real tests). I modernize platforms from monolith to TypeScript microservices, design scalable Postgres with RLS, build sane RBAC for multi-tenant apps, and wire the hard bits—auth/MFA, data sync, job queues, CDC—so legacy and modern systems play nice. Releases flow through AWS with feature flags, while Sentry and CloudWatch keep us humble. I partner with Product and Design to turn ambitious ideas into shippable reality, balancing speed with reliability and leading with technical excellence, empathy, and just enough sarcasm to keep retros interesting.
+            <p class="lead">
+                I build fast, solve problems, and lead engineers.
             </p>
+
+            <p>
+                I'm an Engineering Manager and Technical Architect. I turn ambitious
+                roadmaps into shipped reality, broken and bloated systems into modern marvels,
+                and chaotic sprints into calm, dependable releases — all without losing the human
+                part along the way.
+            </p>
+
+            <p>
+                {yearsExp} years in and I still love this stuff...the hard problems, the
+                good teams, the moment it all clicks. Poke around; the rest of the site
+                fills in the details.
+            </p>
+
+            <div class="cta-row">
+                <a href="/experience" class="cta">See what I've built →</a>
+                <a href="/about" class="cta cta-secondary">Get to know me →</a>
+            </div>
         </IntroContent>
     </Intro>
 
@@ -58,15 +86,59 @@
             </div>
         </Section>
     {/if}
-
-    <Section style="--section-max-width: 80rem">
-        <div class="flex-center">
-            What people have to say coming soon...
-        </div>
-    </Section>
 </div>
 
 <style>
+    .lead {
+        font-size: 1.4rem;
+        line-height: 2rem;
+        font-weight: 600;
+
+        @media (min-width: 768px) {
+            font-size: 1.75rem;
+            line-height: 2.5rem;
+        }
+    }
+
+    .cta-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+        margin-top: 0.5rem;
+    }
+
+    .cta {
+        padding: 0.5rem 1.25rem;
+        font-family: var(--header-font);
+        font-size: 1.1rem;
+        letter-spacing: 0.05rem;
+        text-decoration: none;
+        background: var(--primary-500);
+        color: var(--neutral-0);
+        border: 3px solid var(--primary-500);
+        transform: rotate(-1deg);
+
+        &:hover,
+        &:focus-visible {
+            background: var(--primary-600);
+            border-color: var(--primary-600);
+            transform: rotate(0deg) scale(1.03);
+        }
+    }
+
+    .cta-secondary {
+        background: transparent;
+        color: var(--primary-500);
+        transform: rotate(1deg);
+
+        &:hover,
+        &:focus-visible {
+            background: var(--primary-500);
+            color: var(--neutral-0);
+            transform: rotate(0deg) scale(1.03);
+        }
+    }
+
     .currently-reading {
         container-type: inline-size;
         container-name: currently-reading;
