@@ -111,7 +111,7 @@
         color: var(--neutral-0);
         border: 3px solid var(--primary-500);
         transform: rotate(-1deg);
-        transition: transform 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
 
         &:hover,
         &:focus-visible {
