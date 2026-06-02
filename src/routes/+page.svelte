@@ -21,13 +21,7 @@
 
     const { data }: IPageProps = $props();
 
-    let yearsExp = $state(dayjs().diff(dayjs(STARTED_WORKING_IN_SOFTWARE), 'years'));
-    const daysExp = dayjs().diff(dayjs(STARTED_WORKING_IN_SOFTWARE), 'days');
-    const numDaysBetweenAnniversaries = dayjs().diff(dayjs(STARTED_WORKING_IN_SOFTWARE).add(1, 'year'), 'days');
-
-    if (daysExp > numDaysBetweenAnniversaries) {
-        yearsExp++;
-    }
+    const yearsExp = dayjs().diff(dayjs(STARTED_WORKING_IN_SOFTWARE), 'years');
 </script>
 
 <div class="container">
@@ -117,6 +111,7 @@
         color: var(--neutral-0);
         border: 3px solid var(--primary-500);
         transform: rotate(-1deg);
+        transition: transform 0.2s ease-in-out;
 
         &:hover,
         &:focus-visible {
