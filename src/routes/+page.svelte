@@ -8,6 +8,7 @@
     import { STARTED_WORKING_IN_SOFTWARE } from "$lib/constants/me";
     import { bookSchema } from "$lib/schemas/book.schema";
     import dayjs from "dayjs";
+    import { onMount } from "svelte";
     import { z } from "zod";
 
     interface IPageProps {
@@ -21,13 +22,25 @@
 
     const { data }: IPageProps = $props();
 
+    // Seed at init so SSR renders the value, then refresh at midnight so a
+    // page left open across an anniversary stays in sync with the career bar.
     let yearsExp = $state(dayjs().diff(dayjs(STARTED_WORKING_IN_SOFTWARE), 'years'));
-    const daysExp = dayjs().diff(dayjs(STARTED_WORKING_IN_SOFTWARE), 'days');
-    const numDaysBetweenAnniversaries = dayjs().diff(dayjs(STARTED_WORKING_IN_SOFTWARE).add(1, 'year'), 'days');
 
-    if (daysExp > numDaysBetweenAnniversaries) {
-        yearsExp++;
-    }
+    onMount(() => {
+        let timer: number;
+
+        function refresh() {
+            yearsExp = dayjs().diff(dayjs(STARTED_WORKING_IN_SOFTWARE), 'years');
+
+            const now = dayjs();
+            const millisToTomorrow = now.add(1, 'day').startOf('day').diff(now);
+            timer = window.setTimeout(refresh, millisToTomorrow);
+        }
+
+        refresh();
+
+        return () => window.clearTimeout(timer);
+    });
 </script>
 
 <div class="container">
@@ -117,6 +130,7 @@
         color: var(--neutral-0);
         border: 3px solid var(--primary-500);
         transform: rotate(-1deg);
+        transition: all 0.2s ease-in-out;
 
         &:hover,
         &:focus-visible {
