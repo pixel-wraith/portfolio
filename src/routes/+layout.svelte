@@ -91,16 +91,22 @@
     let bottomRowNavRef: HTMLElement;
 
     onMount(() => {
-        setTimeout(resizeNav, 10);
+        const initialResize = setTimeout(resizeNav, 10);
 
         window.addEventListener('resize', resizeNav);
 
         return () => {
+            clearTimeout(initialResize);
             window.removeEventListener('resize', resizeNav);
         }
     })
 
     function resizeNav() {
+        // The deferred timeout / resize callbacks can fire after the layout
+        // unmounts (fast client-side nav or HMR), once Svelte has reset the
+        // bound refs to null. Bail before touching them.
+        if (!navRef || !bottomRowNavRef) return;
+
         const navItems = navRef.querySelectorAll('.nav-item');
         const navWidth = navRef.getBoundingClientRect().width;
 
