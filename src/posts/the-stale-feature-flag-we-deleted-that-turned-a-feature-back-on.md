@@ -2,7 +2,7 @@
 title: "The Stale Feature Flag We Deleted That Turned a Feature Back On"
 description: "Deleting a year-dead feature flag turned a forgotten feature back on and broke production...here's why flag cleanup is a runtime change, not tidying, and how the context you need decays while the flag sits there looking harmless."
 date: "2026-06-22"
-tags: ["engineeringmanagement", "devops", "programming]", "featureflags"]
+tags: ["engineeringmanagement", "devops", "programming", "featureflags"]
 slug: "the-stale-feature-flag-we-deleted-that-turned-a-feature-back-on"
 cover: "https://images.wraithcode.io/2026-06/feature-flag-blog-post-1600.webp"
 published: true
