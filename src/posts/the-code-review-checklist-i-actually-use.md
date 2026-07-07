@@ -122,4 +122,4 @@ So in practice you triage. Most PRs get a quick read. A few get the full pass. T
 
 The 1000-line refactor with three reviewers and multiple hours or days of back and forth conversation? Usually fine. The 50-line config change that touches the auth path? That's the one that breaks production.
 
-Figuring out which PRs need attention...without reading every line of every diff...is the actual problem. Lately I've been building something for it. More on that soon.
+Figuring out which PRs need attention...without reading every line of every diff...is the actual problem. Lately I've been building something for exactly this.

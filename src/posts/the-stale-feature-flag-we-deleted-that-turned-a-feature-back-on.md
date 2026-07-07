@@ -43,6 +43,8 @@ Before you remove a flag, find every place it's read, AND know what the code doe
 
 Treat flag removal like a real change, not like tidying. It changes runtime behavior, so it deserves the same scrutiny as the PR that added the feature. Arguably more, because the people who understood it have most certainly moved on.
 
+This kind of hidden delivery risk, the stuff that looks harmless until it isn't, is exactly what I'm building Merge Lantern to surface. [mergelantern.com](https://mergelantern.com) if you fight this too.
+
 Make cross-system dependencies explicit somewhere a human will actually see them. If a frontend flag needs an API flag, that relationship has to live somewhere other than the memory of whoever built it. One idea I like...create the flag's removal task at the same time you create the flag, so cleanup is queued instead of remembered. It isn't free...a pile of "remove me later" tasks is its own kind of debt...but it beats discovering the dependency in production.
 
 And have some way to notice when a dead feature comes back to life. We didn't. That's the gap that turned a small mistake into a user-reported incident. It doesn't take much...just something that would have raised a hand and said "this code path hasn't run in a year, and now it's running."

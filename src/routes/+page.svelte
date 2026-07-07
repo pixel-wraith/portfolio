@@ -51,6 +51,11 @@
             </p>
 
             <p>
+                Right now I'm building Merge Lantern, risk intelligence that tells small teams
+                which pull requests need senior eyes before they merge.
+            </p>
+
+            <p>
                 I'm an Engineering Manager and Technical Architect. I turn ambitious
                 roadmaps into shipped reality, broken and bloated systems into modern marvels,
                 and chaotic sprints into calm, dependable releases — all without losing the human
@@ -66,6 +71,7 @@
             <div class="cta-row">
                 <a href="/experience" class="cta">See what I've built →</a>
                 <a href="/about" class="cta cta-secondary">Get to know me →</a>
+                <a href="https://mergelantern.com" class="cta cta-tertiary">See Merge Lantern →</a>
             </div>
         </IntroContent>
     </Intro>
@@ -144,6 +150,19 @@
         background: transparent;
         color: var(--primary-500);
         transform: rotate(1deg);
+
+        &:hover,
+        &:focus-visible {
+            background: var(--primary-500);
+            color: var(--neutral-0);
+            transform: rotate(0deg) scale(1.03);
+        }
+    }
+
+    .cta-tertiary {
+        background: transparent;
+        color: var(--primary-500);
+        transform: rotate(-2deg);
 
         &:hover,
         &:focus-visible {

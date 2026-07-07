@@ -35,6 +35,8 @@ I also keep a close eye on the numbers here: each engineer's average PR size, th
 
 **The right reviewers (informally).** For certain areas of the codebase, like access control and auth, my team requests my direct review. For areas where one team member has the most experience, the developer pulls them in. They don't have to be the formal approver...they just need eyes on the change. Because the wrong reviewer doesn't just lack context. They can focus on the wrong things entirely.
 
+Deciding which changes get senior eyes before the merge is the whole problem I'm building Merge Lantern to solve. [mergelantern.com](https://mergelantern.com) if that's your fight too.
+
 **Extra brains on complex changes.** I'd love to tell you we have a mechanism for this...but we don't. The team just pulls people in when the work gets hairy. It works because the norm exists, and norms survive because people keep modeling them. The important piece is instilling a culture where this kind of thing is encouraged and accepted. 
 
 **Break the work down before it ever becomes a big PR.** This one is coaching, not enforcement. Early on, I broke the work down myself. I wrote the tickets small and showed the team what the expectation looked like. These days, I hand each team member a ticket with the requirements listed, and they do the breakdown themselves. Small PRs don't start at review time...they start at planning.

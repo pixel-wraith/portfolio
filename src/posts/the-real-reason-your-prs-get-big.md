@@ -32,6 +32,8 @@ What changed my mind wasn't someone telling me to keep PRs under some number. It
 - **They stopped being overwhelming.** I could focus on one piece instead of trying to keep the whole system in my head at once.
 - **They made me a better planner.** To ship small, you have to break the work down first...which means actually understanding the shape of what you're building before you build it.
 
+Even once a team ships small, some diffs still land in risky places...auth, a migration, money code. Knowing which PRs need a closer look before they merge, whatever their size, is the thing I'm building Merge Lantern to answer. [mergelantern.com](https://mergelantern.com) if that's your problem too.
+
 That last one snuck up on me. Small PRs forced me to start seeing systems as a stack of Lego bricks...small pieces that snap together and build on each other...instead of one giant thing I had to swallow whole. And once you can see the bricks, cutting the work down stops feeling like overhead. It's just how you think.
 
 ## What it looks like when a team gets this right
