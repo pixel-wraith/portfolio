@@ -30,5 +30,3 @@ That is what I am building. It is called Merge Lantern, and it is a risk intelli
 The risk you ship hides in the dark.
 
 The PR risk digest is the piece that is real today: every morning, a short list of the open PRs most likely to need senior attention, with the reasons attached. The other three layers are the roadmap, and I am building them in the open, one at a time.
-
-If "send me that every morning" is something you would want for your team, I am opening the waitlist now. [mergelantern.com](https://mergelantern.com)
