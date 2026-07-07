@@ -105,7 +105,9 @@
         // The deferred timeout / resize callbacks can fire after the layout
         // unmounts (fast client-side nav or HMR), once Svelte has reset the
         // bound refs to null. Bail before touching them.
-        if (!navRef || !bottomRowNavRef) return;
+        if (!navRef || !bottomRowNavRef) {
+            return;
+        }
 
         const navItems = navRef.querySelectorAll('.nav-item');
         const navWidth = navRef.getBoundingClientRect().width;

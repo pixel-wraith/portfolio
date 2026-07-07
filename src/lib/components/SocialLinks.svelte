@@ -12,7 +12,7 @@
         },
         {
             text: 'Dev.to',
-            route: 'https://dev.to/wraith',
+            route: 'https://dev.to/pixel-wraith',
             icon: 'fa-brands fa-dev',
         },
         {
