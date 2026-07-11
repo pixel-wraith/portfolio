@@ -4,13 +4,31 @@ import { bookSchema } from '$lib/schemas/book.schema';
 
 const books = [
     bookSchema.parse({
+        id: 'ready-for-anything',
+        title: 'Ready for Anything: 52 Productivity Principles for Work and Life',
+        url: 'https://www.amazon.com/Ready-Anything-Productivity-Principles-Getting/dp/0143034545',
+        image: 'https://images.wraithcode.io/2026-07/ready-for-anything-400.png',
+        favorite: false,
+        currentlyReading: true,
+        read: false,
+    }),
+    bookSchema.parse({
+        id: 'how-to-read-a-book',
+        title: 'How to Read a Book',
+        url: 'https://www.amazon.com/How-Read-Book-Classic-Intelligent/dp/0671212095',
+        image: 'https://images.wraithcode.io/2026-07/how-to-read-a-book-400.png',
+        favorite: false,
+        currentlyReading: true,
+        read: false,
+    }),
+    bookSchema.parse({
         id: 'getting-to-yes',
         title: 'Getting to Yes',
         url: 'https://www.amazon.com/Roger-Fisher-Getting-Yes-Negotiating/dp/B07VDDX39Q/ref=sr_1_14',
         image: 'https://images.wraithcode.io/2026-05/getting-to-yes-400.png',
         favorite: false,
-        currentlyReading: true,
-        read: false,
+        currentlyReading: false,
+        read: true,
     }),
     // bookSchema.parse({
     //     id: 'atomic-habits-workbook',
