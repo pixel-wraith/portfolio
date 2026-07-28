@@ -9,89 +9,46 @@ published: true
 devto_id: 2270234
 ---
 
-There are weeks where I finish my personal work after hours because I wouldn't move three meetings.
+A few weeks ago, I mistakenly took my own site down for about thirty minutes.
 
-Thirty minutes each, one per person on my team. When the week goes bad, that block doesn't move, and something else pays for it.
+I was wiring up a queue-based pipeline for GitHub webhooks. That needs two Cloudflare Workers: one that catches the webhook and drops the event on a queue, and a second that picks it up and does the slow work in the background. GitHub gives you ten seconds to respond, so you answer fast and do the real work after.
 
-Everybody agrees you should care about your people. It's easy advice to nod along with.
+Two Workers means two deploys. I chained them into a single command.
 
-But when pressure starts to build, the first thing a tight deadline kills is the conversation that isn't about tickets.
+Cloudflare's build system printed a warning. It said it was overriding the Worker name in my config with the name bound to the build project. One line, sitting in the middle of a wall of normal deploy output. Then the command exited zero, the way a successful command does.
 
-## What actually gets cut
+What that warning actually meant is that my second Worker, all 0.39 KiB of it, had just been uploaded as a new version of the first one and promoted to live traffic. That Worker knew how to read from a queue. It had no idea what an HTTP request was. Every request to the site threw an exception until I worked out what had happened.
 
-When pressure is high and the delivery date is ugly, it's easy to throw a bunch of tickets at the team and yell march. That is not leading.
+Thirty minutes of downtime. About two hours all in, from the bad deploy to a rebuilt setup that can't do that to me again.
 
-Support doesn't become impossible during crunch...it just stops being prioritized.
+Nothing about it looked wrong. The config was fine. The command was fine. The output scrolled by looking like every other deploy I've run. The one line that could have saved me was formatted like the ones around it. It didn't stop anything, because it wasn't an error. It was information.
 
-And it stops being prioritized for a fairly boring structural reason.
+The risk was there the whole time. Nothing showed it. Then traffic hit it.
 
-Most of what competes for that half hour leaves an artifact. A ticket closes. A PR merges. Something moves on a board, and at the end of the week you can point at it and say that thing happened. The 1:1 doesn't produce any of that. Nothing moves, nothing logs, and there's no line item anywhere that records the conversation took place, or what result that sync with your team member had.
+That's not how it works in the physical world.
 
-The value it produces is uncountable in the same way. You can count the incidents you resolved. You can't count the person who didn't quietly check out, or the problem that surfaced in week two instead of week nine because there was somewhere for it to surface. The good outcome is an absence, and absences don't show up in any system you report on.
+Walk past a construction site. You can see the risk. Someone on the fourth floor with nothing behind him. A crane swinging a load over the sidewalk. A beam carrying more than it looks like it should. You don't need a process or a meeting to notice any of that. The risk is right in front of you. Everyone who walks past does some version of assessing it, not just the person who signed off on the plans.
 
-So the countable work wins by default. Not because anyone decided it should, and not because leadership is dumb about people. The scoreboard only has columns for one kind of thing.
+Software has none of that. There's nothing to look at. A risky change and a safe change are the same thing on your screen. They're just text.
 
-Work that leaves an artifact tends to get protected by incentives, without anyone having to defend it. Work that doesn't leave one comes down to whether you decided it matters.
+So the risk stays in someone's head. Never on paper, never in the ticket.
 
-Encouragement, coaching, teaching, the non-ticketed work that actually develops people...all of it still fits in a chaotic period. There is room. But only if you've decided ahead of time that it isn't optional.
+And you know the feeling. Someone's describing a ticket in planning and something in your gut says this one is going to be worse than it sounds. Maybe you say so. Maybe it turns into an extra point on the estimate. It almost never gets written down anywhere as a fact about the work, somewhere you can look at later.
 
-And "decided" is carrying a lot of weight in that sentence. Good intentions don't survive crunch. A defended time slot does.
+That invisibility does something worse than hide risk after you ship, though. It changes what you build in the first place.
 
-## The practice
+Put a team under a real deadline and watch what gets cut. It's never the feature. The feature is the visible thing, the thing that goes in the demo. What gets cut is the test for the weird path, the handling for when the third-party call times out, the ten minutes of thought about what happens when this runs at ten times the volume. That work just vanishes, because nobody sees it not happening. Nobody demos the edge case they handled.
 
-So here's the actual practice. At least 30 minutes a week with each person, and it happens regardless of what else is going on. I've been running it this way for months.
+And "we'll fix it next sprint" only ever covers the misses you can see. The dangerous ones pass the quality bar looking fine. They ship green. Then they surface on their own schedule, weeks or months later, as an incident.
 
-I prioritize that time over most other things on my calendar, because that's the only way to keep it from getting bumped every time I get busy.
+Which means the corner you cut and the incident it caused almost never land in the same sprint. From the inside they look like two unrelated events.
 
-I've had stretches where I was slammed, and the 30 minutes stayed put.
+So what do you actually do about it?
 
-My team knows how busy I am. They can see it. That's the reason this matters more than it looks on paper. My hope is that watching me hold that half hour while everything else is on fire shows them something about how I prioritize them against the rest of the work.
+Make it visible. That's the whole job.
 
-## The one rule about what we discuss
+Not a new process or a committee. Just moving it out of your head and onto the work itself, at the level of the individual change. This change touches auth. That one has no test for the failure path. Another lands in a part of the system that broke twice this quarter. Write it down where someone else can see it.
 
-The one thing I push my team on is don't bring ticketed work to this conversation.
+Once it's visible, two things change. You can weigh it, which is what the construction site gets for free. And you can defend it when the deadline shows up. The work on the chopping block finally has a name. Instead of being a vague feeling that loses every argument against a feature you can demo.
 
-That half hour is not for discussing current work. It's set aside for growth, goals, whatever they're finding hard, things they want to learn, things they're curious about, advice they're after.
-
-It's also your single best intelligence gathering tool as a manager. It's where you find out who's a flight risk, who's quietly drowning, who secretly hates the new project...before it blows up in front of you. A status update doesn't tell you any of that.
-
-## Get their agenda before the meeting
-
-Before each 1:1, I send the person a document to jot down what they'd like to talk about. It's their agenda, not mine.
-
-The document has three sections.
-
-The first one is "anything you want to chat about," and it's blank space. Their call, sitting at the top of the page above anything I bring.
-
-The second is five questions, under a heading that says they're just there to get you thinking. They're the nudge away from ticketed work. Some of the ones I use:
-
-- What feels harder lately than it should?
-- In your opinion, what matters most over the next 90 days?
-- What has been your biggest win in the last week?
-- What is one thing you would like me to do differently?
-
-The third is follow ups, if there are any. Where something from a previous week gets picked back up.
-
-That's the whole document. It's short, and it goes out before every one of these.
-
-Then in the actual conversation, the hard part is shutting up. Don't jump to fix. Just absorb, and take notes on their friction points.
-
-## What it costs me
-
-Back to the cost.
-
-When I'm genuinely slammed, holding those 90 minutes means some of my other work gets delayed. On occasion that means finishing it after hours. I'm not going to pretend "protect the time" is free advice.
-
-I don't have a clever way around that. The time comes from somewhere. I've decided where I want it to come from, and then I pay for it.
-
-## Why the slot is the thing
-
-The structure is simple to write down. Thirty minutes, their agenda, a few questions, no tickets. Doing it well is a different thing entirely, and that part never stops being work.
-
-The reason I keep coming back to the time slot rather than the technique is that the technique never gets a chance if the meeting doesn't happen. Running a good 1:1 is its own hard skill. But it's a skill that only comes into play in a conversation that actually took place.
-
-So what matters first is whether any of it still happens during the quarter where everything's late and your own calendar has turned against you.
-
-That's the week it counts. It's also the week it quietly disappears, unless you already decided it can't.
-
-So what's the first thing your calendar drops when the pressure comes on? And what would it actually cost you to stop dropping it?
+That warning was in my deploy log the entire time. It just looked like everything else.
