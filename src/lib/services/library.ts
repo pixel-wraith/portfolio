@@ -4,6 +4,15 @@ import { bookSchema } from '$lib/schemas/book.schema';
 
 const books = [
     bookSchema.parse({
+        id: 'start-with-why',
+        title: 'Start with Why',
+        url: 'https://www.amazon.com/Start-Why-15th-Anniversary-Everyone/dp/B0DTYGNXLS/ref=sr_1_3',
+        image: 'https://images.wraithcode.io/2026-07/start-with-why-400.png',
+        favorite: false,
+        currentlyReading: true,
+        read: false,
+    }),
+    bookSchema.parse({
         id: 'project-management-for-the-unofficial-project-manager',
         title: 'Project Management for the Unofficial Project Manager',
         url: 'https://www.amazon.com/Project-Management-Unofficial-Manager-Updated-dp-1637740506/dp/1637740506/ref=dp_ob_title_bk',

@@ -185,7 +185,8 @@
             gap: 1rem;
 
             & .book {
-                width: 10rem;
+                height: 15rem;
+                width: auto;
                 border: 5px solid var(--neutral-300);
                 transition: all 0.2s ease-in-out;
 
@@ -198,8 +199,7 @@
 
             & img {
                 display: block;
-                width: 100%;
-                height: auto;
+                height: 100%;
                 object-fit: cover;
                 object-position: center;
             }
