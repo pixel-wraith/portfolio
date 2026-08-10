@@ -71,7 +71,7 @@
             <div class="cta-row">
                 <a href="/experience" class="cta">See what I've built →</a>
                 <a href="/about" class="cta cta-secondary">Get to know me →</a>
-                <a href="https://mergelantern.com" class="cta cta-tertiary">See Merge Lantern →</a>
+                <a href="https://mergelantern.com/?utm_source=jakelundberg&utm_medium=hero&utm_campaign=router" class="cta cta-tertiary">See Merge Lantern →</a>
             </div>
         </IntroContent>
     </Intro>
