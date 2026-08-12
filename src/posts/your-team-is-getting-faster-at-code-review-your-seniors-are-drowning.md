@@ -5,7 +5,7 @@ date: "2026-08-10"
 tags: ["codereview", "ai", "engineeringmanagement", "programming"]
 slug: "your-team-is-getting-faster-at-code-review-your-seniors-are-drowning"
 cover: "https://images.wraithcode.io/2026-08/drowning-1600.webp"
-published: true
+published: false
 devto_id: 5955534
 ---
 
