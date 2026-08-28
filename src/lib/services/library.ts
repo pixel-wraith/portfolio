@@ -18,7 +18,7 @@ const books = [
         url: 'https://www.amazon.com/Project-Management-Unofficial-Manager-Updated-dp-1637740506/dp/1637740506/ref=dp_ob_title_bk',
         image: 'https://images.wraithcode.io/2026-07/project-management-for-the-unofficial-project-manager-400.png',
         favorite: false,
-        currentlyReading: true,
+        currentlyReading: false,
         read: false,
     }),
     bookSchema.parse({
