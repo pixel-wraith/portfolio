@@ -1,0 +1,112 @@
+// Project settings for Zed.
+//
+// ESLint is the single source of truth for formatting in this repo (see
+// eslint.config.js). Prettier is deliberately disabled everywhere so that
+// saving a file in Zed produces byte-for-byte the same result as `npm run
+// lint:fix`, and the same result as saving it in VS Code (see .vscode/settings.json;
+// note VS Code there only fixes JS, TS, Svelte, JSON and JSONC on save).
+//
+// Two mechanisms are used, because Zed's bundled ESLint language server only
+// attaches to JavaScript, TypeScript, TSX, Vue and Svelte:
+//
+//   1. Those languages format via the `source.fixAll.eslint` code action,
+//      exactly like VS Code's `editor.codeActionsOnSave`.
+//   2. JSON, JSONC, CSS and HTML are also linted by this project's ESLint
+//      config but are out of reach of Zed's ESLint server, so they pipe
+//      through `scripts/eslint-stdin.mjs`, which runs the same `eslint --fix`.
+//
+// Markdown and YAML are ignored by eslint.config.js, so Zed leaves them alone
+// rather than reformatting them with Prettier.
+{
+    "format_on_save": "on",
+
+    "languages": {
+        "TypeScript": {
+            "tab_size": 4,
+            "hard_tabs": false,
+            "prettier": { "allowed": false },
+            "formatter": [{ "code_action": "source.fixAll.eslint" }]
+        },
+        "TSX": {
+            "tab_size": 4,
+            "hard_tabs": false,
+            "prettier": { "allowed": false },
+            "formatter": [{ "code_action": "source.fixAll.eslint" }]
+        },
+        "JavaScript": {
+            "tab_size": 4,
+            "hard_tabs": false,
+            "prettier": { "allowed": false },
+            "formatter": [{ "code_action": "source.fixAll.eslint" }]
+        },
+        "Svelte": {
+            "tab_size": 4,
+            "hard_tabs": false,
+            "prettier": { "allowed": false },
+            "formatter": [{ "code_action": "source.fixAll.eslint" }]
+        },
+        "JSON": {
+            "tab_size": 4,
+            "hard_tabs": false,
+            "prettier": { "allowed": false },
+            "formatter": {
+                "external": {
+                    "command": "node",
+                    "arguments": ["scripts/eslint-stdin.mjs", "{buffer_path}"]
+                }
+            }
+        },
+        "JSONC": {
+            "tab_size": 4,
+            "hard_tabs": false,
+            "prettier": { "allowed": false },
+            "formatter": {
+                "external": {
+                    "command": "node",
+                    "arguments": ["scripts/eslint-stdin.mjs", "{buffer_path}"]
+                }
+            }
+        },
+        "CSS": {
+            "tab_size": 4,
+            "hard_tabs": false,
+            "prettier": { "allowed": false },
+            "formatter": {
+                "external": {
+                    "command": "node",
+                    "arguments": ["scripts/eslint-stdin.mjs", "{buffer_path}"]
+                }
+            }
+        },
+        "HTML": {
+            "tab_size": 4,
+            "hard_tabs": false,
+            "prettier": { "allowed": false },
+            "formatter": {
+                "external": {
+                    "command": "node",
+                    "arguments": ["scripts/eslint-stdin.mjs", "{buffer_path}"]
+                }
+            }
+        },
+        "Markdown": {
+            "format_on_save": "off",
+            "prettier": { "allowed": false },
+            "remove_trailing_whitespace_on_save": false,
+            "ensure_final_newline_on_save": false
+        },
+        "YAML": {
+            "format_on_save": "off",
+            "prettier": { "allowed": false }
+        }
+    },
+
+    "lsp": {
+        "eslint": {
+            "settings": {
+                "workingDirectory": { "mode": "auto" },
+                "problems": { "shortenToSingleLine": true }
+            }
+        }
+    }
+}
