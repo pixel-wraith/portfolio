@@ -4,12 +4,30 @@ import { bookSchema } from '$lib/schemas/book.schema';
 
 const books = [
     bookSchema.parse({
+        id: '100m-offers-how-to-make-offers-so-good-people-feel-stupid-saying-no',
+        title: '$100M Offers: How to Make Offers So Good People Feel Stupid Saying No',
+        url: 'https://www.amazon.com/100M-Offers-People-Stupid-Saying/dp/B09BK52JFJ/ref=sr_1_1',
+        image: 'https://images.wraithcode.io/2026-10/100m-offers-400.png',
+        favorite: false,
+        currentlyReading: true,
+        read: false,
+    }),
+    bookSchema.parse({
+        id: 'limitless',
+        title: 'Limitless',
+        url: 'https://www.amazon.com/Limitless-Expanded-Upgrade-Anything-Exceptional/dp/B0G51CFWT3/ref=sr_1_1',
+        image: 'https://images.wraithcode.io/2026-10/limitless-400.png',
+        favorite: false,
+        currentlyReading: true,
+        read: false,
+    }),
+    bookSchema.parse({
         id: 'start-with-why',
         title: 'Start with Why',
         url: 'https://www.amazon.com/Start-Why-15th-Anniversary-Everyone/dp/B0DTYGNXLS/ref=sr_1_3',
         image: 'https://images.wraithcode.io/2026-07/start-with-why-400.png',
         favorite: false,
-        currentlyReading: true,
+        currentlyReading: false,
         read: false,
     }),
     bookSchema.parse({
