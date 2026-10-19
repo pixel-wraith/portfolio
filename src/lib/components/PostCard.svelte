@@ -148,6 +148,13 @@
                 margin-bottom: 0.5rem;
             }
 
+            & > div {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                flex-grow: 1;
+            }
+
             & .post-card-tags {
                 display: flex;
                 flex-direction: row;
