@@ -3,11 +3,14 @@ import { sveltekit } from '@sveltejs/kit/vite';
 import { playwright } from '@vitest/browser-playwright';
 import { defineConfig } from 'vitest/config';
 
+import { getSentryPluginOptions } from './src/lib/config/sentry-build';
+
 export default defineConfig({
-    plugins: [sentrySvelteKit({
-        org: 'wraith',
-        project: 'portfolio',
-    }), sveltekit()],
+    plugins: [
+        // eslint-disable-next-line node/no-process-env -- Vite config runs in Node before SvelteKit's $env modules exist; upload opt-in must come from the process env only, not .env files
+        sentrySvelteKit(getSentryPluginOptions(process.env)),
+        sveltekit(),
+    ],
     test: {
         expect: { requireAssertions: true },
         projects: [

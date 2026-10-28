@@ -10,8 +10,9 @@ npm run dev              # Start dev server
 npm run dev -- --open    # Start dev server and open browser
 
 # Build & Preview
-npm run build            # Production build
+npm run build            # Production build (never uploads source maps to Sentry)
 npm run preview          # Preview production build
+SENTRY_UPLOAD_SOURCEMAPS=true npm run build  # Build and upload source maps to Sentry (opt-in; needs auth token)
 
 # Testing
 npm run test             # Run all tests (unit + e2e)
@@ -55,3 +56,8 @@ Note: All tests require assertions (`expect.requireAssertions: true` in vitest c
 
 **Constants**:
 - Personal data in `src/lib/constants/me.ts` (career start date, birthday)
+
+**Sentry source maps**:
+- Source maps upload to Sentry (and a Sentry release is created) only when the `SENTRY_UPLOAD_SOURCEMAPS` environment variable is set to exactly `true` or `1` in the process environment. It is not read from `.env` files.
+- Plain `npm run build` and `npm test` (including `CI=1 npm test`) never upload, even when `CI`, `SENTRY_AUTH_TOKEN` or `.env.sentry-build-plugin` is present. Runtime error reporting and `load` auto-instrumentation are unaffected.
+- The decision lives in `getSentryPluginOptions()` in `src/lib/config/sentry-build.ts`, used by `vite.config.ts`.
