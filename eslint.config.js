@@ -89,4 +89,12 @@ export default antfu({
         // Route filenames like +page.svelte should not be enforced
         'unicorn/filename-case': 'off',
     },
+}, {
+    // Playwright config and e2e tests run in Playwright's plain Node context,
+    // where SvelteKit's $env modules are unavailable, so process.env is the
+    // only way to read E2E_PORT there. The rule stays an error everywhere else.
+    files: ['playwright.config.ts', 'e2e/**/*.ts'],
+    rules: {
+        'node/no-process-env': 'off',
+    },
 });
