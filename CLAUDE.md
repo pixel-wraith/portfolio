@@ -35,6 +35,7 @@ The project uses a dual-project Vitest configuration:
 - **Server tests** (`*.test.ts`, `*.spec.ts`): Run in Node environment
 - **Component tests** (`*.svelte.test.ts`, `*.svelte.spec.ts`): Run in browser via Playwright
 - **E2E tests** (`e2e/`): Playwright tests against the built application
+- **E2E port**: each e2e run picks a free port automatically, so concurrent runs (for example in separate worktrees) don't collide. Set `E2E_PORT=<n>` to pin one; the run fails if that port is taken.
 
 Note: All tests require assertions (`expect.requireAssertions: true` in vitest config).
 
