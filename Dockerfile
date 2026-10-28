@@ -7,6 +7,10 @@ WORKDIR /app
 ARG PUBLIC_TURNSTILE_SITE_KEY
 ENV PUBLIC_TURNSTILE_SITE_KEY=$PUBLIC_TURNSTILE_SITE_KEY
 
+# Marks this as the deployed build: Vite inlines it at build time and it turns
+# on Sentry runtime reporting (SDKs and CSP reports). Local builds leave it unset.
+ENV VITE_DEPLOYED_BUILD=true
+
 # Copy package files
 COPY package.json package-lock.json ./
 

@@ -1,13 +1,12 @@
 import { handleErrorWithSentry, replayIntegration } from '@sentry/sveltekit';
 import * as Sentry from '@sentry/sveltekit';
+import { getSentryRuntimeOptions, isDeployedBuild } from '$lib/config/sentry-runtime';
 
 Sentry.init({
-    dsn: 'https://7393de73335ad3c189db8d8d7bfe824e@o4505018196295680.ingest.us.sentry.io/4510989810401280',
-
-    tracesSampleRate: 1.0,
-
-    // Enable logs to be sent to Sentry
-    enableLogs: true,
+    // DSN, `enabled`, tracing and logs come from the shared runtime options:
+    // reporting is on only in the deployed build (see `$lib/config/sentry-runtime`).
+    // Keep the literal `import.meta.env.VITE_DEPLOYED_BUILD` so Vite inlines it.
+    ...getSentryRuntimeOptions(isDeployedBuild(import.meta.env.VITE_DEPLOYED_BUILD)),
 
     // This sets the sample rate to be 10%. You may want this to be 100% while
     // in development and sample at a lower rate in production

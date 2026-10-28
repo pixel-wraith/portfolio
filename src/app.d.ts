@@ -9,6 +9,11 @@ declare global {
         // interface Platform {}
     }
 
+    interface ImportMetaEnv {
+        // Set to `true` only by the Dockerfile builder stage; turns on Sentry runtime reporting.
+        readonly VITE_DEPLOYED_BUILD?: string;
+    }
+
     interface TurnstileOptions {
         'sitekey': string;
         'callback'?: (token: string) => void;
