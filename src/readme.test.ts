@@ -7,11 +7,14 @@ import { describe, expect, it } from 'vitest';
 const README_PATH = join(dirname(fileURLToPath(import.meta.url)), '..', 'README.md');
 
 // Anchors into the stock `sv` template the README carries. The README is the
-// template verbatim: nothing (such as a personal portfolio note) follows
-// ORIGINAL_LAST_LINE. If the README is ever rewritten (e.g. the template text
-// is replaced), update these anchors.
+// template verbatim, followed by one blank line and TEST_COMMENT (an HTML
+// comment, so it does not render), then a single trailing newline. Nothing
+// else (such as a personal portfolio note) follows ORIGINAL_LAST_LINE. If the
+// README is ever rewritten (e.g. the template text is replaced), update these
+// anchors.
 const ORIGINAL_FIRST_LINE = '# sv';
 const ORIGINAL_LAST_LINE = '> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.';
+const TEST_COMMENT = '<!-- this is just a test -->';
 
 const readme = readFileSync(README_PATH, 'utf8');
 const lastLineIndex = readme.indexOf(ORIGINAL_LAST_LINE);
@@ -22,10 +25,16 @@ describe('readme (README.md at the repo root)', () => {
         expect(readme).not.toMatch(/personal portfolio/i);
     });
 
-    it('ends with the original template\'s last line', () => {
-        expect(readme.trimEnd().endsWith(ORIGINAL_LAST_LINE)).toBe(true);
-        // Exactly one trailing newline, matching the stock template bytes.
-        expect(readme.endsWith(`${ORIGINAL_LAST_LINE}\n`)).toBe(true);
+    it('ends with the test comment after the original template\'s last line', () => {
+        // Exactly one trailing newline after the comment.
+        expect(readme.endsWith(`${TEST_COMMENT}\n`)).toBe(true);
+        expect(readme.endsWith('\n\n')).toBe(false);
+        // One blank line separates the comment from the template's last line.
+        expect(readme.endsWith(`${ORIGINAL_LAST_LINE}\n\n${TEST_COMMENT}\n`)).toBe(true);
+    });
+
+    it('contains the test comment text exactly once', () => {
+        expect(readme.split('this is just a test').length - 1).toBe(1);
     });
 
     it('preserves the original template content', () => {
