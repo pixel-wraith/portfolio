@@ -61,3 +61,8 @@ Note: All tests require assertions (`expect.requireAssertions: true` in vitest c
 - Source maps upload to Sentry (and a Sentry release is created) only when the `SENTRY_UPLOAD_SOURCEMAPS` environment variable is set to exactly `true` or `1` in the process environment. It is not read from `.env` files.
 - Plain `npm run build` and `npm test` (including `CI=1 npm test`) never upload, even when `CI`, `SENTRY_AUTH_TOKEN` or `.env.sentry-build-plugin` is present. Runtime error reporting and `load` auto-instrumentation are unaffected.
 - The decision lives in `getSentryPluginOptions()` in `src/lib/config/sentry-build.ts`, used by `vite.config.ts`.
+
+**Sentry runtime**:
+- Runtime reporting (server and client SDKs: errors, traces, logs, replays) and CSP violation reporting are on only in builds made with `VITE_DEPLOYED_BUILD=true` (exactly `true` or `1`). Vite inlines the flag at build time.
+- The `Dockerfile` builder stage sets `ENV VITE_DEPLOYED_BUILD=true` before `npm run build`; it is set nowhere else. Local `npm run dev`, `npm run preview` and every test run (including `CI=1 npm test`) never report, and the server `handle` strips `report-uri`/`report-to` from CSP headers.
+- The DSN and the gate live in `src/lib/config/sentry-runtime.ts` (`getSentryRuntimeOptions()`), used by `src/hooks.client.ts` and `src/instrumentation.server.ts`. The CSP stripping lives in `src/lib/config/csp-reporting.ts`.
