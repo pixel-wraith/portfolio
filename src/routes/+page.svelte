@@ -108,10 +108,6 @@
 </div>
 
 <style>
-    .container :global(.intro h1) {
-        color: var(--success-500);
-    }
-
     .lead {
         font-size: 1.4rem;
         line-height: 2rem;
