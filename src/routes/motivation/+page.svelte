@@ -21,6 +21,7 @@
 
             if (!res.ok) {
                 error = 'Failed to load motivation. Try again later.';
+                return;
             }
 
             motivation = await res.json();
@@ -40,16 +41,14 @@
     </Intro>
 
     <Section>
-        {#if loading}
-            <div>loading...</div>
-        {:else if error}
+        {#if error}
             <div class="error">{error}</div>
         {:else}
             <ul class="motivations">
                 {#each motivation as m}
                     <li class="motivation">
                         <div class="quote">
-                            <!-- eslint-disable-next-line svelte/no-at-html-tags -- body HTML is built at build time from author-controlled markdown via marked + Shiki -->
+                            <!-- eslint-disable-next-line svelte/no-at-html-tags -- quote HTML is rendered by marked from author-controlled markdown in src/data/motivation.ts -->
                             {@html marked.parse(m.quote, { breaks: true, async: false })}
                             {#if m.source}
                                 <div class="source">
@@ -62,8 +61,12 @@
             </ul>
 
             <div class="button-container">
-                <Button onclick={loadMotivation}>
-                    Load More
+                <Button onclick={loadMotivation} disabled={loading}>
+                    {#if loading}
+                        Loading...
+                    {:else}
+                        Load More
+                    {/if}
                 </Button>
             </div>
         {/if}
@@ -105,22 +108,5 @@
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-
-    @media (min-width: 768px) {
-        .motivation {
-            &:nth-child(2n) {
-                justify-content: flex-end;
-
-                .quote {
-                    text-align: right;
-                }
-            }
-        }
-
-        .quote {
-            width: auto;
-            max-width: 70%;
-        }
     }
 </style>
