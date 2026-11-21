@@ -16,12 +16,12 @@
         | 'transparent';
 
     interface IButtonProps extends HTMLButtonAttributes {
-        kind: ButtonKind;
+        kind?: ButtonKind;
         processing?: boolean;
         children: Snippet;
     }
 
-    const { type, kind, processing, children, ...restProps }: IButtonProps = $props();
+    const { type, kind = 'primary', processing, children, ...restProps }: IButtonProps = $props();
 </script>
 
 <button
