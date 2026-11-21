@@ -7,4 +7,4 @@
 // Lives in a sibling module rather than +server.ts because SvelteKit's
 // production build rejects any +server.ts export outside its allowlist
 // (GET/POST/.../prerender/entries/_-prefixed).
-export const STATIC_ROUTES = ['/', '/about', '/experience', '/uses', '/blog'];
+export const STATIC_ROUTES = ['/', '/about', '/experience', '/uses', '/blog', '/motivation'];
